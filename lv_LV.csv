@@ -9,11 +9,9 @@ Remove,Dzēst,module,Magento_AdminNotification
 close,aizvērt,module,Magento_AdminNotification
 Notifications,Paziņojumi,module,Magento_AdminNotification
 "The message has been marked as Read.","Ziņa atzīmēta kā izlasīta.",module,Magento_AdminNotification
-"We couldn't mark the notification as Read because of an error.","Kļūdas dēļ nevarēja atzīmēt ziņu kā izlasītu.",module,Magento_AdminNotification
 "Please select messages.","Izvēlieties ziņas.",module,Magento_AdminNotification
 "A total of %1 record(s) have been marked as Read.","Kopā %1 ziņa(s) atzīmētas kā izlasītas.",module,Magento_AdminNotification
 "Total of %1 record(s) have been removed.","Pavisam nodzēstas %1 ziņa(s).",module,Magento_AdminNotification
-"We couldn't remove the messages because of an error.","Nevar nodzēst ziņu kļūdas dēļ.",module,Magento_AdminNotification
 "The message has been removed.","Ziņa ir nodzēsta.",module,Magento_AdminNotification
 "1 Hour","1 stunda",module,Magento_AdminNotification
 "2 Hours","2 stundas",module,Magento_AdminNotification
@@ -26,7 +24,6 @@ minor,mazsvarīgs,module,Magento_AdminNotification
 notice,paziņojums,module,Magento_AdminNotification
 "Wrong message type","Nepareizs ziņas veids",module,Magento_AdminNotification
 "Wrong notification ID specified.","Norādīts nepareizs paziņojuma ID.",module,Magento_AdminNotification
-"One or more of the Cache Types are invalidated: %1. ","Vains vai vairāki keša veidi nav validēti: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Ejiet uz <a href=""%1"">Keša pārvaldība</a> un atjaunojiet keša veidus.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Mēdiju failu sinhronizācija ir pabeigta.",module,Magento_AdminNotification
 "Close popup","Aizvērt uzlecošo logu",module,Magento_AdminNotification
@@ -35,13 +32,16 @@ Close,Aizvērt,module,Magento_AdminNotification
 "Major System Messages","Svarīgi sistēmas paziņojumi",module,Magento_AdminNotification
 "System messages","Sistēmas paziņojumi",module,Magento_AdminNotification
 "Please correct the data sent.","Izlabojiet nosūtītos datus.",module,Magento_AdvancedPricingImportExport
+"Entity type model '%1' is not found","Produkta veida modelis '%1' nav atrasts",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Produkta veida modelim jābūt piemēram
 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","Eksportam nav pieejami produkta veidi",module,Magento_AdvancedPricingImportExport
+"We can't find the role for the user you wanted.","Nevar atrast nepieciešamo lietotāja lomu.",module,Magento_Authorization
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Notikusi kļūda kompilējot atļauto resursu sarakstu. Vairāk informācijas noraidījumu log failā.",module,Magento_Authorization
 "You created the order.","Jūs izveidojāt pasūtījumu.",module,Magento_Authorizenet
 "Order saving error: %1","Kļūda saglabājot pasūtījumu: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Izvēlieties maksāšanas veidu.",module,Magento_Authorizenet
+"We can't process your order right now. Please try again later.","Nevaram pašlaik apstrādāt Jūsu pasūtījumu. Mēģiniet vēlāk.",module,Magento_Authorizenet
 "Cannot place order.","Nevar izveidot pasūtījumu.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Kredītkarte: xxxx-%1",module,Magento_Authorizenet
 "amount %1","skaits %1",module,Magento_Authorizenet
@@ -62,8 +62,10 @@ void,anulēt,module,Magento_Authorizenet
 "Invalid amount for refund.","Nepareiza atmaksas summa.",module,Magento_Authorizenet
 "Payment refunding error.","Atmaksas maksājuma kļūda.",module,Magento_Authorizenet
 "The transaction was declined because the response hash validation failed.","Transakcija tika atcelta, jo atbildes hash validācija bija nepareiza.",module,Magento_Authorizenet
+"This payment didn't work out because we can't find this order.","Maksājums neizdevās, jo nevar atrast šo pasūtījumu.",module,Magento_Authorizenet
 "There was a payment authorization error.","Maksājuma autorizācijas kļūda.",module,Magento_Authorizenet
 "Please enter a transaction ID to authorize this payment.","Ievadiet transakcijas ID lai autorizētu šo maksājumu.",module,Magento_Authorizenet
+"Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Kļūda: samaksātā summa neatbilst pasūtījuma summai. Izlabojiet un mēģiniet vēlreiz.",module,Magento_Authorizenet
 "Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","Transakcija %1 tika apstiprināta. Summa %2. Transakcijas statuss ""%3""",module,Magento_Authorizenet
 "Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transakcija %1 tika anulēta/noraidīta. Transakcijas statuss ir ""%2"". Summa %3.",module,Magento_Authorizenet
 "Authorize Only","Tikai autorizācija",module,Magento_Authorizenet
@@ -73,7 +75,6 @@ void,anulēt,module,Magento_Authorizenet
 "Credit Card Number","Kredītkartes numurs",module,Magento_Authorizenet
 "Expiration Date","Derīguma termiņš",module,Magento_Authorizenet
 "Card Verification Number","Kredītkartes pārbaudes kods",module,Magento_Authorizenet
-"Fraud Detection ","Krāpšanas noteikšana ",module,Magento_Authorizenet
 "FDS Filter Action","FDS filtra darbība",module,Magento_Authorizenet
 "AVS Response","AVS atbilde",module,Magento_Authorizenet
 "Card Code Response","Kodu kartes atbilde",module,Magento_Authorizenet
@@ -208,7 +209,7 @@ To,Kam,module,Magento_Backend
 "Date selector",Datums,module,Magento_Backend
 "[ deleted ]","[ dzēsts ]",module,Magento_Backend
 "Select All","Izvēlēties visu",module,Magento_Backend
-" [deleted]"," [dzēsts]",module,Magento_Backend
+"We couldn't find any records.","Nevar atrast nevienu ierakstu.",module,Magento_Backend
 "Add New","Pievienot jaunu",module,Magento_Backend
 "Invalid export type supplied for grid export block","Nepareizs eksporta veids režģa eksporta blokam",module,Magento_Backend
 Export,Eksportēt,module,Magento_Backend
@@ -219,6 +220,7 @@ Submit,Sūtīt,module,Magento_Backend
 "Please correct the tab configuration and try again. Tab Id should be not empry","Izlabojiet tabu konfigurāciju un mēģiniet vēlreiz. Taba ID nevar būt tukšs",module,Magento_Backend
 "Please correct the tab configuration and try again.","Izlabojiet tabu konfigurāciju un mēģiniet vēlreiz.",module,Magento_Backend
 "You have logged out.","Jūs esat atslēdzies.",module,Magento_Backend
+"Specified cache type(s) don't exist: %1","Norādītais keša veids neeksistē: %1",module,Magento_Backend
 "The image cache was cleaned.","Attēlu kešs tika iztīrīts.",module,Magento_Backend
 "An error occurred while clearing the image cache.","Kļūda attīrot attēlu kešu.",module,Magento_Backend
 "The JavaScript/CSS cache has been cleaned.","JavaSript/CSS kešs ir attīrīts.",module,Magento_Backend
@@ -235,6 +237,7 @@ Submit,Sūtīt,module,Magento_Backend
 "An error occurred while refreshing cache.","Kļūda atjaunojot kešu.",module,Magento_Backend
 Dashboard,Infopanelis,module,Magento_Backend
 "We updated lifetime statistic.","Tika atjaunota visa darbības laika statistika.",module,Magento_Backend
+"We can't refresh lifetime statistics.","Nevar atjaunot dzīves ilguma statistiku.",module,Magento_Backend
 "invalid request","kļūdains pieprasījums",module,Magento_Backend
 "see error log for details","papildus informācijai skatīties kļūdu log failu",module,Magento_Backend
 "Service unavailable: %1","Serviss nav pieejams: %1",module,Magento_Backend
@@ -247,28 +250,29 @@ Error,Kļūda,module,Magento_Backend
 "You saved the account.","Konts ir saglabāts.",module,Magento_Backend
 "An error occurred while saving account.","Kļūda saglabājot kontu.",module,Magento_Backend
 "You deleted the design change.","Dizaina maiņa ir dzēsta.",module,Magento_Backend
-"You can't delete the design change.","Jūs nevarat nodzēst dizaina maiņu.",module,Magento_Backend
 "Store Design","Veikala dizains",module,Magento_Backend
 "Edit Store Design Change","Labot veikala dizaina maiņu",module,Magento_Backend
 "You saved the design change.","Dizaina maiņa ir saglabāta.",module,Magento_Backend
 System,Sistēma,module,Magento_Backend
 "Manage Stores","Pārvaldīt veikalus",module,Magento_Backend
 "The database was backed up.","Datu bāzei ir izveidota rezerves kopija.",module,Magento_Backend
+"We can't create a backup right now. Please try again later.","Nevar izveidot rezerves kopiju. Mēģiniet vēlāk.",module,Magento_Backend
 "Deleting a %1 will not delete the information associated with the %1 (e.g. categories, products, etc.), but the %1 will not be able to be restored. It is suggested that you create a database backup before deleting the %1.","Dzēšot %1 netiks dzēsta informācija kas saistīta ar %1 (piem. kategorijas, produkti u.c.), bet %1 nevarēs atjaunot. Ieteicams izveidot datu bāzes rezerves kopiju pirms %1 nodzēšanas.",module,Magento_Backend
 "Something went wrong. Please try again.","Kļūda. Mēģiniet vēlreiz.",module,Magento_Backend
 "This store cannot be deleted.","Šo veikalu nevar nodzēst.",module,Magento_Backend
 "You deleted the store.","Veikals ir nodzēsts.",module,Magento_Backend
+"Unable to delete store. Please, try again later.","Nevar idzēst veikalu. Lūdzu, mēģiniet vēlreiz.",module,Magento_Backend
 "This store view cannot be deleted.","Šo veikala skatu nevar nodzēst.",module,Magento_Backend
 "Store View","Veikala skats",module,Magento_Backend
 "You deleted the store view.","Veikala skats ir nodzēsts.",module,Magento_Backend
+"Unable to delete store view. Please, try again later.","Nevar idzēst veikala skatu. Lūdzu, mēģiniet vēlreiz.",module,Magento_Backend
 "This website cannot be deleted.","Šo lapu nevar nodzēst.",module,Magento_Backend
 "You deleted the website.","Lapa ir nodzēsta.",module,Magento_Backend
+"Unable to delete website. Please, try again later.","Nevar idzēst vietni. Lūdzu, mēģiniet vēlreiz.",module,Magento_Backend
 "The website does not exist.","Lapa neeksistē.",module,Magento_Backend
 "Before modifying the website code please make sure it is not used in index.php.","Pirms lapas koda rediģēšanas pārliecinieties ka tas nav lietots index.php.",module,Magento_Backend
 "The store does not exist","Veikals neeksistē",module,Magento_Backend
-"Store view doesn't exist","Veikala skats neeksistē",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","Pirms veikala skata koda rediģēšanas pārliecinieties ka tas nav lietots index.php.",module,Magento_Backend
-"New ","Jauns ",module,Magento_Backend
 "You saved the website.","Lapa ir saglabāta.",module,Magento_Backend
 "You saved the store.","Veikals ir saglabāts.",module,Magento_Backend
 "You saved the store view.","Veikala skats ir saglabāts.",module,Magento_Backend
@@ -321,10 +325,12 @@ Minute,Minūte,module,Magento_Backend
 "Report Bugs","Kļūdas ziņojums",module,Magento_Backend
 "Store View:","Veikala skats:",module,Magento_Backend
 "Stores Configuration","Veikalu konfigurācija",module,Magento_Backend
+"Please confirm scope switching. All data that hasn't been saved will be lost.","Apstipriniet loka pārslēgšanu. Nesaglabātā informācija tiks zaudēta.",module,Magento_Backend
 "Additional Cache Management","Papildus keša menedžments",module,Magento_Backend
 "Flush Catalog Images Cache","Iztīrīt kataloga attēlu kešu",module,Magento_Backend
 "Pregenerated product images files","Iepriekš ģenerēti produktu attēlu faili",module,Magento_Backend
 "Flush JavaScript/CSS Cache","Iztīrīt JavaScript/CSS kešu",module,Magento_Backend
+"Themes JavaScript and CSS files combined to one file.","Tēmas javaScript in CSS faili apvienoti vienā failā.",module,Magento_Backend
 "Flush Static Files Cache","Iztīrīt statisko failu kešu",module,Magento_Backend
 "Preprocessed view files and static files","Pirmsapstrādāti skata un statiskie faili",module,Magento_Backend
 Catalog,Katalogs,module,Magento_Backend
@@ -358,14 +364,19 @@ Loading...,Ielādē...,module,Magento_Backend
 "Something went wrong while putting your store into maintenance mode.","Kļūdz pārslēdzot veikalu uzturēšanas režīmā.",module,Magento_Backup
 "You need more free space to create a backup.","Nepieciešams vairāk vietas lai izveidotu rezerves kopiju.",module,Magento_Backup
 "You need more permissions to create a backup.","Nepieciešams vairāk atļaujas lai izveidotu rezerves kopiju.",module,Magento_Backup
+"We can't create the backup right now.","Pašlaik nevar izveidot rezerves kopiju.",module,Magento_Backup
 Backups,"Rezerves kopijas",module,Magento_Backup
 System,Sistēma,module,Magento_Backup
 Tools,Rīki,module,Magento_Backup
 Backup,"Rezerves kopija",module,Magento_Backup
+"We can't delete one or more backups.","Nevar nodzēst vienu vai vairākas rezerves kopijas.",module,Magento_Backup
 failed,neizdevās,module,Magento_Backup
 successful,veiksmīgi,module,Magento_Backup
 "You deleted the selected backup(s).","Izvēlētās rezerves ir nodzēstas.",module,Magento_Backup
+"Can't load snapshot archive","Nevar ielādēt ēnkopijas arhīvu",module,Magento_Backup
 "Please correct the password.","Izlabojiet paroli.",module,Magento_Backup
+"We can't find the backup file.","Nevar atrast rezerves kopijas failu.",module,Magento_Backup
+"We can't connect to the FTP right now.","Pašlaik nevar pieslēgties FTP.",module,Magento_Backup
 "Failed to validate FTP.","Neizdevās validēt FTP.",module,Magento_Backup
 "You need more permissions to perform a rollback.","Nepieciešams vairāk atļaujas lai veiktu atriti.",module,Magento_Backup
 "Failed to rollback.","Atrites kļūda.",module,Magento_Backup
@@ -383,6 +394,7 @@ Database,"Datu bāze",module,Magento_Backup
 "Sorry, but we cannot read from or write to backup file ""%1"".","Nevar nolasīt vai ierakstīt rezerves kopijas failu ""%1"".",module,Magento_Backup
 "The backup file handler was unspecified.","Nav norādīts rezerves kopijas faila manipulators.",module,Magento_Backup
 "Something went wrong while writing to the backup file ""%1"".","Kļūda ierakstot rezerves kopijas failu ""%1"".",module,Magento_Backup
+"We can't save the Cron expression.","Nevar saglabāt Cron izteiksmi.",module,Magento_Backup
 "You will lose any data created since the backup was made, including admin users, customers and orders.","Tiksa zaudēti dati kas bija vēikti pēc pēdējās rezerves kopijas, ieskaitot administratorus, lietotājus un pasūtījumus.",module,Magento_Backup
 "Are you sure you want to continue?","Vai vēlaties turpināt?",module,Magento_Backup
 "This may take a few moments.","Uzgaidiet brīdi.",module,Magento_Backup
@@ -409,7 +421,7 @@ Country,Valsts,module,Magento_Braintree
 "Add Rule","Pievienot noteikumu",module,Magento_Braintree
 Month,Mēnesis,module,Magento_Braintree
 Year,Gads,module,Magento_Braintree
-"Stored Card","Saglabātā karte",module,Magento_Braintree
+"Stored Card","Saglabātā Karte",module,Magento_Braintree
 "Credit Card Type","Kredītkartes veids",module,Magento_Braintree
 "Credit Card Number","Kredītkartes numurs",module,Magento_Braintree
 "Credit card successfully added","Kredītkarte veiksmīgi pievienota",module,Magento_Braintree
@@ -422,11 +434,14 @@ Year,Gads,module,Magento_Braintree
 "My Credit Cards","Manas kredītkartes",module,Magento_Braintree
 "New Credit Card","Jauna kredītkarte",module,Magento_Braintree
 "There was error during saving card data","Kļūda saglabājot kredītkarti",module,Magento_Braintree
+"We can't initialize checkout.","Nevar inicializēt pirkšanu.",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","Jums jāpiekrīt noteikumiem pirms veicat pasūtījumu.",module,Magento_Braintree
-"Incorrect payment method.","Nepareizs maksāšanas veids.",module,Magento_Braintree
+"We can't place the order.","Nevar izveidot pasūtījumu.",module,Magento_Braintree
+"Incorrect payment method.","Nepareizs apmaksas veids.",module,Magento_Braintree
+"We can't initialize checkout review.","Nevar inicializēt iepirkšanās atskaiti.",module,Magento_Braintree
+"We can't update shipping method.","Nevar atjaunot piegādes veidu.",module,Magento_Braintree
 "The processor declined your transaction, please re-enter your payment information","Procesors noraidīja transakciju, ievadiet vēlreiz maksājuma informāciju",module,Magento_Braintree
 "Transaction declined by gateway: Check card details or try another card","Vārteja noraidīja transakciju: Pārbaudiet kartes informāciju vai pamēģiniet citu karti",module,Magento_Braintree
-"Transaction declined: ","Transakcija noraidīta: ",module,Magento_Braintree
 "The processor responded with an unknown error","Procesors atbildēja ar nezināmu kļūdu",module,Magento_Braintree
 "Credit card type is not allowed for your country.","Jūsu valstij šis kredītkartes veids nav atļauts.",module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","Maksājuma veidam šis kredītkartes veids nav atļauts.",module,Magento_Braintree
@@ -510,6 +525,8 @@ Delete,Dzēst,module,Magento_Bundle
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Produkts ar specifisku artikulu: ""%1"" nesatur opciju: ""%2""",module,Magento_Bundle
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","Zemāks produkts ar specifisku artikulu: ""%1"" jau ir piešķirts produktam: ""%2""",module,Magento_Bundle
 "Product with specified sku: %1 is not a bundle product","Produkts ar specifisku artikulu: %1 nav komplekta produkts",module,Magento_Bundle
+"Requested bundle option product doesn't exist","Pieprasītās komplekta opcijas produkts neeksistē",module,Magento_Bundle
+"Requested option doesn't exist","Pieprasītā opcija neeksistē",module,Magento_Bundle
 "Cannot delete option with id %1","Nevar nodzēst opciju ID %1",module,Magento_Bundle
 "Could not save option","Nevar saglabāt opciju",module,Magento_Bundle
 "As Low as","Samazināt līdz",module,Magento_Bundle
@@ -518,6 +535,7 @@ Delete,Dzēst,module,Magento_Bundle
 "The options you selected are not available.","Izvēlētās opcijas nav pieejamas.",module,Magento_Bundle
 "The required options you selected are not available.","Jūsu izvēlētās nepieciešamās opcijas nav pieejamas.",module,Magento_Bundle
 "Please select all required options.","Izvēlieties visas nepieciešamās opcijas.",module,Magento_Bundle
+"We can't add this item to your shopping cart right now.","Pašlaik nevar pievienot grozma šo produktu.",module,Magento_Bundle
 Percent,Procenti,module,Magento_Bundle
 None,Neviens,module,Magento_Bundle
 Quantity:,Skaits:,module,Magento_Bundle
@@ -578,17 +596,30 @@ Always,Vienmēr,module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Uzmanību</strong>: Captcha ir reģistrjūtīgs.",module,Magento_Captcha
 "Reload captcha","Pārlēdēt captcha",module,Magento_Captcha
 "Please type the letters below","Ievadiet simbolus",module,Magento_Captcha
+"Entity type model '%1' is not found","Produkta veida modelis '%1' nav atrasts",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Produkta veida modelim jābūt piemēram
 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.","Nav pieejami produktu veidi eksportēšanai.",module,Magento_CatalogImportExport
 "Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","Ieraksta veida modelim jābūt kā daļai no Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType",module,Magento_CatalogImportExport
+"File directory '%1' is not readable.","Faila direktorija '%1' nav nolasāma.",module,Magento_CatalogImportExport
+"File directory '%1' is not writable.","Faila direktorija '%1' nav ierakstāma.",module,Magento_CatalogImportExport
+"Value for 'price' sub attribute in 'store' attribute contains incorrect value","Apakšatribūta 'priece' vērtība 'store' atribūtā satur nepareizu vērtību",module,Magento_CatalogImportExport
+"Value for 'type' sub attribute in 'custom_options' attribute contains incorrect value, acceptable values are: 'dropdown', 'checkbox'","Apakšatribūta 'type' vērtība 'custom_options' atribūtā satur nepareizu vērtību, pieļaujamās vērtības ir: 'dropdown', 'checkbox'",module,Magento_CatalogImportExport
 "Please enter a value for title.","Ievadiet nosaukumu.",module,Magento_CatalogImportExport
+"Value for 'price' sub attribute in 'custom_options' attribute contains incorrect value","Apakšatribūta 'price' vērtība 'custom_options' atribūtā satur nepareizu vērtību",module,Magento_CatalogImportExport
+"Value for 'maximum characters' sub attribute in 'custom_options' attribute contains incorrect value","Apakšatribūta 'maximum characters' vērtība 'custom_options' atribūtā satur nepareizu vērtību",module,Magento_CatalogImportExport
+"Value for 'sort order' sub attribute in 'custom_options' attribute contains incorrect value","Apakšatribūta 'sort order' vērtība 'custom_options' atribūtā satur nepareizu vērtību",module,Magento_CatalogImportExport
+"Value for 'value price' sub attribute in 'custom_options' attribute contains incorrect value","Apakšatribūta 'value price' vērtība 'custom_options' atribūtā satur nepareizu vērtību",module,Magento_CatalogImportExport
 "This name is already being used for custom option. Please enter a different name.","Šis nosaukums jau tiek lietots papildus opcijām. Izmantojiet citu nosaukumu.",module,Magento_CatalogImportExport
 "Custom options have different types.","Pielāgotām opcijām ir dažādi veidi.",module,Magento_CatalogImportExport
 "Every option entity must have a parent product entity.","Katram opcijas ierakstam jābūt vecākam produkta ierakstam.",module,Magento_CatalogImportExport
 "Please correct the parameters.","Lūdzu izlabojiet parametrus.",module,Magento_CatalogImportExport
+"File '%1' was not found or has read restriction.","Fails '%1' nav atrasts vai ir liegta tā lasīšana.",module,Magento_CatalogImportExport
+"ALL GROUPS","VISAS GRUPAS",module,Magento_CatalogInventory
+"Customer Group","Klientu Grupa",module,Magento_CatalogInventory
 "Minimum Qty","Minimālais skaits",module,Magento_CatalogInventory
 "Add Minimum Qty","Noteikt minimālo daudzumu",module,Magento_CatalogInventory
+"We can't rebuild the index for an undefined product.","Nevar pārbūvēt indeksus nedefinētam produktam.",module,Magento_CatalogInventory
 "In Stock",Noliktavā,module,Magento_CatalogInventory
 "Out of Stock","Nav pieejams",module,Magento_CatalogInventory
 "Product Name","Produkta nosaukums",module,Magento_CatalogInventory
@@ -611,6 +642,7 @@ Type,Veids,module,Magento_CatalogRule
 SKU,Artikuls,module,Magento_CatalogRule
 Product,Produkts,module,Magento_CatalogRule
 Catalog,Katalogs,module,Magento_CatalogRule
+"We can't rebuild the index for an undefined product.","Nevar pārbūvēt indeksus nedefinētam produktam.",module,Magento_CatalogRule
 "Conditions Combination","Noteikumu kombinācija",module,Magento_CatalogRule
 Home,Sākums,module,Magento_CatalogSearch
 "Go to Home Page","Iet uz sākumlapu",module,Magento_CatalogSearch
@@ -627,6 +659,7 @@ Product,Produkts,module,Magento_CatalogSearch
 "Search Settings","Meklēšanas iestatījumi",module,Magento_CatalogSearch
 Search,Meklēt,module,Magento_CatalogSearch
 "Advanced Search","Paplašināta meklēšana",module,Magento_CatalogSearch
+"We can't find any items matching these search criteria.","Mēs nevaram atrast jebkuru šo meklēšanas kritērijiem atbilstošo vienumu.",module,Magento_CatalogSearch
 "Modify your search","Labot meklēšanu",module,Magento_CatalogSearch
 "Don't see what you're looking for?","Nevarat atrast meklēto?",module,Magento_CatalogSearch
 "Create Permanent Redirect for old URL","Izveidot pastāvīgu pārvirzīšanu vecam URL",module,Magento_CatalogUrlRewrite
@@ -653,6 +686,7 @@ Name,Vārds,module,Magento_Catalog
 SKU,Artikuls,module,Magento_Catalog
 Price,Cena,module,Magento_Catalog
 Position,Pozīcija,module,Magento_Catalog
+"Category Data","Kategorijas Dati",module,Magento_Catalog
 "Category Products","Kategorijas produkti",module,Magento_Catalog
 "Add Subcategory","Pievienot apakškategoriju",module,Magento_Catalog
 "Add Root Category","Pievienot saknes kategoriju",module,Magento_Catalog
@@ -675,6 +709,7 @@ label,birka,module,Magento_Catalog
 "New Product Attribute","Jauns produkta atribūts",module,Magento_Catalog
 "Advanced Attribute Properties","Papildus atribūta iestatījumi",module,Magento_Catalog
 "Attribute Code","Atribūta kods",module,Magento_Catalog
+"This is used internally. Make sure you don't use spaces or more than %1 symbols.","Tiek lietots iekšpusē. Pārliecinaties ka nelietojat atstarpes vai vairāk kā %1 simbolus.",module,Magento_Catalog
 "Default Value","Noklusētā vērtība",module,Magento_Catalog
 "Unique Value","Unikāla vērtība",module,Magento_Catalog
 "Unique Value (not shared with other products)","Unikāla vērtība (nav kopīga ar citiem produktiem)",module,Magento_Catalog
@@ -697,6 +732,7 @@ Scope,Apgabals,module,Magento_Catalog
 "Allow HTML Tags on Storefront","Atļaut HTML tagus veikala priekšpusē",module,Magento_Catalog
 "Visible on Catalog Pages on Storefront","Redzams kataloga lapās veikala priekšpusē",module,Magento_Catalog
 "Used in Product Listing","Izmantots produktu sarakstā",module,Magento_Catalog
+"Depends on design theme","Atkarīgs no dizaina tēmas",module,Magento_Catalog
 "Used for Sorting in Product Listing","Lietojams šķirošanai produktu sarakstā",module,Magento_Catalog
 "Media Image","Mēdiju attēls",module,Magento_Catalog
 Gallery,Galerija,module,Magento_Catalog
@@ -828,11 +864,15 @@ Categories,Kategorijas,module,Magento_Catalog
 "Something went wrong while updating the product(s) attributes.","Kļūda atjaunojot produktu atribūtus.",module,Magento_Catalog
 Catalog,Katalogs,module,Magento_Catalog
 "Manage Product Attributes","Pārvaldīt produktu atribūtus",module,Magento_Catalog
+"We can't delete the attribute.","Nevar nodzēst atribūtu.",module,Magento_Catalog
 "You deleted the product attribute.","Produkta atribūts ir nodzēsts.",module,Magento_Catalog
+"We can't find an attribute to delete.","Nevar atrast atribūtu lai nodzēstu.",module,Magento_Catalog
 "This attribute no longer exists.","Atribūts vairs neeksistē.",module,Magento_Catalog
 "This attribute cannot be edited.","Šo atribūtu nevar labot.",module,Magento_Catalog
 "Edit Product Attribute","Labot produkta atribūtu",module,Magento_Catalog
+"An attribute set named '%1' already exists.","Atribūtu kopa ar nosaukumu '%1' jau eksistē.",module,Magento_Catalog
 "Something went wrong while saving the attribute.","Kļūda saglabājot atribūtu.",module,Magento_Catalog
+"We can't update the attribute.","Nevar atjaunināt atribūtu.",module,Magento_Catalog
 "You saved the product attribute.","Produkta atribūts ir saglabāts.",module,Magento_Catalog
 "An attribute with this code already exists.","Atribūts ar šādu kodu jau eksistē.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Atribūts ar tādu pašu kodu (%1) jau eksistē.",module,Magento_Catalog
@@ -850,6 +890,7 @@ Products,Produkti,module,Magento_Catalog
 "The image cannot be removed as it has been assigned to the other image role","Attēlu nevar nodzēst, jo tas ir piešķirts citam attēlam",module,Magento_Catalog
 "New Attribute Set","Jauna atribūtu kopa",module,Magento_Catalog
 "The attribute set has been removed.","Atribūtu kopa ir nodzēsta.",module,Magento_Catalog
+"We can't delete this set right now.","Nevar nodzēst šo kopu.",module,Magento_Catalog
 "New Set","Jauna kopa",module,Magento_Catalog
 "Manage Product Sets","Pārvaldīt produktu kopas",module,Magento_Catalog
 "Manage Attribute Sets","Pārvaldīt atribūtu kopas",module,Magento_Catalog
@@ -869,6 +910,10 @@ All,Visi,module,Magento_Catalog
 "Product is not loaded","Produkts nav ielādēts",module,Magento_Catalog
 "Bad controller interface for showing product","Nepareizs kontroliera interfeiss produkta parādīšanai",module,Magento_Catalog
 "Make sure the To Date is later than or the same as the From Date.","Pārliecinieties, ka Līdz datums ir lielāks vai tāds pats kā No datums.",module,Magento_Catalog
+"Sorry, but we can't find the new parent category you selected.","Nevar atrast jaunu augstāku kategoriju kuru izvēlējāties.",module,Magento_Catalog
+"Sorry, but we can't find the new category you selected.","Nevar atrast jaunu kategoriju kuru izvēlējāties.",module,Magento_Catalog
+"We can't move the category because the parent category name matches the child category name.","Nevar pārvietot kategoriju, jo augstākas ketegorijas nosaukums ir tāds pats kā zemākas kategorijas nosaukums.",module,Magento_Catalog
+"Can't delete root category.","Nevar nodzēst saknes kategoriju.",module,Magento_Catalog
 "The value of attribute ""%1"" must be unique.","Atribūta ""%1"" vērtībai jābūt unikālai.",module,Magento_Catalog
 "Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Noklusētā produktu saraksta šķirošana pēc neeksistē Pieejamo produktu škirošanā pēc.",module,Magento_Catalog
 "No layout updates","Nav izkārtojuma atjauninājumu",module,Magento_Catalog
@@ -905,7 +950,9 @@ Top/Right,Augša/Labais,module,Magento_Catalog
 Bottom/Left,Apakša/Kreisais,module,Magento_Catalog
 Bottom/Right,Apakša/Labais,module,Magento_Catalog
 Center,Centrs,module,Magento_Catalog
+"%1 doesn't extends \Magento\Framework\Model\AbstractModel","%1 nepaplašina \Magento\Framework\Model\AbstractModel",module,Magento_Catalog
 "Unknown EAV indexer type ""%1"".","Nezināms EAV indeksētāja veids ""%1"".",module,Magento_Catalog
+"We can't rebuild the index for an undefined product.","Nevar pārbūvēt indeksus nedefinētam produktam.",module,Magento_Catalog
 "Bad value was supplied.","Tika norādīta nederīga vērtība.",module,Magento_Catalog
 "The Flat Catalog module has a limit of %2$d filterable and/or sortable attributes.Currently there are %1$d of them.Please reduce the number of filterable/sortable attributes in order to use this module","Parasta kataloga modulim ir %2$d filtrējamu un/vai šķirojamu atribūtu limits. Pašlaik ir %1$d. Lūdzu samaziniet filtrējamo/šķirojamo atribūtu skaitu lai lietotu šo moduli",module,Magento_Catalog
 "Unsupported product type ""%1"".","Produkta veids ""%1"" netiek atbalstīts.",module,Magento_Catalog
@@ -914,13 +961,17 @@ Center,Centrs,module,Magento_Catalog
 "The attribute model is not defined.","Atribūta modelis nav definēts.",module,Magento_Catalog
 Category,Kategorija,module,Magento_Catalog
 "%1 was not found in algorithms","%1 nav atrasts algoritmos",module,Magento_Catalog
+"%1 doesn't extend \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface","%1 nepaplašina \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface",module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter","%1 nepaplašina \Magento\Catalog\Model\Layer\Filter\AbstractFilter",module,Magento_Catalog
 "The filter must be an object. Please set the correct filter.","Filtram jābūt objektam. Izvēlieties pareizu filtru.",module,Magento_Catalog
 "Clear Price","Notīrīt cenu",module,Magento_Catalog
 "%1 and above","%1 un vairāk",module,Magento_Catalog
 "The filters must be an array.","Filtriem jābūt masīvam.",module,Magento_Catalog
 "The image does not exist.","Attēls neeksistē.",module,Magento_Catalog
 "Please correct the image file type.","Izlabojiet attēla faila tipu.",module,Magento_Catalog
+"We couldn't move this file: %1.","Nevar pārvietot failu: %1.",module,Magento_Catalog
 "Group price must be a number greater than 0.","Grupas cenai jābūt lielākai kā 0.",module,Magento_Catalog
+"We couldn't copy file %1. Please delete media with non-existing images and try again.","Nevar nokopēt failu %1. Nodzēsiet mēdiju failu ar neeksistējošiem attēliem un mēģiniet vēlreiz.",module,Magento_Catalog
 "Media Gallery converter should be an instance of EntryConverterInterface.","Mēdiju Galerijas konvertoram jābūt EntryConverterInterface instancei.",module,Magento_Catalog
 "There is no MediaGalleryEntryConverter for given type","Nav EntryConverterInterface dotajam tipam",module,Magento_Catalog
 "Please enter a number 0 or greater in this field.","Ievadiet ciparu 0 vai lielāku šajā laukā.",module,Magento_Catalog
@@ -940,28 +991,37 @@ Disabled,Izslēgts,module,Magento_Catalog
 "Cannot save product.","Nevar saglabāt produktu.",module,Magento_Catalog
 "Failed to save new media gallery entry.","Nevar saglabāt pievienoto galerijas mēdiju failu.",module,Magento_Catalog
 "There is no image with provided ID.","Nav attēla ar piedāvāto ID.",module,Magento_Catalog
+"Such product doesn't exist","Šāds produkts neeksistē",module,Magento_Catalog
+"Such image doesn't exist","Šāds attēls neeksistē",module,Magento_Catalog
+"We can't find the image file.","Nevar atrast attēlu.",module,Magento_Catalog
 "The option type to get group instance is incorrect.","Opcijas veids lai iegūtu grupu ir nepareizs.",module,Magento_Catalog
 "Select type options required values rows.","Izvēlieties opcijas veidu obligātās vērtības rindas.",module,Magento_Catalog
 "Could not remove custom option","Nevar nodzēst pielāgoto opciju",module,Magento_Catalog
 "Please specify date required option(s).","Norādiet datuma obligātās opcijas.",module,Magento_Catalog
 "Please specify time required option(s).","Norādiet laika obligātās opcijas.",module,Magento_Catalog
+"Please specify product's required option(s).","Norādiet produkta obligātās opcijas.",module,Magento_Catalog
 "The option instance type in options group is incorrect.","Opcijas veids opciju grupā ir nepareizs.",module,Magento_Catalog
 "The product instance type in options group is incorrect.","Produkta veids opciju grupa ir nepareizs.",module,Magento_Catalog
 "The configuration item option instance in options group is incorrect.","Konfigurējamās vienības opcija grupā ir nepareiza.",module,Magento_Catalog
 "The configuration item instance in options group is incorrect.","Konfigurējamās vienība opciju grupā ir nepareiza.",module,Magento_Catalog
 "The BuyRequest instance in options group is incorrect.","BuyRequest opciju grupā nav pareiza.",module,Magento_Catalog
+"We can't add the product to the cart because of an option validation issue.","Nevar pievienot grozam produktu. Kļūdaina opciju validācija.",module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Product\Option\Type\DefaultType","%1 nepaplašina \Magento\Catalog\Model\Product\Option\Type\DefaultType",module,Magento_Catalog
 "The file options format is not valid.","Nederīgs faila formāts.",module,Magento_Catalog
 "The file '%1' for '%2' has an invalid extension.","Failam '%1' priekš '%2' ir nederīgs paplašinājums.",module,Magento_Catalog
 "The maximum allowed image size for '%1' is %2x%3 px.","Maksimālais pieļaujamais attēla izmērs priekš '%1' ir %2x%3 pikseļi.",module,Magento_Catalog
 "The file '%1' you uploaded is larger than the %2 megabytes allowed by our server.","Fails '%1' kuru augšupielādējāt ir lielāks kā %2 Megabaiti ko pieļauj serveris.",module,Magento_Catalog
 "The file '%1' is empty. Please choose another one","Fails '%1' ir tukšs. Izvēlieties citu",module,Magento_Catalog
 "The file '%1' is invalid. Please choose another one","Fails '%1' ir nederīgs. Izvēlieties citu",module,Magento_Catalog
+"File '%1' is not an image.","Fails '%1' nav attēls.",module,Magento_Catalog
 "Validation failed. Required options were not filled or the file was not uploaded.","Validācija neizdevās. Obligātās opcijas nav aizpildītas vai fails nav augšupielādēts.",module,Magento_Catalog
 "The file you uploaded is larger than %1 Megabytes allowed by server","Fails kuru augšupielādējāt ir lielāks kā %1 Megabaiti ko pieļauj serveris",module,Magento_Catalog
 "Option required.","Nepieciešama opcija.",module,Magento_Catalog
 "The file is empty. Please choose another one","Fails ir tukšs. Izvēlieties citu",module,Magento_Catalog
 "Some of the selected item options are not currently available.","Atsevišķas no izvēlētajām produkta opcijām pašlaik nav pieejamas.",module,Magento_Catalog
 "The text is too long.","Teksts ir pārāk garš.",module,Magento_Catalog
+"This product doesn't have tier price","Produktam nav cenu līmeņa",module,Magento_Catalog
+"Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Produktam nav grupas cena ar šādiem datiem: customerGroupId = '%1', website = %2, qty = %3",module,Magento_Catalog
 "Invalid data provided for tier_price","Nepareizi dati priekš tier_price",module,Magento_Catalog
 "Please provide valid data","Lūdzu piegādājiet derīgus datus",module,Magento_Catalog
 "Values of following attributes are invalid: %1","Nepareizas vērtības sekojošiem atribūtiem: %1",module,Magento_Catalog
@@ -969,6 +1029,8 @@ Disabled,Izslēgts,module,Magento_Catalog
 "The file upload failed.","Faila augšpielāde neizdevās.",module,Magento_Catalog
 "The product has required options.","Produktam ir nepieciešamās opcijas.",module,Magento_Catalog
 "Something went wrong while processing the request.","Kļūda apstrādājot pieprasījumu.",module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType","%1 nepaplašina \Magento\Catalog\Model\Product\Type\AbstractType",module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price","%1 nepaplašina \Magento\Catalog\Model\Product\Type\Price",module,Magento_Catalog
 "Not Visible Individually","Nav redzami atsevišķi",module,Magento_Catalog
 Search,Meklēt,module,Magento_Catalog
 "Catalog, Search","Katalogs, meklēšana",module,Magento_Catalog
@@ -981,22 +1043,28 @@ Search,Meklēt,module,Magento_Catalog
 "Provided link type ""%1"" does not exist","Piedāvātais saites veids ""%1"" neeksistē",module,Magento_Catalog
 "Invalid data provided for linked products","Piedāvāti nepareizi dati saitētajiem produktiem",module,Magento_Catalog
 "Product with SKU %1 is not linked to product with SKU %2","Produkts ar artikulu %1 nav saistīts ar produktu kura artikuls ir %2",module,Magento_Catalog
+"Product %1 doesn't have linked %2 as %3","Produkts %1 nav saistīts %2 kā %3",module,Magento_Catalog
+"Requested product doesn't exist","Pieprasītais produkts neeksistē",module,Magento_Catalog
 "Product with SKU ""%1"" does not exist","Produkts ar artikulu ""%1"" neeksistē",module,Magento_Catalog
 "Invalid product data: %1","Neapreizi produkta dati: %1",module,Magento_Catalog
 "Unable to remove product %1","Nevar nodzēst produktu %1",module,Magento_Catalog
 "There are not websites for assign to product","Nav lapu kurām piešķirt produktu",module,Magento_Catalog
 "Could not assign product ""%1"" to websites ""%2""","Nevar piešķirt produktu ""%1"" lapām ""%2""",module,Magento_Catalog
 "Could not save product ""%1"" with websites %2","Nevar saglabāt produktu ""%1"" lapām ""%2""",module,Magento_Catalog
+"Attribute '%1' is locked. %2","Atribūts '%1' ir slēgts. %2",module,Magento_Catalog
 "Do not change the scope. %1","Nemainiet apgabalu. %1",module,Magento_Catalog
 "A product type is not defined for the indexer.","Produkta tips nav definēts indeksētājā.",module,Magento_Catalog
+"%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice","%1 nepaplašina \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice",module,Magento_Catalog
 "Multiple Select","Izvēlēties vairākus",module,Magento_Catalog
 Dropdown,"Nolaižamā izvēlne",module,Magento_Catalog
+"%1 doesn't extend \Magento\Framework\Filter\Template","%1 nepaplašina \Magento\Framework\Filter\Template",module,Magento_Catalog
 "As low as","Samazināt līdz",module,Magento_Catalog
 message,ziņa,module,Magento_Catalog
 Select...,Izvēlēties...,module,Magento_Catalog
 "This operation can take a long time","Šī operācija var aizņemt daudz laika",module,Magento_Catalog
 "Collapse All","Atvērt visu",module,Magento_Catalog
 "Expand All","Izvērst visu",module,Magento_Catalog
+"Please confirm site switching. All data that hasn't been saved will be lost.","Apstipriniet lapas pārslēgšanu. Nesaglabātā informācija tiks zaudēta.",module,Magento_Catalog
 "Use Default Value","Izmantot noklusēto vērtību",module,Magento_Catalog
 "Manage Titles (Size, Color, etc.)","Pārvaldīt nosaukumus (Krāsa, Izmērs, u.c.)",module,Magento_Catalog
 "Is Default",Noklusētais,module,Magento_Catalog
@@ -1008,8 +1076,12 @@ Groups,Grupas,module,Magento_Catalog
 "A name is required.","Nosaukums ir obligāts.",module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.","Grupa satur sistēmas atribūtus. Pārvietojiet sistēmas atribūtus uz citu grupu un mēģiniet vēlreiz.",module,Magento_Catalog
 "Please enter a new group name.","Ievadiet jaunu grupas vārdu.",module,Magento_Catalog
+"An attribute group named \"/name/\" already exists\".","Atribūtu grupa ar nosaukumu \"/name/\" jau eksistē\".",module,Magento_Catalog
+"Sorry, we're unable to complete this request.","Atvainojiet, šo pieprasījumu nevar izpildīt.",module,Magento_Catalog
+"You can't remove attributes from this attribute set.","Jūs nevarat nodzēst atribūtus no šīs atribūtu grupas.",module,Magento_Catalog
 "Custom Options","Pielāgotas opcijas",module,Magento_Catalog
 "This is a required option.","Obligāta opcija.",module,Magento_Catalog
+"The field isn't complete.","Lauks nav gatavs.",module,Magento_Catalog
 "Compatible file extensions to upload","Derīgi failu tipi augšupielādei",module,Magento_Catalog
 "Maximum image width","Maksimālais attēla platums",module,Magento_Catalog
 "Maximum image height","Maksimālais attēla augstums",module,Magento_Catalog
@@ -1034,6 +1106,7 @@ Backorders,Iepriekšpasūtījums,module,Magento_Catalog
 "Add Product To Websites","Pievienot produktu lapām",module,Magento_Catalog
 "Remove Product From Websites","Izņemt produktu no lapām",module,Magento_Catalog
 "To hide an item in catalog or search results, set the status to ""Disabled"".","Lai noslēptu kataloga produktu no meklēšanas rezultātiem, iestādiet tā statusu uz ""Izslēgts"".",module,Magento_Catalog
+"We can't save custom-defined options for bundles with dynamic pricing.","Nevar ieslēgt speciāli definētas opcijas komplektiem ar dinamisku cenu.",module,Magento_Catalog
 "Delete Custom Option","Izdzēst pielāgotu opciju",module,Magento_Catalog
 "Sort Custom Options","Šķirot pielāgotas opcijas",module,Magento_Catalog
 "Option Title","Opcijas nosaukums",module,Magento_Catalog
@@ -1072,7 +1145,6 @@ Actions,Darbības,module,Magento_Catalog
 "Unselect Visible","Noņemt redzamos",module,Magento_Catalog
 "Special Price","Īpaša cena",module,Magento_Catalog
 "Regular Price","Parastā cena",module,Magento_Catalog
-"Buy %1 for: ","Pirkt %1 par: ",module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Pirkt %1 par %2 katru un <strong class=""benefit"">saglabāt<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>",module,Magento_Catalog
 "Buy %1 for %2 each","Pirkt %1 par %2 katru",module,Magento_Catalog
 "Shop By","Iepirkties pēc",module,Magento_Catalog
@@ -1090,6 +1162,7 @@ Compare,Salīdzināt,module,Magento_Catalog
 "Clear All","Notīrīt visu",module,Magento_Catalog
 Prev,Iepr,module,Magento_Catalog
 Next,Nākamais,module,Magento_Catalog
+"We can't find products matching the selection.","Nevar atrast produktus kuri atbilst atlasei.",module,Magento_Catalog
 "Add to Compare","Pievienot salīdzināšanai",module,Magento_Catalog
 "Learn More","Uzzināt vairāk",module,Magento_Catalog
 "We found other products you might like!","Mēs atradām vēl produktus kuri Jums varētu patikt!",module,Magento_Catalog
@@ -1109,6 +1182,8 @@ Show,Rādīt,module,Magento_Catalog
 Loading...,Ielādē...,module,Magento_Catalog
 "* Required Fields","* obligātie lauki",module,Magento_Catalog
 Availability,Pieejamība,module,Magento_Catalog
+"Terms and Conditions","Noteikumi un Nosacījumi",module,Magento_CheckoutAgreements
+"Add New Condition","Pievienot Jaunu Nosacījumu",module,Magento_CheckoutAgreements
 Status,Statuss,module,Magento_CheckoutAgreements
 Enabled,Ieslēgts,module,Magento_CheckoutAgreements
 Disabled,Izslēgts,module,Magento_CheckoutAgreements
@@ -1129,8 +1204,8 @@ State/Province,Štats/Province,module,Magento_Checkout
 "Customer is already registered","Klients jau ir reģistrēts",module,Magento_Checkout
 "Your session has expired","Jūsu sesija ir beigusies",module,Magento_Checkout
 "You added %1 to your shopping cart.","Jūs pievienojāt %1 grozam.",module,Magento_Checkout
+"We can't add this item to your shopping cart right now.","Pašlaik nevar pievienot grozma šo produktu.",module,Magento_Checkout
 "Out of stock","Nav pieejams",module,Magento_Checkout
-"We can't find the quote item.","Nevaram atrast pirkumu vienumu.",module,Magento_Checkout
 "We cannot configure the product.","Mēs nevaram nokonfigurēt produktu.",module,Magento_Checkout
 "You used coupon code ""%1"".","Jūs izmantojāt kuponu ar kodu ""%1"".",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","Kupona kods ""%1"" nav derīgs.",module,Magento_Checkout
@@ -1144,8 +1219,6 @@ Checkout,"Pirkuma noformēšana",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Lai veiktu pirkumu, jums jāpiekrīt visiem noteikumiem.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Neizdevās noformēt jūsu pirkumu. Lūdzu, mēģiniet vēlreiz vēlāk.",module,Magento_Checkout
 "The product does not exist.","Produkts neeksistē.",module,Magento_Checkout
-"We don't have some of the products you want.","Daži no jums vēlamajiem produktiem nav pieejami.",module,Magento_Checkout
-"We don't have as many of some products as you want.","Dažu produkti mums ir nepietiekamā daudzumā.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","Daudzums tika mainīts no %1 uz %2",module,Magento_Checkout
 "We adjusted product quantities to fit the required increments.","Mēs pielāgojām produktu daudzumus, lai atbilstu prasībām.",module,Magento_Checkout
 "This quote item does not exist.","Šis pirkuma vienums neeksistē.",module,Magento_Checkout
@@ -1155,8 +1228,6 @@ Checkout,"Pirkuma noformēšana",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","Piegādātājs ar šādiem piegādes veidiem netika atrastas: %1, %2",module,Magento_Checkout
 "Cart contains virtual product(s) only. Shipping address is not applicable.","Grozā ievietoti tikai virtuāli produkts(i). Piegādes adrese nav nepieciešama.",module,Magento_Checkout
 "Shipping method is not applicable for empty cart","Piegādes metode nav nepieciešama tukšam grozam",module,Magento_Checkout
-" item"," produkts",module,Magento_Checkout
-" items"," produkti",module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","Kopsummas aprēķins nav nepieciešams tukšam grozam",module,Magento_Checkout
 "Invalid data","Nederīgi dati",module,Magento_Checkout
 "The customer address is not valid.","Klienta adrese nav pareiza.",module,Magento_Checkout
@@ -1183,7 +1254,6 @@ Subtotal,Starpsumma,module,Magento_Checkout
 "Update Shopping Cart","Atjaunināt pirkuma grozu",module,Magento_Checkout
 "Update Cart","Atjaunināt Grozu",module,Magento_Checkout
 "See price before order confirmation.","Apskatīt cenu pirms pasūtījuma apstiprināšanas.",module,Magento_Checkout
-"What's this?","Kas tas ir?",module,Magento_Checkout
 "Edit item parameters","Labot produkta parametrus",module,Magento_Checkout
 Edit,Labot,module,Magento_Checkout
 "Remove item","Noņemt produktu",module,Magento_Checkout
@@ -1270,22 +1340,29 @@ Details,"Papildus informācija",module,Magento_Cms
 "No files found","Faili nav atrasti",module,Magento_Cms
 "Collapse All","Atvērt visu",module,Magento_Cms
 "Expand All","Izvērst visu",module,Magento_Cms
+"Default Config","Noklusējuma Konfigurācija",module,Magento_Config
+"Save Config","Saglabāt Konfigurāciju",module,Magento_Config
 Add,Pievienot,module,Magento_Config
 "Delete File","Dzēst failu",module,Magento_Config
 Enable,Ieslēgt,module,Magento_Config
 Disable,Izslēgt,module,Magento_Config
 System,Sistēma,module,Magento_Config
+"We can't save the Cron expression.","Nevar saglabāt Cron izteiksmi.",module,Magento_Config
 No,Nē,module,Magento_Config
 Website,"Mājas lapa",module,Magento_Config
 Store,Veikals,module,Magento_Config
 "Store View","Veikala skats",module,Magento_Config
 Yes,Jā,module,Magento_Config
 Specified,Norādītais,module,Magento_Config
+"Invalid XML in file %1:
+%2","Nepareizs XML failā %1:
+%2",module,Magento_Config
 "Add after","Pievienot pēc",module,Magento_Config
 Delete,Dzēst,module,Magento_Config
 Stores,Veikali,module,Magento_Config
 Summary,Kopsavilkums,module,Magento_ConfigurableProduct
 "Choose an Option...","Izvēlieties opciju...",module,Magento_ConfigurableProduct
+"Requested option doesn't exist","Pieprasītā opcija neeksistē",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Jums jāizvēlās opcijas produktam.",module,Magento_ConfigurableProduct
 Options,Opcijas,module,Magento_ConfigurableProduct
 "Select All","Izvēlēties visu",module,Magento_ConfigurableProduct
@@ -1297,6 +1374,8 @@ SKU,Artikuls,module,Magento_ConfigurableProduct
 Actions,Darbības,module,Magento_ConfigurableProduct
 Cancel,Atcelt,module,Magento_ConfigurableProduct
 "Page not found.","Lapa nav atrasta.",module,Magento_Contact
+"Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Paldies ka sazinājāties ar mums. Mēs atbildēsim Jums visdrīzākajā laikā.",module,Magento_Contact
+"We can't process your request right now. Sorry, that's all we know.","Pašlaik nevar apstrādāt Jūsu pieprasījumu. Atvainojamies par sagādātajām neērtībām.",module,Magento_Contact
 "* Required Fields","* obligātie lauki",module,Magento_Contact
 "Write Us","Rakstiet mums",module,Magento_Contact
 "Jot us a note and we’ll get back to you as quickly as possible.","Nosūtiet mums ziņu un mēs Jums atbildēsim visātrāk iespējamajā laikā.",module,Magento_Contact
@@ -1305,16 +1384,22 @@ Email,E-pasts,module,Magento_Contact
 "Phone Number","Tālruņa numurs",module,Magento_Contact
 "What’s on your mind?","Ko vēlaties teikt?",module,Magento_Contact
 Submit,Sūtīt,module,Magento_Contact
+"Invalid domain name: %1","Nederīgs domēna vārds: %1",module,Magento_Cookie
 Daily,"Katru dienu",module,Magento_Cron
 Weekly,"Katru nedēļu",module,Magento_Cron
 Monthly,"Katru mēnesi",module,Magento_Cron
+"Save Currency Rates","Saglabāt Valūtas Kursus",module,Magento_CurrencySymbol
 Reset,Notīrīt,module,Magento_CurrencySymbol
 Import,Importēt,module,Magento_CurrencySymbol
 "Manage Currency Rates","Pārvaldīt valūtas kursus",module,Magento_CurrencySymbol
 "Save Currency Symbols","Saglabāt valūtas simbolus",module,Magento_CurrencySymbol
 "Use Standard","Izmantot standarta",module,Magento_CurrencySymbol
+"We can't initialize the import model.","Nevar inicializēt importēšanas modeli.",module,Magento_CurrencySymbol
 System,Sistēma,module,Magento_CurrencySymbol
 "Old rate:","Iepriekšējais kurss:",module,Magento_CurrencySymbol
+"Please specify a website.","Lūdzu, norādiet tīmekļa vietni.",module,Magento_CustomerImportExport
+"Please specify an email.","Lūdzu, Norādiet E-pastu.",module,Magento_CustomerImportExport
+"Sign Out",Izrakstīties,module,Magento_Customer
 "Sign In",Pieteikties,module,Magento_Customer
 "Address Book","Adresu grāmata",module,Magento_Customer
 "Create Order","Izveidot pasūtījumu",module,Magento_Customer
@@ -1375,6 +1460,7 @@ Name,Vārds,module,Magento_Customer
 "Format for IDE '%1' is not supported","IDE formāts '%1'netiek atbalstīts",module,Magento_Developer
 "Client side less compilation","Klienta daļas less kompilācija",module,Magento_Developer
 "Server side less compilation","Servera daļas less kompilācija",module,Magento_Developer
+"Wrong Content Type","Nepareizs Satura Tips",module,Magento_Dhl
 Height,Augstums,module,Magento_Dhl
 Width,Platums,module,Magento_Dhl
 None,Neviens,module,Magento_Dhl
@@ -1386,7 +1472,9 @@ kgs,kilogrami,module,Magento_Directory
 "Please correct the target currency.","Izlabojiet mērķa valūtu.",module,Magento_Directory
 "Undefined rate from ""%1-%2"".","Nedefinēta likme no ""%1-%2"".",module,Magento_Directory
 label,nosaukums,module,Magento_Directory
+"We can't retrieve a rate from %1.","Nevar iegūt likmi no %1.",module,Magento_Directory
 "FATAL ERROR:","FATĀLA KĻŪDA:",module,Magento_Directory
+"We can't initialize the import model.","Nevar inicializēt importēšanas modeli.",module,Magento_Directory
 "Please specify the correct Import Service.","Izvēlieties pareizu Importēšanas servisu.",module,Magento_Directory
 WARNING:,BRĪDINĀJUMS:,module,Magento_Directory
 "Please correct the country code: %1.","Izlabojiet valsts kodu: %1.",module,Magento_Directory
@@ -1396,7 +1484,11 @@ WARNING:,BRĪDINĀJUMS:,module,Magento_Directory
 Currency,Valūta,module,Magento_Directory
 "Your current currency is: %1.","Jūsu patreizējā valūta: %1.",module,Magento_Directory
 Continue,Turpināt,module,Magento_Directory
+"File directory '%1' is not readable.","Faila direktorija '%1' nav nolasāma.",module,Magento_DownloadableImportExport
+"File directory '%1' is not writable.","Faila direktorija '%1' nav ierakstāma.",module,Magento_DownloadableImportExport
 Error,Kļūda,module,Magento_DownloadableImportExport
+"Downloadable Information","Lejupielādējama Informācija",module,Magento_Downloadable
+"Add New Link","Pievienot Jaunu Saiti",module,Magento_Downloadable
 Pending,Gaida,module,Magento_Downloadable
 Invoiced,"Piestādīts rēķins",module,Magento_Downloadable
 Title,Nosaukums,module,Magento_Downloadable
@@ -1423,6 +1515,8 @@ Message:,Ziņa:,module,Magento_Downloadable
 Qty,Skaits,module,Magento_Downloadable
 Subtotal,Starpsumma,module,Magento_Downloadable
 Ordered,Pasūtīts,module,Magento_Downloadable
+"Attribute Properties","Atribūta Īpašības",module,Magento_Eav
+"This is used internally. Make sure you don't use spaces or more than %1 symbols.","Tiek lietots iekšpusē. Pārliecinaties ka nelietojat atstarpes vai vairāk kā %1 simbolus.",module,Magento_Eav
 "Default Value","Noklusētā vērtība",module,Magento_Eav
 Yes,Jā,module,Magento_Eav
 No,Nē,module,Magento_Eav
@@ -1452,9 +1546,12 @@ Region/State,Reģions/štats,module,Magento_Email
 City,Pilsēta,module,Magento_Email
 Title,Nosaukums,module,Magento_Email
 Template,Šablons,module,Magento_Email
+"Change Encryption Key","Mainīt Šifrēšanas Atslēgu",module,Magento_EncryptionKey
+"Encryption Key","Šifrēšanas Atslēga",module,Magento_EncryptionKey
 No,Nē,module,Magento_EncryptionKey
 Yes,Jā,module,Magento_EncryptionKey
 None,Neviens,module,Magento_Fedex
+"Gift Messages is not applicable for empty cart","Dāvanu Ziņojumi nav iespējami tukšiem pirkumu groziem",module,Magento_GiftMessage
 "Unknown entity type","Nezināms ieraksta tips",module,Magento_GiftMessage
 From,No,module,Magento_GiftMessage
 To,Kam,module,Magento_GiftMessage
@@ -1477,6 +1574,8 @@ Constant,Pastāvīgi,module,Magento_GoogleAdwords
 "Experiment Code","Eksperimentāls kods",module,Magento_GoogleOptimizer
 "Experiment code should be added to the original page only.","Eksperimentu kods ir jāpievieno tikai oriģinālajai lapai.",module,Magento_GoogleOptimizer
 "Category View Optimization","Kategorijas skata optimizācija",module,Magento_GoogleOptimizer
+"Grouped Products","Grupēti Produkti",module,Magento_GroupedProduct
+"Please specify the quantity of product(s).","Lūdzu, norādiet produktu daudzumu.",module,Magento_GroupedProduct
 Availability:,Pieejamība:,module,Magento_GroupedProduct
 "Out of stock","Nav pieejams",module,Magento_GroupedProduct
 SKU,Artikuls,module,Magento_GroupedProduct
@@ -1489,6 +1588,7 @@ Name,Vārds,module,Magento_GroupedProduct
 Availability,Pieejamība,module,Magento_GroupedProduct
 "In stock",Noliktavā,module,Magento_GroupedProduct
 Export,Eksportēt,module,Magento_ImportExport
+"Export Settings","Eksportēt Iestatījumus",module,Magento_ImportExport
 From,No,module,Magento_ImportExport
 To,Kam,module,Magento_ImportExport
 Filter,Filtrēt,module,Magento_ImportExport
@@ -1498,11 +1598,14 @@ Status,Statuss,module,Magento_ImportExport
 "-- Please Select --","-- Lūdzu, izvēlieties --",module,Magento_ImportExport
 Delete,Dzēst,module,Magento_ImportExport
 Continue,Turpināt,module,Magento_ImportExport
+"Indexer Management","Indeksu Pārvaldība",module,Magento_Indexer
 "Update on Save","Atjaunot saglabājot",module,Magento_Indexer
 Ready,Gatavs,module,Magento_Indexer
 Processing,Darbojas,module,Magento_Indexer
 Never,Nekad,module,Magento_Indexer
 "Index Management","Indeksu pārvaldība",module,Magento_Indexer
+Integrations,Integrācijas,module,Magento_Integration
+"Add New Integration","Pievienot Jaunu Integrāciju",module,Magento_Integration
 Save,Saglabāt,module,Magento_Integration
 General,Vispārīgi,module,Magento_Integration
 Name,Vārds,module,Magento_Integration
@@ -1512,18 +1615,24 @@ View,Skatīt,module,Magento_Integration
 Edit,Labot,module,Magento_Integration
 Custom,Pielāgots,module,Magento_Integration
 All,Visi,module,Magento_Integration
+"Filterable (with results)","Filtrējams (ar rezultātiem)",module,Magento_LayeredNavigation
+"Filterable (no results)","Filtrējams (bez rezultātiem)",module,Magento_LayeredNavigation
 No,Nē,module,Magento_LayeredNavigation
 Position,Pozīcija,module,Magento_LayeredNavigation
 Previous,Iepriekšējais,module,Magento_LayeredNavigation
 Remove,Dzēst,module,Magento_LayeredNavigation
 "Remove This Item","Nodzēst šo vienību",module,Magento_LayeredNavigation
+Partners,Partneri,module,Magento_Marketplace
+Synchronize,Sinhronizēt,module,Magento_MediaStorage
 Database,"Datu bāze",module,Magento_MediaStorage
+"To see product price, add this item to your cart. You can always remove it later.","Lai apskatītu produkta cenu, pievienojiet to pirkumu grozam.",module,Magento_Msrp
 "See price before order confirmation.","Apskatīt cenu pirms pasūtījuma apstiprināšanas.",module,Magento_Msrp
 "Use config","Lietot konfigurāciju",module,Magento_Msrp
 "Click for price","Noklikšķiniet, lai saņemtu cenu",module,Magento_Msrp
-"What's this?","Kas tas ir?",module,Magento_Msrp
 Price,Cena,module,Magento_Msrp
 "Add to Cart","Pievienot grozam",module,Magento_Msrp
+"Change Billing Address","Mainīt Rēķina Adresi",module,Magento_Multishipping
+"Ship to Multiple Addresses","Piegādāt uz Vairākām Adresēm",module,Magento_Multishipping
 Total,Kopā,module,Magento_Multishipping
 "Shipping Methods","Piegādes veidi",module,Magento_Multishipping
 "Place Order","Veikt pasūtījumu",module,Magento_Multishipping
@@ -1606,7 +1715,6 @@ Paused,Apturēts,module,Magento_Newsletter
 "Newsletter Message Preview","Jaunumu ziņas priekšskats",module,Magento_Newsletter
 "Add to Queue","Pievienot rindai",module,Magento_Newsletter
 "Are you sure that you want to strip all tags?","Vai tiešām vēlaties noņemt visus tagus?",module,Magento_Newsletter
-" Copy"," Kopēt",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Pierakstīties jaunumiem:",module,Magento_Newsletter
 "Enter your email address","Ievadi savu e-pasta adresi",module,Magento_Newsletter
 Subscribe,Pierakstīties,module,Magento_Newsletter
@@ -1651,6 +1759,8 @@ Close,Aizvērt,module,Magento_Paypal
 "Incl. Tax","Ar PVN",module,Magento_Paypal
 Reports,Atskaites,module,Magento_Paypal
 Sales,Pārdošana,module,Magento_Paypal
+"We can't place the order.","Nevar izveidot pasūtījumu.",module,Magento_Paypal
+"We can't update shipping method.","Nevar atjaunot piegādes veidu.",module,Magento_Paypal
 Dynamic,Dinamisks,module,Magento_Paypal
 Yes,Jā,module,Magento_Paypal
 No,Nē,module,Magento_Paypal
@@ -1673,7 +1783,9 @@ Price,Cena,module,Magento_Paypal
 Qty,Skaits,module,Magento_Paypal
 Subtotal,Starpsumma,module,Magento_Paypal
 Continue,Turpināt,module,Magento_Paypal
+"What's this?","Kas tas ir?",module,Magento_Persistent
 Price:,Cena:,module,Magento_ProductAlert
+Url,URL,module,Magento_ProductVideo
 Title,Nosaukums,module,Magento_ProductVideo
 Description,Apraksts,module,Magento_ProductVideo
 "Click here or drag and drop to add images.","Lai pievienotu, noklikšķiniet vai ievelciet šeit attēlus.",module,Magento_ProductVideo
@@ -1757,6 +1869,7 @@ Coupons,Kuponi,module,Magento_Reports
 "Shopping Cart",Grozs,module,Magento_Reports
 "Abandoned Carts","Pamestie grozi",module,Magento_Reports
 Statistics,Statistika,module,Magento_Reports
+"We can't refresh lifetime statistics.","Nevar atjaunot dzīves ilguma statistiku.",module,Magento_Reports
 Bestsellers,"Visvairāk pārdotie",module,Magento_Reports
 "All Websites","Visas lapas",module,Magento_Reports
 "Recently Viewed","Nesen apskatītie",module,Magento_Reports
@@ -1814,7 +1927,6 @@ Reviews,Pārskati,module,Magento_Review
 Approved,Apstiprināts,module,Magento_Review
 Pending,Gaida,module,Magento_Review
 "Not Approved","Nav apstiprināts",module,Magento_Review
-"Rating isn't Available","Vērtējums nav pieejams",module,Magento_Review
 "Assigned Options","Pieškirtās opcijas",module,Magento_Review
 "Option Title:","Opcijas nosaukums:",module,Magento_Review
 "Product Name","Produkta nosaukums",module,Magento_Review
@@ -1827,7 +1939,6 @@ Back,Atpakaļ,module,Magento_Review
 "Be the first to review this product","Uzrakstie pirmais atsauksmi par šo produktu",module,Magento_Review
 "Write Your Own Review","Uzrakstīt atsauksmi",module,Magento_Review
 "* Required Fields","* obligātie lauki",module,Magento_Review
-"You're reviewing:","Jūsu atsauksmes:",module,Magento_Review
 Summary,Kopsavilkums,module,Magento_Review
 "Submit Review","Nosūtīt atsauksmi",module,Magento_Review
 "Add Your Review","Pievienot Jūsu atsauksmi",module,Magento_Review
@@ -1918,7 +2029,6 @@ Quantity,Skaits,module,Magento_Sales
 "New Order Status","Jauna pasūtījuma statuss",module,Magento_Sales
 Edit,Labot,module,Magento_Sales
 "Save Gift Message","Saglabāt dāvanas ziņu",module,Magento_Sales
-" [deleted]"," [dzēsts]",module,Magento_Sales
 Any,Jebkurš,module,Magento_Sales
 Specified,Norādītais,module,Magento_Sales
 Yes,Jā,module,Magento_Sales
@@ -1929,6 +2039,7 @@ Discount,Atlaide,module,Magento_Sales
 "Grand Total",Kopsumma,module,Magento_Sales
 Back,Atpakaļ,module,Magento_Sales
 Value,Vērtība,module,Magento_Sales
+"We can't add this item to your shopping cart right now.","Pašlaik nevar pievienot grozma šo produktu.",module,Magento_Sales
 Sales,Pārdošana,module,Magento_Sales
 """%1"" coupon code was not applied. Do not apply discount is selected for item(s)","atlaižu kods ""%1"" netika piemērots. Nevar piemērot atlaides izvēlētajai precei (ēm)",module,Magento_Sales
 "Quote item id is not received.","Piedāvātā produkta id nav saņemts.",module,Magento_Sales
@@ -1937,7 +2048,7 @@ Sales,Pārdošana,module,Magento_Sales
 "Order saving error: %1","Kļūda saglabājot pasūtījumu: %1",module,Magento_Sales
 Home,Sākums,module,Magento_Sales
 "Go to Home Page","Iet uz sākumlapu",module,Magento_Sales
-"Shipping Address: ","Piegādes adreses: ",module,Magento_Sales
+"We can't find this wish list.","Nevaram atrast šo vēlmju sarakstu.",module,Magento_Sales
 Guest,Viesis,module,Magento_Sales
 Pending,Gaida,module,Magento_Sales
 Ordered,Pasūtīts,module,Magento_Sales
@@ -2051,10 +2162,7 @@ SKU,Artikuls,module,Magento_Shipping
 "Tracking Number:","Sekošanas numurs:",module,Magento_Shipping
 Carrier:,Pārvadātājs:,module,Magento_Shipping
 Error:,Kļūda:,module,Magento_Shipping
-"Tracking information is currently not available. Please ","Izsekošanas informācija pašlaik nav pieejama. Lūdzu ",module,Magento_Shipping
 "contact us","sazināties ar mums",module,Magento_Shipping
-" for more information or "," vairāk informācijas vai ",module,Magento_Shipping
-"email us at ","sūtīt e-pastu uz ",module,Magento_Shipping
 Info:,Informācija:,module,Magento_Shipping
 Track:,Sekot:,module,Magento_Shipping
 Status:,Statuss:,module,Magento_Shipping
@@ -2071,6 +2179,7 @@ Description,Apraksts,module,Magento_Shipping
 "There is no tracking available for this shipment.","Šai piegādei nav pieejama izsekošana.",module,Magento_Shipping
 "There is no tracking available.","Izsekošana nav pieejama.",module,Magento_Shipping
 "Close Window","Aizvērt logu",module,Magento_Shipping
+"Save & Generate","Saglabāt & Ģenerēt",module,Magento_Sitemap
 "Edit Sitemap","Labot lapas karti",module,Magento_Sitemap
 "New Sitemap","Jaunas lapas karte",module,Magento_Sitemap
 Sitemap,"Lapas karte",module,Magento_Sitemap
@@ -2112,6 +2221,7 @@ Rate,Likme,module,Magento_TaxImportExport
 "One of the countries has invalid code.","Vienai no valstīm ir nepareizs kods.",module,Magento_TaxImportExport
 "Import Tax Rates","Importēt nodokļu likmes",module,Magento_TaxImportExport
 "Export Tax Rates","Eksportēt nodokļu likmes",module,Magento_TaxImportExport
+"Tax Rate Information","Nodokļa Likmes Informācija",module,Magento_Tax
 Country,Valsts,module,Magento_Tax
 Back,Atpakaļ,module,Magento_Tax
 Reset,Notīrīt,module,Magento_Tax
@@ -2148,6 +2258,7 @@ Close,Aizvērt,module,Magento_Theme
 Time,Laiks,module,Magento_Theme
 "Dictionary (Translation on Storefront side)","Vārdnīca (Tulkošana veikala priekšpusē)",module,Magento_Translation
 "Embedded (Translation on Admin side)","Iekļauts (Tulkošana administrācijas panelī)",module,Magento_Translation
+"Condition type ""%1"" is not allowed","Nosacījuma tips ""%1"" nav atļauts",module,Magento_Ui
 Back,Atpakaļ,module,Magento_Ui
 Cancel,Atcelt,module,Magento_Ui
 None,Neviens,module,Magento_Ups
@@ -2206,6 +2317,7 @@ Yes,Jā,module,Magento_Variable
 "Validation has failed.","Kļūdaina validācija.",module,Magento_Variable
 "Insert Variable...","Ievadīt mainīgo...",module,Magento_Variable
 "Operation allowed only in HTTPS","Darbība atļauta tika ja ir HTTPS",module,Magento_Webapi
+"Cannot perform GET operation with store code 'all'","Nevar izpildīt GET operāciju veikalam ar kodu 'all'",module,Magento_Webapi
 "Request does not match any route.","Pieprasījums neatbilst nevienam ceļam.",module,Magento_Webapi
 "Authentication header format is invalid.","Nepareizs autentifikācijas galvenes formāts.",module,Magento_Webapi
 "Authentication header is absent.","Nav autentifikācijas galvenes.",module,Magento_Webapi
@@ -2295,30 +2407,51 @@ Page,Lapa,module,Magento_Widget
 "Wish List","Vēlmju saraksts",module,Magento_Wishlist
 "Wish List Sharing","Vēlmju saraksta koplietošana",module,Magento_Wishlist
 "My Wish List","Mans vēlmju saraksts",module,Magento_Wishlist
-"%1's Wish List","%1 vēlmju saraksts",module,Magento_Wishlist
 "Page not found.","Lapa nav atrasta.",module,Magento_Wishlist
+"We can't specify a product.","Nevaram norādīt produktu.",module,Magento_Wishlist
+"We can't add the item to Wish List right now: %1.","Nevar pievienot produktu Vēlmju sarakstam: %1.",module,Magento_Wishlist
+"We can't add the item to Wish List right now.","Nevar pievienot produktu Vēlmju sarakstam.",module,Magento_Wishlist
 "You added %1 to your shopping cart.","Jūs pievienojāt %1 grozam.",module,Magento_Wishlist
 "This product(s) is out of stock.","Produkts(i) nav pieejams.",module,Magento_Wishlist
+"We can't add the item to the cart right now.","Pašlaik nevar pievienot produktu grozam.",module,Magento_Wishlist
+"We can't load the Wish List item right now.","Pašlaik nevar ielādēt Vēlmju sarakstu.",module,Magento_Wishlist
+"We can't configure the product right now.","Pašlaik nevar nokonfigurēt produktu.",module,Magento_Wishlist
+"The requested cart item doesn't exist.","Pieprasītais groza produkts neeksistē.",module,Magento_Wishlist
 "%1 has been moved to your wish list.","%1 tika pievienots Vēlmju sarakstam.",module,Magento_Wishlist
+"We can't move the item to the wish list.","Nevar pievienot produktu Vēlmju sarakstam.",module,Magento_Wishlist
+"We can't delete the item from Wish List right now because of an error: %1.","Nevar nodzēst produktu no Vēlmju saraksta. Kļūda: %1.",module,Magento_Wishlist
+"We can't delete the item from the Wish List right now.","Pašlaik nevar nodzēst produktu no Vēlmju saraksta.",module,Magento_Wishlist
 "Message length must not exceed %1 symbols","Ziņas garums nevar pārsniegt %1 simbolus",module,Magento_Wishlist
 "Please enter an email address.","Ievadiet e-pasta adresi.",module,Magento_Wishlist
 "This wish list can be shared %1 more times.","Šo Vēlmju sarakstu var koplietot vēl %1 reizes.",module,Magento_Wishlist
 "Please enter a valid email address.","Ievadiet derīgu e-pasta adresi.",module,Magento_Wishlist
 "Your wish list has been shared.","Vēlmju saraksts tika koplietots.",module,Magento_Wishlist
+"We can't delete item from Wish List right now.","Pašlaik nevar nodzēst produktu no Vēlmju saraksta.",module,Magento_Wishlist
+"Can't save description %1","Nevar saglabāt aprakstu %1",module,Magento_Wishlist
+"Can't update wish list","Nevar atjaunot vēlmju sarakstu",module,Magento_Wishlist
 "%1 has been updated in your Wish List.","%1 tika atjaunots Vēlmju sarakstā.",module,Magento_Wishlist
+"We can't update your Wish List right now.","Pašlaik nevar atjaunot Vēlmju sarakstu.",module,Magento_Wishlist
+"The requested Wish List doesn't exist.","Pieprasītais vēlmju saraksts neeksistē.",module,Magento_Wishlist
+"We can't create the Wish List right now.","Pašlaik nevar izveidot Vēlmju sarakstu.",module,Magento_Wishlist
 "%1 items","%1 produkti",module,Magento_Wishlist
 "1 item","1 produkts",module,Magento_Wishlist
 Comment,Komentārs,module,Magento_Wishlist
 "Display number of items in wish list","Parādīt produktu skaitu Vēlmju sarakstā",module,Magento_Wishlist
 "Display item quantities","Rādīt produktu skaitu",module,Magento_Wishlist
 "An item option with code %1 already exists.","Produkta opcija ar kodu %1 jau eksistē.",module,Magento_Wishlist
+"We can't specify a wish list.","Nevar norādīt Vēlmju sarakstu.",module,Magento_Wishlist
 "Cannot specify product.","Nevar norādīt produktu.",module,Magento_Wishlist
 "Product is not salable.","Produkts nav pārdošanā.",module,Magento_Wishlist
 "Invalid item option format.","Nepreizs produkta opcijas formāts.",module,Magento_Wishlist
 "%1 for ""%2"".","%1 par ""%2"".",module,Magento_Wishlist
+"We can't add this item to your shopping cart right now.","Pašlaik nevar pievienot grozma šo produktu.",module,Magento_Wishlist
+"We couldn't add the following product(s) to the shopping cart: %1.","Grozam nevarēja pievienot sekojošus produktus: %1.",module,Magento_Wishlist
+"We can't update the Wish List right now.","Pašlaik nevar atjaunot Vēlmju sarakstu.",module,Magento_Wishlist
 "%1 product(s) have been added to shopping cart: %2.","%1 produkti tika pievienoti iepirkumu grozam: %2.",module,Magento_Wishlist
 Comment:,Komentārs:,module,Magento_Wishlist
 "We cannot retrieve the Wish List.","Nevar pieprasīt Vēlmju sarakstu.",module,Magento_Wishlist
+"%1's Wishlist","%1 Vēlmju saraksts",module,Magento_Wishlist
+"We can't specify a wish list item.","Nevar norādīt Vēlmju saraksta produktu.",module,Magento_Wishlist
 "The product does not exist.","Produkts neeksistē.",module,Magento_Wishlist
 "Test Phrase","Testa frāze",module,Magento_Wishlist
 message,ziņa,module,Magento_Wishlist
@@ -2344,7 +2477,6 @@ Edit,Labot,module,Magento_Wishlist
 "This Wish List has no Items","Šajā vēlmju sarakstā nav produktu",module,Magento_Wishlist
 "See Details","Sīkāka informācija",module,Magento_Wishlist
 "Options Details","Opciju detaļas",module,Magento_Wishlist
-"RSS link to %1's wishlist","RSS barotne %1 vēlmu sarakstam",module,Magento_Wishlist
 "RSS Feed","RSS barotne",module,Magento_Wishlist
 Product,Produkts,module,Magento_Wishlist
 "Add to Wish List","Pievienot vēlmju sarakstam",module,Magento_Wishlist
@@ -2362,9 +2494,9 @@ Back,Atpakaļ,module,Magento_Wishlist
 "Now Shopping by","Tagad iepērkas pēc",theme,frontend/Magento/luma
 Previous,Iepriekšējais,theme,frontend/Magento/luma
 Remove,Dzēst,theme,frontend/Magento/luma
-"Remove This Item","Nodzēst šo vienību",theme,frontend/Magento/luma
+"Remove This Item","Nodzēst Šo Vienību",theme,frontend/Magento/luma
 "Shop By","Iepirkties pēc",theme,frontend/Magento/luma
-"Clear All","Notīrīt visu",theme,frontend/Magento/luma
+"Clear All","Notīrīt Visus",theme,frontend/Magento/luma
 "Shopping Options","Iepirkšanās opcijas",theme,frontend/Magento/luma
 "Payment Transaction Failed","Norēķins neizdevās",module,Magento_Checkout
 Reason,Iemesls,module,Magento_Checkout
@@ -2421,36 +2553,8 @@ Password:,Parole:,theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Pasūtīts <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","Piegādes informācija. Paldies par pirkumu.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Piegāde #%shipment_id pasūtījumam #%order_id",theme,frontend/Magento/luma
-"Backup options","Rezerves kopijas opcijas",lib,lib/web/mage/adminhtml/backup.js
-Warning,Uzmanību,lib,lib/web/mage/adminhtml/backup.js
-Cancel,Atcelt,lib,lib/web/mage/adminhtml/backup.js
-Ok,Labi,lib,lib/web/mage/adminhtml/backup.js
-"Insert Widget...","Ievietot logrīku...",lib,lib/web/mage/adminhtml/wysiwyg/widget.js
-"No records found.","Nav atrasts neviens ieraksts.",lib,lib/web/mage/backend/suggest.js
-"Recent items","Nesen pievienotie produkti",lib,lib/web/mage/backend/suggest.js
-"Show all...","Parādīt visus...",lib,lib/web/mage/backend/suggest.js
-"Method %s does not exist on jQuery.decorate","jQuery.decorate metode %s neeksistē",lib,lib/web/mage/decorate.js
-Close,Aizvērt,lib,lib/web/mage/dropdown.js
-"Please wait...","Lūdzu uzgaidiet...",lib,lib/web/mage/loader.js
-Loading...,Ielādē...,lib,lib/web/mage/loader.js
-"Please wait...","Lūdzu uzgaidiet...",lib,lib/web/mage/loader_old.js
-Loading...,Ielādē...,lib,lib/web/mage/loader_old.js
-"All ","Visi ",lib,lib/web/mage/menu.js
-more,vairāk,lib,lib/web/mage/menu.js
-Cancel,Atcelt,lib,lib/web/mage/translate-inline-vde.js
-Save,Saglabāt,lib,lib/web/mage/translate-inline-vde.js
-Translate,Tulkot,lib,lib/web/mage/translate-inline.js
-Submit,Sūtīt,lib,lib/web/mage/translate-inline.js
-Close,Aizvērt,lib,lib/web/mage/translate-inline.js
-"Please enter a value less than or equal to %s.","Ievadiet vērtību kas ir mazāka vai vienāda ar %s.",lib,lib/web/mage/validation.js
-"Please enter a value greater than or equal to %s.","Ievadiet vērtību kas ir lielāka vai vienāda ar %s.",lib,lib/web/mage/validation.js
-"Maximum length of this field must be equal or less than %1 symbols.","Lauka lielumam jābūt vienādam vai mazākam par %1 simboliem.",lib,lib/web/mage/validation.js
-"This is a required field.","Obligāts lauks.",lib,lib/web/mage/validation.js
-"Please enter a date between %min and %max.","Ievadiet datumu starp %min un %max.",lib,lib/web/mage/validation/validation.js
-"Please enter a valid year (1900-%1).","Ievadiet derīgu gadu (1900-%1).",lib,lib/web/mage/validation/validation.js
-"Please enter a valid day (1-%1).","Ievadiet derīgu dienu (1-%1).",lib,lib/web/mage/validation/validation.js
-"Please enter a date from the past.","Ievadiet pagājušu datumu.",lib,lib/web/mage/validation/validation.js
 "We could not detect a size.","Nevar noteikt lielumu.",module,Magento_Backend
+"We don't recognize or support this file extension type.","Neatbalsta vai neatpazīst šo faila paplašinājumu.",module,Magento_Backend
 "Add Products to New Option","Pievienot produktus jaunai opcijai",module,Magento_Bundle
 "Add Products to Option ""%1""","Pievienot produkts opcijai: ""%1""",module,Magento_Bundle
 "Add Selected Products","Pievienot izvēlētos produktus",module,Magento_Bundle
@@ -2458,6 +2562,7 @@ Close,Aizvērt,lib,lib/web/mage/translate-inline.js
 Ok,Labi,module,Magento_Catalog
 Cancel,Atcelt,module,Magento_Catalog
 Submit,Sūtīt,module,Magento_Catalog
+"We don't recognize or support this file extension type.","Neatbalsta vai neatpazīst šo faila paplašinājumu.",module,Magento_Catalog
 "Configure Product","Konfigurēt produktu",module,Magento_Catalog
 OK,Labi,module,Magento_Catalog
 "Select type of option.","Izvēlieties opcijas veidu.",module,Magento_Catalog
@@ -2471,6 +2576,7 @@ OK,Labi,module,Magento_Catalog
 "unselect all","noņemt atlasi visam",module,Magento_Catalog
 "Incl. Tax","Ar PVN",module,Magento_ConfigurableProduct
 Done,Gatavs,module,Magento_ConfigurableProduct
+"We don't recognize or support this file extension type.","Neatbalsta vai neatpazīst šo faila paplašinājumu.",module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","Vai tiešām vēlaties to darīt?",module,Magento_Customer
 Done,Gatavs,module,Magento_Integration
 "Please choose a payment method.","Izvēlieties maksāšanas veidu.",module,Magento_Multishipping
@@ -2524,11 +2630,6 @@ Advanced,Paplašināts,module,Magento_Backend
 Design,Dizains,module,Magento_Backend
 "Design Theme","Dizaina tēma",module,Magento_Backend
 "User-Agent Exceptions","User-Agent izņēmumi",module,Magento_Backend
-"
-                        Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
-                    ","
-                        Meklēšanas saites ir vai nu normālas saites vai regulāri izņēmumi (PCRE). Tās ir atzīmētas tādā pašā kārtībā kā ievadītas. Piemēram:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
-                    ",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","Atrast saiti klienta lietotāja-aģenta galvenē un pārslēgt uz noteiktu dizaina tēmu attiecīgajam pārlūkam.",module,Magento_Backend
 Pagination,Lapas,module,Magento_Backend
 "Pagination Frame","Lapu freims",module,Magento_Backend
@@ -2554,6 +2655,7 @@ Debug,Atkļūdot,module,Magento_Backend
 "Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","Tulkošana, bloku un pārējie izvades keši jāizslēdz veikala priekšpusē un administrācijā lai veiktu tulkošanu lapā.",module,Magento_Backend
 "JavaScript Settings","JavaScript iestatījumi",module,Magento_Backend
 "Merge JavaScript Files","Apvienot JavaScript failus",module,Magento_Backend
+"Enable Javascript Bundling","Iespējot Javascript Bundling",module,Magento_Backend
 "Minify JavaScript Files","Minificēt JavaScript failus",module,Magento_Backend
 "CSS Settings","CSS iestatījumi",module,Magento_Backend
 "Merge CSS Files","Apvienot CSS failus",module,Magento_Backend
@@ -2614,11 +2716,6 @@ Security,Drošība,module,Magento_Backend
 "Enable Charts","Ieslēgt grafikus",module,Magento_Backend
 "Url Options","URL opcijas",module,Magento_Backend
 "Add Store Code to Urls","Pievienot URL veikala kodu",module,Magento_Backend
-"
-                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
-                    ","
-                        <strong style=""color:red"">Uzmanību!</strong> Lietojot saites ar veikala kodu atsevišķos gadījumos sistēma var strādāt nepareizi, ja saites citos servisos (pie. PayPal, u.c.) ir norādītas bez veikala koda.
-                    ",module,Magento_Backend
 "Auto-redirect to Base URL","Automātiska pārvirzīšana uz pamata URL",module,Magento_Backend
 "Search Engine Optimization","Meklēšana dzinēja optimizācija",module,Magento_Backend
 "Use Web Server Rewrites","Lietot web servera Rewrites",module,Magento_Backend
@@ -2680,15 +2777,16 @@ Environment,Vide,module,Magento_Braintree
 "Private Key","Privātā atslēga",module,Magento_Braintree
 "Advanced Braintree Settings","Braintree papildus iestatījumi",module,Magento_Braintree
 Debug,Atkļūdot,module,Magento_Braintree
-"New Order Status","Jauna pasūtījuma statuss",module,Magento_Braintree
-"Use Vault","Lietot seifu",module,Magento_Braintree
-"Allow Duplicate Cards","Atļaut kartes dublikātus",module,Magento_Braintree
+"Capture action","Nolasīšanas darbība",module,Magento_Braintree
+"New Order Status","Jauna Pasūtījuma Statuss",module,Magento_Braintree
+"Use Vault","Lietot Seifu",module,Magento_Braintree
+"Allow Duplicate Cards","Atļaut Kartes Dublikātus",module,Magento_Braintree
 "CVV Verification","CVV pārbaude",module,Magento_Braintree
 "Credit Card Types","Kredītkaršu veidi",module,Magento_Braintree
-"Enable Credit Card auto-detection on Storefront","Ieslēgt kredītkartes automātiksu noteikšanu veikala priekšpusē",module,Magento_Braintree
+"Enable Credit Card auto-detection on Storefront","Ieslēgt kredītkartes automātiksu noteikšanu",module,Magento_Braintree
 "Advanced Fraud Protection","Papildus krāpšanās aizsardzība",module,Magento_Braintree
 "Your Kount ID","Jūsu Kount ID",module,Magento_Braintree
-"Use Cache","Lietot kešu",module,Magento_Braintree
+"Use Cache","Lietot Kešu",module,Magento_Braintree
 "Sort Order","Kārtošanas secība",module,Magento_Braintree
 "Country Specific Settings","Valstij specifiski iestatījumi",module,Magento_Braintree
 "Payment from Applicable Countries","Maksājumi no pieejamām valstīm",module,Magento_Braintree
@@ -2712,11 +2810,6 @@ Forms,Formas,module,Magento_Captcha
 "Number of Symbols","Simbolu skaits",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Norādiet 8 simbolus. Atļauts norādīt apgabalu (piem. 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","CAPTCHA lietotie simboli",module,Magento_Captcha
-"
-                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
-                    ","
-                        Izmantojiet tikai burtus (a-z vai A-Z) vai ciparus (0-9) šajā laukā. Nav atļautas atstarpes vai citi simboli.<br />Izmantojot līdzīgu simbolus (piem. ""i"", ""l"", ""1"") iespēja klientam tos pareizi atpazīt samazinās.
-                    ",module,Magento_Captcha
 "Case Sensitive",Reģistrjūtīgs,module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Ieslēgt CAPTCHA veikala priekšpusē",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Ja atzīmēts, tad CAPTCHA ir vienmēr ieslēgta priekš ""Izveidot jaunu lietotāju"" un ""Aizmirsta parole"" formām.",module,Magento_Captcha
@@ -2925,11 +3018,6 @@ Debug,Atkļūdot,module,Magento_Dhl
 "Currency Setup","Valūtas iestatījumi",module,Magento_Directory
 "Currency Options","Valūtas opcijas",module,Magento_Directory
 "Base Currency","Pamata valūta",module,Magento_Directory
-"
-                        Base currency is used for all online payment transactions. If you have more than one store view, the base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").
-                    ","
-                        Pamatvalūta tiek izmantota visām tiešsaistes maksājumu transakcijām. Ja ir vairāk kā viens veikala skats, pamatvalūtas kopa tiks noteikta pēc veikala cenu kopas (""Katalogs"" > ""Cena"" > ""Kataloga cenu kopa"").
-                    ",module,Magento_Directory
 "Default Display Currency","Noklusētā attēlošanas valūta",module,Magento_Directory
 "Allowed Currencies","Atļautās valūtas",module,Magento_Directory
 "Connection Timeout in Seconds","Pieslēguma taimauts sekundēs",module,Magento_Directory
