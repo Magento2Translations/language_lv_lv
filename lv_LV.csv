@@ -470,12 +470,16 @@ Always,Vienmēr,module,Magento_Captcha
 "Product Name","Produkta nosaukums",module,Magento_CatalogInventory
 Qty,Skaits,module,Magento_CatalogInventory
 "Save and Continue Edit","Saglabāt un turpināt labot",module,Magento_CatalogRule
+"Edit Rule '%1'","Labot noteikumu '%1'",module,Magento_CatalogRule
 Actions,Darbības,module,Magento_CatalogRule
 Apply,Apstiprināt,module,Magento_CatalogRule
 "Discount Amount","Atlaides apjoms",module,Magento_CatalogRule
+"Subproduct discounts","Apakšproduktu atlaides",module,Magento_CatalogRule
 No,Nē,module,Magento_CatalogRule
 Yes,Jā,module,Magento_CatalogRule
+"Discard subsequent rules","Dzēst sekojošos noteikumus",module,Magento_CatalogRule
 "General Information","Vispārīga informācija",module,Magento_CatalogRule
+"Rule Name","Noteikumu nosaukums",module,Magento_CatalogRule
 Description,Apraksts,module,Magento_CatalogRule
 Status,Statuss,module,Magento_CatalogRule
 Websites,"Mājas lapas",module,Magento_CatalogRule
@@ -487,6 +491,7 @@ Type,Veids,module,Magento_CatalogRule
 SKU,Artikuls,module,Magento_CatalogRule
 Product,Produkts,module,Magento_CatalogRule
 Catalog,Katalogs,module,Magento_CatalogRule
+"Wrong rule specified.","Nepareizi norādīts noteikums.",module,Magento_CatalogRule
 "Conditions Combination","Noteikumu kombinācija",module,Magento_CatalogRule
 Home,Sākums,module,Magento_CatalogSearch
 "Go to Home Page","Iet uz sākumlapu",module,Magento_CatalogSearch
@@ -544,6 +549,7 @@ label,birka,module,Magento_Catalog
 "Default Value","Noklusētā vērtība",module,Magento_Catalog
 "Unique Value","Unikāla vērtība",module,Magento_Catalog
 "Unique Value (not shared with other products)","Unikāla vērtība (nav kopīga ar citiem produktiem)",module,Magento_Catalog
+"Not shared with other products","Netiek koplietots ar citiem produktiem",module,Magento_Catalog
 "Input Validation for Store Owner","Ievades validācija veikala īpašniekam",module,Magento_Catalog
 "Store View","Veikala skats",module,Magento_Catalog
 Website,"Mājas lapa",module,Magento_Catalog
@@ -599,6 +605,8 @@ Websites,"Mājas lapas",module,Magento_Catalog
 "Products Information","Produktu informācija",module,Magento_Catalog
 "Category Name","Kategorijas nosaukums",module,Magento_Catalog
 "Parent Category","Augstāka kategorija",module,Magento_Catalog
+"We saved the price alert subscription.","Mēs saglabājām cenas brīdinjuma abonentu.",module,Magento_Catalog
+"We saved the stock notification.","Mēs saglabājām noliktavas paziņojumu.",module,Magento_Catalog
 "There are no customers for this alert.","Nav klientu šo paziņojumu saņēmējiem.",module,Magento_Catalog
 "First Name",Vārds,module,Magento_Catalog
 "Last Name",Uzvārds,module,Magento_Catalog
@@ -775,10 +783,13 @@ Search,Meklēt,module,Magento_Catalog
 "A product type is not defined for the indexer.","Produkta tips nav definēts indeksētājā.",module,Magento_Catalog
 "Multiple Select","Izvēlēties vairākus",module,Magento_Catalog
 Dropdown,"Nolaižamā izvēlne",module,Magento_Catalog
+"Are you sure you want to delete this category?","Vai esat parliecināts/-a, ka vēlaties dzēst šo kategoriju?",module,Magento_Catalog
+"Set root category for this store in the <a href=""%1"">configuration</a>.","Uzstādīt lapas galveno kategoriju iekš <a href=""%1""> uzstādijumos</a>.",module,Magento_Catalog
 "Collapse All","Atvērt visu",module,Magento_Catalog
 "Expand All","Izvērst visu",module,Magento_Catalog
 "Use Default Value","Izmantot noklusēto vērtību",module,Magento_Catalog
 "Manage Titles (Size, Color, etc.)","Pārvaldīt nosaukumus (Krāsa, Izmērs, u.c.)",module,Magento_Catalog
+"Manage Options (values of your attribute)","Pārvaldīt opcijas (Atribūtu vērtības)",module,Magento_Catalog
 "Is Default",Noklusētais,module,Magento_Catalog
 "Add Option","Pievienot opciju",module,Magento_Catalog
 "Sort Option","Kārtošanas opcijas",module,Magento_Catalog
@@ -938,6 +949,7 @@ Loading...,Ielādē...,module,Magento_Checkout
 "Save Block","Saglabāt bloku",module,Magento_Cms
 "Delete Block","Dzēst bloku",module,Magento_Cms
 "Save and Continue Edit","Saglabāt un turpināt labot",module,Magento_Cms
+"Edit Block '%1'","Labot bloku '%1'",module,Magento_Cms
 "New Block","Jauns bloks",module,Magento_Cms
 "Block Information","Bloka informācija",module,Magento_Cms
 "General Information","Vispārīga informācija",module,Magento_Cms
@@ -953,6 +965,7 @@ Title,Nosaukums,module,Magento_Cms
 "Add New Page","Pievienot jaunu lapu",module,Magento_Cms
 "Save Page","Saglabāt lapu",module,Magento_Cms
 "Delete Page","Dzēst lapu",module,Magento_Cms
+"Edit Page '%1'","Labot lapu '%1'",module,Magento_Cms
 "New Page","Jauna lapa",module,Magento_Cms
 "Content Heading","Satura galvene",module,Magento_Cms
 "Page Layout","Lapas izkārtojums",module,Magento_Cms
@@ -1537,6 +1550,7 @@ TRUE,PAREIZS,module,Magento_Rule
 FALSE,NEAPREIZS,module,Magento_Rule
 "Conditions Combination","Noteikumu kombinācija",module,Magento_Rule
 "Open Chooser","Atvērt izvēlni",module,Magento_Rule
+"Cart Price Rules","Iepirkuma groza cenu noteikumi",module,Magento_SalesRule
 "Save and Continue Edit","Saglabāt un turpināt labot",module,Magento_SalesRule
 Actions,Darbības,module,Magento_SalesRule
 Apply,Apstiprināt,module,Magento_SalesRule
@@ -2150,6 +2164,7 @@ Forms,Formas,module,Magento_Captcha
 "Case Sensitive",Reģistrjūtīgs,module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Ieslēgt CAPTCHA veikala priekšpusē",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Ja atzīmēts, tad CAPTCHA ir vienmēr ieslēgta priekš ""Izveidot jaunu lietotāju"" un ""Aizmirsta parole"" formām.",module,Magento_Captcha
+"Display products availability in stock on Storefront.","Parādīt produktu pieejamību noliktavā lapas priekšpusē (Storefront).",module,Magento_CatalogInventory
 "Web Site","Mājas lapa",module,Magento_CatalogRule
 "Popular Search Terms","Populārākie meklējumi",module,Magento_CatalogSearch
 "Catalog Search","Kataloga meklēšana",module,Magento_CatalogSearch
@@ -2245,6 +2260,7 @@ Details,"Papildus informācija",module,Magento_Catalog
 "Checkout Options","Pirkuma noformēšanas iespējas",module,Magento_Checkout
 "Enable Onepage Checkout","Ieslēgt vienas lapas pirkuma noformēšanu",module,Magento_Checkout
 "Allow Guest Checkout","Atļaut nereģistrētiem lietotājiem noformēt pirkumu",module,Magento_Checkout
+"Require Customer To Be Logged In To Checkout","Nepieciešams klientam pieslēgties, lai verētu noformēt pasūtijumu",module,Magento_Checkout
 "Shipping Address","Piegādes adrese",module,Magento_Checkout
 "Cart Subtotal","Groza starpsumma",module,Magento_Checkout
 "Thank you for your purchase!","Paldies par pirkumu!",module,Magento_Checkout
