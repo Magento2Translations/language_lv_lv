@@ -1586,6 +1586,7 @@ Price,Cena,module,Magento_Paypal
 Qty,Skaits,module,Magento_Paypal
 Subtotal,Starpsumma,module,Magento_Paypal
 Continue,Turpināt,module,Magento_Paypal
+"Not you?","Ne Jūs?",module,Magento_Persistent
 Price:,Cena:,module,Magento_ProductAlert
 Url,URL,module,Magento_ProductVideo
 Title,Nosaukums,module,Magento_ProductVideo
@@ -1772,6 +1773,7 @@ TRUE,PAREIZS,module,Magento_Rule
 FALSE,NEAPREIZS,module,Magento_Rule
 "Conditions Combination","Noteikumu kombinācija",module,Magento_Rule
 "Open Chooser","Atvērt izvēlni",module,Magento_Rule
+"Cart Price Rules","Iepirkuma groza cenu noteikumi",module,Magento_SalesRule
 "Save and Continue Edit","Saglabāt un turpināt labot",module,Magento_SalesRule
 Actions,Darbības,module,Magento_SalesRule
 Apply,Apstiprināt,module,Magento_SalesRule
@@ -1900,6 +1902,7 @@ Actions,Darbības,module,Magento_Sales
 Close,Aizvērt,module,Magento_Sales
 "Add to Cart","Pievienot grozam",module,Magento_Sales
 Search,Meklēt,module,Magento_Sales
+"Search Term","Meklēšanas termins",module,Magento_Search
 Results,Rezultāti,module,Magento_Search
 Uses,Lieto,module,Magento_Search
 "Search Terms","Meklēšanas termini",module,Magento_Search
@@ -1914,6 +1917,7 @@ Store,Veikals,module,Magento_Search
 Reports,Atskaites,module,Magento_Search
 "Search entire store here...","Meklēt visā veikalā...",module,Magento_Search
 "There are no search terms available.","Nav pieejami meklēšanas termini.",module,Magento_Search
+"Page not found.","Lapa nav atrasta.",module,Magento_SendFriend
 "The link to a friend was sent.","Saite draugam tika nosūtīta.",module,Magento_SendFriend
 "Some emails were not sent.","Atsevišķi e-pasti netika nosūtīti.",module,Magento_SendFriend
 "Invalid Sender Information","Nederīga nosūtītāja informācija",module,Magento_SendFriend
@@ -3003,6 +3007,7 @@ Debug,Atkļūdot,module,Magento_Usps
 "Sort Order","Kārtošanas secība",module,Magento_Usps
 "Variable ID","Mainīgā ID",module,Magento_Variable
 Name,Nosaukums,module,Magento_Variable
+"Web API Security","Web API drošība",module,Magento_WebapiSecurity
 "SOAP Settings","SOAP iestatījumi",module,Magento_Webapi
 "Default Response Charset","Noklusētais atbildes kodējums",module,Magento_Webapi
 "If empty, UTF-8 will be used.","Ja tukšs, tiks izmantots UTF-8.",module,Magento_Webapi
