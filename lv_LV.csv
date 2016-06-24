@@ -1029,7 +1029,6 @@ State/Province,Štats/Province,module,Magento_Checkout
 "My Cart (1 item)","Mans grozs (1 prece)",module,Magento_Checkout
 "My Cart (%1 items)","Mans grozs (%1 preces)",module,Magento_Checkout
 "My Cart","Mans grozs",module,Magento_Checkout
-"Minimum order amount is %1","Minimālais pasūtījuma daudzums ir %1",module,Magento_Checkout
 "Customer is already registered","Klients jau ir reģistrēts",module,Magento_Checkout
 "Your session has expired","Jūsu sesija ir beigusies",module,Magento_Checkout
 "You added %1 to your shopping cart.","Jūs pievienojāt %1 grozam.",module,Magento_Checkout
