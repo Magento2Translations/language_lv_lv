@@ -1377,6 +1377,7 @@ Country,Valsts,module,Magento_Customer
 Email,E-pasts,module,Magento_Customer
 "New Password","Jauna parole",module,Magento_Customer
 Save,Saglabāt,module,Magento_Customer
+"Create an Account",Reģistrēties,module,Magento_Customer
 Name,Vārds,module,Magento_Customer
 "Cannot switch into given mode ""%1""","Nevar pārslēgties nepiciešamajā režīmā ""%1""",module,Magento_Deploy
 "Format for IDE '%1' is not supported","IDE formāts '%1'netiek atbalstīts",module,Magento_Developer
