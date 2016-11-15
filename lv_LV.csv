@@ -1543,6 +1543,7 @@ No,Nē,module,Magento_LayeredNavigation
 "Filterable (with results)","Filtrējams (ar rezultātiem)",module,Magento_LayeredNavigation
 "Filterable (no results)","Filtrējams (bez rezultātiem)",module,Magento_LayeredNavigation
 Position,Pozīcija,module,Magento_LayeredNavigation
+"Now Shopping by","Atlasīts pēc",module,Magento_LayeredNavigation
 Previous,Iepriekšējais,module,Magento_LayeredNavigation
 Remove,Dzēst,module,Magento_LayeredNavigation
 "Remove This Item","Nodzēst šo vienību",module,Magento_LayeredNavigation
@@ -2437,7 +2438,7 @@ Back,Atpakaļ,module,Magento_Wishlist
 "Remove This Item","Nodzēst šo vienību",module,Magento_Wishlist
 "Go to Wish List","Iet uz Vēlmju sarakstu",module,Magento_Wishlist
 "You have no items in your wish list.","Jums nav produktu Vēlmju sarakstā.",module,Magento_Wishlist
-"Now Shopping by","Tagad iepērkas pēc",theme,frontend/Magento/luma
+"Now Shopping by","Atlasīts pēc",theme,frontend/Magento/luma
 Previous,Iepriekšējais,theme,frontend/Magento/luma
 Remove,Dzēst,theme,frontend/Magento/luma
 "Remove This Item","Nodzēst Šo Vienību",theme,frontend/Magento/luma
