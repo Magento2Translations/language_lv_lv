@@ -1498,6 +1498,7 @@ Email,E-pasts,module,Magento_Customer
 Save,Saglabāt,module,Magento_Customer
 Submit,Sūtīt,module,Magento_Customer
 Login,Lietotājvārds,module,Magento_Customer
+"Create an Account",Reģistrēties,module,Magento_Customer
 Name,Vārds,module,Magento_Customer
 "Cannot switch into given mode ""%1""","Nevar pārslēgties nepiciešamajā režīmā ""%1""",module,Magento_Deploy
 "Format for IDE '%1' is not supported","IDE formāts '%1'netiek atbalstīts",module,Magento_Developer
@@ -1662,6 +1663,7 @@ All,Visi,module,Magento_Integration
 "Filterable (no results)","Filtrējams (bez rezultātiem)",module,Magento_LayeredNavigation
 No,Nē,module,Magento_LayeredNavigation
 Position,Pozīcija,module,Magento_LayeredNavigation
+"Now Shopping by","Atlasīts pēc",module,Magento_LayeredNavigation
 Previous,Iepriekšējais,module,Magento_LayeredNavigation
 Remove,Dzēst,module,Magento_LayeredNavigation
 "Remove This Item","Nodzēst šo vienību",module,Magento_LayeredNavigation
@@ -2161,6 +2163,7 @@ Yes,Jā,module,Magento_Search
 Store,Veikals,module,Magento_Search
 "Redirect URL","Novirzīšanas URL",module,Magento_Search
 Reports,Atskaites,module,Magento_Search
+"Search Terms Report","Meklēto atslēgvārdu pārskats",module,Magento_Search
 "Search entire store here...","Meklēt visā veikalā...",module,Magento_Search
 "There are no search terms available.","Nav pieejami meklēšanas termini.",module,Magento_Search
 "Page not found.","Lapa nav atrasta.",module,Magento_SendFriend
@@ -2538,7 +2541,7 @@ Back,Atpakaļ,module,Magento_Wishlist
 "Go to Wish List","Iet uz Vēlmju sarakstu",module,Magento_Wishlist
 "You have no items in your wish list.","Jums nav produktu Vēlmju sarakstā.",module,Magento_Wishlist
 "Are you sure you want to remove this product from your Wish List?","Vai vēlaties dzēst šo produktu no Vēlmju saraksta?",module,Magento_Wishlist
-"Now Shopping by","Tagad iepērkas pēc",theme,frontend/Magento/luma
+"Now Shopping by","Atlasīts pēc",theme,frontend/Magento/luma
 Previous,Iepriekšējais,theme,frontend/Magento/luma
 Remove,Dzēst,theme,frontend/Magento/luma
 "Remove This Item","Nodzēst Šo Vienību",theme,frontend/Magento/luma
@@ -3028,7 +3031,7 @@ Status,Statuss,module,Magento_ConfigurableProduct
 Thumbnail,Sīktēls,module,Magento_ConfigurableProduct
 System,Sistēma,module,Magento_ConfigurableProduct
 Contacts,Kontakti,module,Magento_Contact
-"Contact Us","Sazinieties ar mums",module,Magento_Contact
+"Contact Us",Kontakti,module,Magento_Contact
 "Enable Contact Us","Ieslēgt Sazināties ar mums",module,Magento_Contact
 "Email Options","E-pasta opcijas",module,Magento_Contact
 "Send Emails To","Sūtīt e-pastus",module,Magento_Contact
