@@ -2037,6 +2037,7 @@ Yes,Jā,module,Magento_Search
 Store,Veikals,module,Magento_Search
 "Redirect URL","Novirzīšanas URL",module,Magento_Search
 Reports,Atskaites,module,Magento_Search
+"Search Terms Report","Meklēto atslēgvārdu pārskats",module,Magento_Search
 "All Websites","Visas lapas",module,Magento_Search
 Delete,Dzēst,module,Magento_Search
 "Search entire store here...","Meklēt visā veikalā...",module,Magento_Search
@@ -2999,7 +3000,7 @@ Enable,Ieslēgt,module,Magento_Cms
 Thumbnail,Sīktēls,module,Magento_ConfigurableProduct
 System,Sistēma,module,Magento_ConfigurableProduct
 Contacts,Kontakti,module,Magento_Contact
-"Contact Us","Sazinieties ar mums",module,Magento_Contact
+"Contact Us",Kontakti,module,Magento_Contact
 "Enable Contact Us","Ieslēgt Sazināties ar mums",module,Magento_Contact
 "Email Options","E-pasta opcijas",module,Magento_Contact
 "Send Emails To","Sūtīt e-pastus",module,Magento_Contact
@@ -3170,6 +3171,7 @@ Frequency,Biežums,module,Magento_ProductAlert
 "Error Email Recipient","E-pasta saņēmēja kļūda",module,Magento_ProductAlert
 "Error Email Sender","E-pasta sūtītāja kļūda",module,Magento_ProductAlert
 "Error Email Template","E-pasta šablona kļūda",module,Magento_ProductAlert
+"Search Terms","Meklētie atslēgvārdi",module,Magento_Reports
 "Recently Viewed/Compared Products","Nesen apskatītie/salīdzinātie produkti",module,Magento_Reports
 "Show for Current","Rādīt patreizējam",module,Magento_Reports
 "Default Recently Viewed Products Count","Noklusētais nesen apskatīto produktu skaits",module,Magento_Reports
