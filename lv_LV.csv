@@ -2287,7 +2287,7 @@ Template,Šablons,module,Magento_Cms
 Block,Bloks,module,Magento_Cms
 "CMS Static Block Default Template","CMS statiskā bloka noklusētais šablons",module,Magento_Cms
 Contacts,Kontakti,module,Magento_Contact
-"Contact Us","Sazinieties ar mums",module,Magento_Contact
+"Contact Us",Kontakti,module,Magento_Contact
 "Enable Contact Us","Ieslēgt Sazināties ar mums",module,Magento_Contact
 "Email Options","E-pasta opcijas",module,Magento_Contact
 "Send Emails To","Sūtīt e-pastus",module,Magento_Contact
