@@ -1616,6 +1616,8 @@ Preview,Priekšskatītījums,module,Magento_Newsletter
 "Template Styles","Šablona stili",module,Magento_Newsletter
 "No Templates Found","Nav atrasti šabloni",module,Magento_Newsletter
 Template,Šablons,module,Magento_Newsletter
+Added,Pievienots,module,Magento_Newsletter
+Updated,Atjaunināts,module,Magento_Newsletter
 Sender,Sūtītājs,module,Magento_Newsletter
 "Template Type","Šablona veids",module,Magento_Newsletter
 Action,Darbība,module,Magento_Newsletter
@@ -1638,6 +1640,7 @@ Cancelled,Atcelts,module,Magento_Newsletter
 "Not Sent","Nav nosūtīts",module,Magento_Newsletter
 Sending,Sūta,module,Magento_Newsletter
 Paused,Apturēts,module,Magento_Newsletter
+"Duplicate template code","Dubults šablona kods",module,Magento_Newsletter
 "Newsletter Message Preview","Jaunumu ziņas priekšskats",module,Magento_Newsletter
 "Add to Queue","Pievienot rindai",module,Magento_Newsletter
 "Are you sure that you want to strip all tags?","Vai tiešām vēlaties noņemt visus tagus?",module,Magento_Newsletter
@@ -2955,7 +2958,14 @@ Details,"Papildus informācija",module,Magento_Catalog
 "Checkout Options","Pirkuma noformēšanas iespējas",module,Magento_Checkout
 "Enable Onepage Checkout","Ieslēgt vienas lapas pirkuma noformēšanu",module,Magento_Checkout
 "Allow Guest Checkout","Atļaut nereģistrētiem lietotājiem noformēt pirkumu",module,Magento_Checkout
+"My Cart Link","Mana groza saite",module,Magento_Checkout
+"Display Cart Summary","Rādīt groza kopsavilkumu",module,Magento_Checkout
+"Separate by "","".","Atdali ar "","".",module,Magento_Checkout
+Summary,Kopsavilkums,module,Magento_Checkout
 "Order Total","Pirkuma summa",module,Magento_Checkout
+Payment,Apmaksa,module,Magento_Checkout
+"Not yet calculated","Vēl nav aprēķināts",module,Magento_Checkout
+"We received your order!","Mēs saņēmām jūsu pasūtījumu!",module,Magento_Checkout
 "Thank you for your purchase!","Paldies par pirkumu!",module,Magento_Checkout
 "Content Management","Satura pārvaldība",module,Magento_Cms
 "CMS Home Page","CMS mājas lapa",module,Magento_Cms
@@ -3097,6 +3107,7 @@ Options,Opcijas,module,Magento_Multishipping
 "Allow Shipping to Multiple Addresses","Atļaut piegādi uz vairākām adresēm",module,Magento_Multishipping
 "Maximum Qty Allowed for Shipping to Multiple Addresses","Maksimālais skaits piegādei uz vairākām adresēm",module,Magento_Multishipping
 General,Vispārīgi,module,Magento_NewRelicReporting
+"Newsletter Section","Jaunumu sadaļa",module,Magento_Newsletter
 "Subscription Options","Pierakstīšanās opcijas",module,Magento_Newsletter
 "Allow Guest Subscription","Atļaut viesu pierakstīšanos",module,Magento_Newsletter
 "Need to Confirm","Nepieciešama apstiprināšana",module,Magento_Newsletter
