@@ -27,11 +27,15 @@ notice,paziņojums,module,Magento_AdminNotification
 "Wrong message type","Nepareizs ziņas veids",module,Magento_AdminNotification
 "Wrong notification ID specified.","Norādīts nepareizs paziņojuma ID.",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Ejiet uz <a href=""%1"">Keša pārvaldība</a> un atjaunojiet keša veidus.",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","Nav iespējams sinhronizēt vienu vai vairākus mēdiju failus. Varāk informācijas log failā.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Mēdiju failu sinhronizācija ir pabeigta.",module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","Nav pareizi nokonfigurēts web serveris, tas ļauj piekļūt sensitīviem failiem. Sazinieties ar savu hostinga kompāniju.",module,Magento_AdminNotification
+"System Messages:","Sistēmas paziņojumi:",module,Magento_AdminNotification
 "Critical System Messages","Kristiski sistēmas paziņojumi",module,Magento_AdminNotification
 "Major System Messages","Svarīgi sistēmas paziņojumi",module,Magento_AdminNotification
 "System messages","Sistēmas paziņojumi",module,Magento_AdminNotification
 Close,Aizvērt,module,Magento_AdminNotification
+"See All (","Skatīt visas (",module,Magento_AdminNotification
 "Please correct the data sent.","Izlabojiet nosūtītos datus.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","Produkta veida modelis '%1' nav atrasts",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Produkta veida modelim jābūt piemēram
@@ -560,8 +564,10 @@ Qty,Skaits,module,Magento_CatalogInventory
 Reset,Notīrīt,module,Magento_CatalogRule
 "Save and Continue Edit","Saglabāt un turpināt labot",module,Magento_CatalogRule
 Save,Saglabāt,module,Magento_CatalogRule
+Conditions,Nosacījumi,module,Magento_CatalogRule
 "Conditions (don't add conditions if rule is applied to all products)","Nosacijumi (nepievienojiet nosacijumus, ja noteikums paredzēts visiem produktiem)",module,Magento_CatalogRule
 Type,Veids,module,Magento_CatalogRule
+"Attribute Set","Atribūtu kopa",module,Magento_CatalogRule
 SKU,Artikuls,module,Magento_CatalogRule
 Product,Produkts,module,Magento_CatalogRule
 "We can't apply the rules.","Mēs nevar piemērot noteikumus.",module,Magento_CatalogRule
@@ -570,6 +576,7 @@ Product,Produkts,module,Magento_CatalogRule
 Catalog,Katalogs,module,Magento_CatalogRule
 "We can't rebuild the index for an undefined product.","Nevar pārbūvēt indeksus nedefinētam produktam.",module,Magento_CatalogRule
 "Conditions Combination","Noteikumu kombinācija",module,Magento_CatalogRule
+"Product Attribute","Produkta atribūts",module,Magento_CatalogRule
 Home,Sākums,module,Magento_CatalogSearch
 "Go to Home Page","Iet uz sākumlapu",module,Magento_CatalogSearch
 "Catalog Advanced Search","Kataloga paplašinātā meklēšana",module,Magento_CatalogSearch
@@ -779,6 +786,7 @@ Categories,Kategorijas,module,Magento_Catalog
 "Please make sure to define SKU values for all processed products.","Pārliecinieties ka nodefinējāt artikulus visiem procesētajiem produktiem.",module,Magento_Catalog
 "A total of %1 record(s) were updated.","Kopā atjaunots %1 ieraksts(i).",module,Magento_Catalog
 "Something went wrong while updating the product(s) attributes.","Kļūda atjaunojot produktu atribūtus.",module,Magento_Catalog
+"Unable to add attribute","Nevar pievienot atribūtu",module,Magento_Catalog
 Catalog,Katalogs,module,Magento_Catalog
 "Manage Product Attributes","Pārvaldīt produktu atribūtus",module,Magento_Catalog
 "We can't delete the attribute.","Nevar nodzēst atribūtu.",module,Magento_Catalog
@@ -794,6 +802,7 @@ Catalog,Katalogs,module,Magento_Catalog
 "An attribute with this code already exists.","Atribūts ar šādu kodu jau eksistē.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Atribūts ar tādu pašu kodu (%1) jau eksistē.",module,Magento_Catalog
 "You duplicated the product.","Produkts ir duplicēts.",module,Magento_Catalog
+"This product doesn't exist.","Šāds produkts neeksistē.",module,Magento_Catalog
 Products,Produkti,module,Magento_Catalog
 "A group with the same name already exists.","Grupa ar šādu nosaukumu jau eksistē.",module,Magento_Catalog
 "Something went wrong while saving this group.","Kļūda saglabājot šo grupu.",module,Magento_Catalog
@@ -977,9 +986,13 @@ Dropdown,"Nolaižamā izvēlne",module,Magento_Catalog
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 nepaplašina \Magento\Framework\Filter\Template",module,Magento_Catalog
 "As low as","Samazināt līdz",module,Magento_Catalog
 message,ziņa,module,Magento_Catalog
+Images,Attēli,module,Magento_Catalog
 Select...,Izvēlēties...,module,Magento_Catalog
 "Customer Group","Klientu grupa",module,Magento_Catalog
 To,Kam,module,Magento_Catalog
+Done,Gatavs,module,Magento_Catalog
+"Add Selected","Pievienot atlasītos",module,Magento_Catalog
+"Create New Attribute","Izveidot jaunu atribūtu",module,Magento_Catalog
 "Add Option","Pievienot opciju",module,Magento_Catalog
 "New Option","Jauna opcija",module,Magento_Catalog
 "Select Product","Izvēlēties produktu",module,Magento_Catalog
@@ -991,9 +1004,12 @@ Required,Obligāts,module,Magento_Catalog
 "Compatible File Extensions","Derīgi failu paplašinājumi",module,Magento_Catalog
 "Maximum Image Size","Maksimālais attēla lielums",module,Magento_Catalog
 "Please leave blank if it is not an image.","Atstājiet tukšu ja tas nav attēls.",module,Magento_Catalog
+Remove,Dzēst,module,Magento_Catalog
 Thumbnail,Sīktēls,module,Magento_Catalog
 Actions,Darbības,module,Magento_Catalog
 "Schedule Update From","Grafiks atjaunojas no",module,Magento_Catalog
+name,nosaukums,module,Magento_Catalog
+"Copy Data from","Kopēt datus no",module,Magento_Catalog
 "This operation can take a long time","Šī operācija var aizņemt daudz laika",module,Magento_Catalog
 "Collapse All","Atvērt visu",module,Magento_Catalog
 "Expand All","Izvērst visu",module,Magento_Catalog
@@ -1054,6 +1070,8 @@ Action,Darbība,module,Magento_Catalog
 Hidden,Slēpts,module,Magento_Catalog
 "Alt Text","Alt teksts",module,Magento_Catalog
 Role,Loma,module,Magento_Catalog
+"Image Size","Attēla lielums",module,Magento_Catalog
+"Image Resolution","Attēla izšķirtspēja",module,Magento_Catalog
 "Hide from Product Page","Slēpt no produkta lapas",module,Magento_Catalog
 "Product Alerts","Produktu brīdinājumi",module,Magento_Catalog
 "Allow Multiple Boxes for Shipping","Atļaut vairākas kastes piegādei",module,Magento_Catalog
@@ -1326,7 +1344,10 @@ System,Sistēma,module,Magento_CurrencySymbol
 "Sign Out",Izrakstīties,module,Magento_Customer
 "Sign In",Pieteikties,module,Magento_Customer
 "Address Book","Adresu grāmata",module,Magento_Customer
+region,reģions,module,Magento_Customer
 "Create Order","Izveidot pasūtījumu",module,Magento_Customer
+"Save Customer","Saglabāt klientu",module,Magento_Customer
+"New Customer","Jauns klients",module,Magento_Customer
 "Save and Continue Edit","Saglabāt un turpināt labot",module,Magento_Customer
 Back,Atpakaļ,module,Magento_Customer
 "Please select",Izvēlieties,module,Magento_Customer
@@ -1340,6 +1361,8 @@ Action,Darbība,module,Magento_Customer
 Configure,Konfigurēt,module,Magento_Customer
 Delete,Dzēst,module,Magento_Customer
 Newsletter,Jaunumi,module,Magento_Customer
+"Start date","Sākuma datums",module,Magento_Customer
+"End Date","Beigu datums",module,Magento_Customer
 Subject,Tēma,module,Magento_Customer
 Status,Statuss,module,Magento_Customer
 Sent,Nosūtīts,module,Magento_Customer
@@ -1348,18 +1371,56 @@ Cancel,Atcelt,module,Magento_Customer
 Sending,Sūta,module,Magento_Customer
 Paused,Apturēts,module,Magento_Customer
 View,Skatīt,module,Magento_Customer
+Unknown,Nezināms,module,Magento_Customer
+Purchased,Nopirkts,module,Magento_Customer
 Qty,Skaits,module,Magento_Customer
+Confirmed,Apstiprināts,module,Magento_Customer
+"Confirmation Required","Nepieciešams apstiprinājums",module,Magento_Customer
+"Confirmation Not Required","Nav nepieciešams apstiprinājums",module,Magento_Customer
 Never,Nekad,module,Magento_Customer
+Locked,Slēgts,module,Magento_Customer
+"Add Date","Pievienot datumu",module,Magento_Customer
+Unlock,Atbloķēt,module,Magento_Customer
 No,Nē,module,Magento_Customer
 Yes,Jā,module,Magento_Customer
 "Delete File","Dzēst failu",module,Magento_Customer
 Download,Lejupielādēt,module,Magento_Customer
+"Delete Image","Dzēst attēlu",module,Magento_Customer
+"View Full Size","Apskatīt pilnā lielumā",module,Magento_Customer
+"All countries","Visas valstis",module,Magento_Customer
 "Customer Groups","Klientu grupas",module,Magento_Customer
+"Add New Customer Group","Pievienot jaunu klientu grupu",module,Magento_Customer
+"Save Customer Group","Saglabāt klientu grupu",module,Magento_Customer
+"Bad request.","Nepareizs pieprasījums.",module,Magento_Customer
+"Wrong email.","Nepareizs e-pasts.",module,Magento_Customer
 "Account Information","Konta informācija",module,Magento_Customer
+"Please enter your email.","Lūdzu, ievadiet savu e-pastu.",module,Magento_Customer
+"My Account","Mans konts",module,Magento_Customer
 Customers,Klienti,module,Magento_Customer
+"Edit Group","Labot grupu",module,Magento_Customer
 "Please correct the data sent.","Izlabojiet nosūtītos datus.",module,Magento_Customer
+"Please enter the first name.","Lūdzu, ievadiet vārdu.",module,Magento_Customer
+"Please enter the last name.","Lūdzu, ievadiet uzvārdu.",module,Magento_Customer
+"Please enter the street.","Lūdzu, ievadiet ielu.",module,Magento_Customer
+"Please enter the city.","Lūdzu, ievadiet pilsētu.",module,Magento_Customer
+"Please enter the phone number.","Lūdzu, ievadiet tālruņa numuru.",module,Magento_Customer
+"Please enter the zip/postal code.","Lūdzu, ievadiet pasta indeksu.",module,Magento_Customer
+"Please enter the country.","Lūdzu, ievadiet valsti.",module,Magento_Customer
+Global,Globāls,module,Magento_Customer
 "Shipping Address","Piegādes adreses",module,Magento_Customer
 "-- Please Select --","-- Lūdzu, izvēlieties --",module,Magento_Customer
+Admin,Administrators,module,Magento_Customer
+"ALL GROUPS","VISAS GRUPAS",module,Magento_Customer
+label,birka,module,Magento_Customer
+"Customer Group","Klientu grupa",module,Magento_Customer
+"VAT Number is valid.","PVN reģistrācijas numurs ir derīgs.",module,Magento_Customer
+"You will be charged tax.","Jums būs jāmaksā nodoklis.",module,Magento_Customer
+"You will not be charged tax.","Jums nebūs jāmaksā nodoklis.",module,Magento_Customer
+Male,Vīrietis,module,Magento_Customer
+Female,Sieviete,module,Magento_Customer
+message,ziņa,module,Magento_Customer
+"some error","nenoteikta kļūda",module,Magento_Customer
+Select...,Izvēlēties...,module,Magento_Customer
 Edit,Labot,module,Magento_Customer
 Customer,Klients,module,Magento_Customer
 "No item specified.","Nav norādīts produkts.",module,Magento_Customer
@@ -1367,16 +1428,35 @@ Customer,Klients,module,Magento_Customer
 "Web Site","Mājas lapa",module,Magento_Customer
 Store,Veikals,module,Magento_Customer
 "Store View","Veikala skats",module,Magento_Customer
+Change,Mainīt,module,Magento_Customer
+"Manage Addresses","Pārvaldīt adreses",module,Magento_Customer
 "Default Shipping Address","Piegādes adrese pēc noklusējuma",module,Magento_Customer
 "Contact Information",Kontaktinformācija,module,Magento_Customer
+"Change Password","Mainīt paroli",module,Magento_Customer
+Newsletters,Jaunumi,module,Magento_Customer
+or,vai,module,Magento_Customer
+"Delete Address","Dzēst adresi",module,Magento_Customer
 "* Required Fields","* obligātie lauki",module,Magento_Customer
+"Phone Number","Tālruņa numurs",module,Magento_Customer
+Fax,Fakss,module,Magento_Customer
+Address,Adrese,module,Magento_Customer
 "Street Address",Adrese,module,Magento_Customer
+"VAT Number","PVN numurs",module,Magento_Customer
 City,Pilsēta,module,Magento_Customer
 State/Province,Štats/Province,module,Magento_Customer
+"Please select a region, state or province.","Izvēlieties reģionu, štatu vai novadu.",module,Magento_Customer
+"Zip/Postal Code","Pasta indekss",module,Magento_Customer
 Country,Valsts,module,Magento_Customer
+"Save Address","Saglabāt adresi",module,Magento_Customer
 Email,E-pasts,module,Magento_Customer
+"Current Password","Pašreizējā parole",module,Magento_Customer
 "New Password","Jauna parole",module,Magento_Customer
+"No Password","Nav paroles",module,Magento_Customer
+"Confirm New Password","Apstipriniet jauno paroli",module,Magento_Customer
 Save,Saglabāt,module,Magento_Customer
+Password,Parole,module,Magento_Customer
+"Forgot Your Password?","Aizmirsāt paroli?",module,Magento_Customer
+"Confirm Password","Apstiprināt paroli",module,Magento_Customer
 "Create an Account",Reģistrēties,module,Magento_Customer
 Name,Vārds,module,Magento_Customer
 "Cannot switch into given mode ""%1""","Nevar pārslēgties nepiciešamajā režīmā ""%1""",module,Magento_Deploy
@@ -1717,6 +1797,7 @@ Price:,Cena:,module,Magento_ProductAlert
 Url,URL,module,Magento_ProductVideo
 Title,Nosaukums,module,Magento_ProductVideo
 Description,Apraksts,module,Magento_ProductVideo
+"Coupon code is not valid","Kupona kods nav derīgs",module,Magento_Quote
 "Grand Total",Kopsumma,module,Magento_Quote
 Shipping,Piegāde,module,Magento_Quote
 Subtotal,Starpsumma,module,Magento_Quote
@@ -1926,7 +2007,9 @@ is,ir,module,Magento_SalesRule
 "Entity Sequence profile not added to meta active profile","Elementa sekvences profils nav pievienots meta aktīvajam profilam",module,Magento_SalesSequence
 "Not enough arguments","Nepietiekams argumentu daudzums",module,Magento_SalesSequence
 Orders,Pasūtījumi,module,Magento_Sales
+"Create New Order","Izveidot jaunu pasūtījumu",module,Magento_Sales
 Shipping,Piegāde,module,Magento_Sales
+"Submit Order","Noformēt pasūtījumu",module,Magento_Sales
 Cancel,Atcelt,module,Magento_Sales
 "Payment Method","Apmaksas veids",module,Magento_Sales
 Coupons,Kuponi,module,Magento_Sales
@@ -1939,12 +2022,15 @@ Configure,Konfigurēt,module,Magento_Sales
 Product,Produkts,module,Magento_Sales
 SKU,Artikuls,module,Magento_Sales
 Price,Cena,module,Magento_Sales
+Select,Izvēlēties,module,Magento_Sales
 Quantity,Skaits,module,Magento_Sales
 "Shipping Address","Piegādes adrese",module,Magento_Sales
+"Shipping Method","Piegādes veids",module,Magento_Sales
 "Shopping Cart",Grozs,module,Magento_Sales
 "Recently Compared Products","Nesen salīdzinātie produkti",module,Magento_Sales
 "Recently Viewed Products","Nesen apskatītie produkti",module,Magento_Sales
 "Recently Viewed","Nesen apskatītie",module,Magento_Sales
+"Wish List","Vēlmju saraksts",module,Magento_Sales
 "Send Email","Sūtīt e-pastu",module,Magento_Sales
 "Order Status","Pasūtījuma statuss",module,Magento_Sales
 "New Order Status","Jauna pasūtījuma statuss",module,Magento_Sales
@@ -2033,16 +2119,28 @@ Reset,Notīrīt,module,Magento_Search
 "Save and Continue Edit","Saglabāt un turpināt labot",module,Magento_Search
 Search,Meklēt,module,Magento_Search
 "Add New Search Term","Pievienot jaunu meklēšanas terminu",module,Magento_Search
+"Save Search","Saglabāt meklēšanu",module,Magento_Search
+"Delete Search","Dzēst meklēšanu",module,Magento_Search
+"New Search","Jauna meklēšana",module,Magento_Search
+"Search Information","Meklēšanas informācija",module,Magento_Search
 "General Information","Vispārīga informācija",module,Magento_Search
 No,Nē,module,Magento_Search
 Yes,Jā,module,Magento_Search
 "Search Query","Meklēšanas pieprasījumi",module,Magento_Search
 Store,Veikals,module,Magento_Search
+"Number of results","Rezultātu skaits",module,Magento_Search
+"Number of results (For the last time placed)","Rezultātu skaits (pēdējo reizi ievietojot)",module,Magento_Search
+"For the last time placed.","Pēdējo reizi ievietots.",module,Magento_Search
+"Number of Uses","Lietojumu skaits",module,Magento_Search
 "Redirect URL","Novirzīšanas URL",module,Magento_Search
+Marketing,Mārketings,module,Magento_Search
+"This search no longer exists.","Šī meklēšana vairs nepastāv.",module,Magento_Search
 Reports,Atskaites,module,Magento_Search
 "Search Terms Report","Meklēto atslēgvārdu pārskats",module,Magento_Search
 "All Websites","Visas lapas",module,Magento_Search
+"All Store Views","Visi veikala skati",module,Magento_Search
 Delete,Dzēst,module,Magento_Search
+View/Edit,Skatīt/Labot,module,Magento_Search
 "Search entire store here...","Meklēt visā veikalā...",module,Magento_Search
 "There are no search terms available.","Nav pieejami meklēšanas termini.",module,Magento_Search
 "Account Activity","Konta aktivitāte",module,Magento_Security
@@ -2140,6 +2238,9 @@ Generate,Ģenerēt,module,Magento_Sitemap
 "Add Sitemap","Pievienot lapas karti",module,Magento_Sitemap
 Catalog,Katalogs,module,Magento_Sitemap
 "This sitemap no longer exists.","Lapas karte vairs neeksistē.",module,Magento_Sitemap
+"Site Map","Lapas karte",module,Magento_Sitemap
+"New Site Map","Jauna lapas karte",module,Magento_Sitemap
+"The sitemap ""%1"" has been generated.","Lapas karte ""%1"" tika ģenerēta.",module,Magento_Sitemap
 "The priority must be between 0 and 1.","Prioritātei jābūt starp 0 un 1.",module,Magento_Sitemap
 Always,Vienmēr,module,Magento_Sitemap
 Hourly,"Katru stundu",module,Magento_Sitemap
@@ -2150,7 +2251,10 @@ Yearly,"Katru gadu",module,Magento_Sitemap
 Never,Nekad,module,Magento_Sitemap
 None,Neviens,module,Magento_Sitemap
 All,Visi,module,Magento_Sitemap
+"Current store is not active.","Pašreizējais veikals nav aktīvs.",module,Magento_Store
 "-- Please Select --","-- Lūdzu, izvēlieties --",module,Magento_Store
+Admin,Administrators,module,Magento_Store
+Language,Valoda,module,Magento_Store
 Delete,Dzēst,module,Magento_Swatches
 Clear,Notīrīt,module,Magento_Swatches
 Options,Opcijas,module,Magento_Swatches
@@ -2192,14 +2296,28 @@ None,Neviens,module,Magento_Tax
 "Excl. Tax","Bez PVN",module,Magento_Tax
 Save,Saglabāt,module,Magento_Tax
 Back,Atpakaļ,module,Magento_Theme
+"Save and Continue","Saglabāt un turpināt",module,Magento_Theme
+Default,Noklusētais,module,Magento_Theme
+Themes,Tēmas,module,Magento_Theme
 "Save and Continue Edit","Saglabāt un turpināt labot",module,Magento_Theme
+"New Theme","Jauna tēma",module,Magento_Theme
+Manage,Pārvaldīt,module,Magento_Theme
+"Upload Images","Augšupielādēt attēlus",module,Magento_Theme
+"Edit custom.css","Labot custom.css",module,Magento_Theme
+"CSS Editor","CSS redaktors",module,Magento_Theme
+"Theme Settings","Tēmu iestatījumi",module,Magento_Theme
+"Theme Title","Tēmas nosaukums",module,Magento_Theme
 General,Vispārīgi,module,Magento_Theme
+"JS Editor","JS redaktors",module,Magento_Theme
+Theme,Tēma,module,Magento_Theme
 "Media Storage","Mediju uzglabāšana",module,Magento_Theme
+"Create Folder","Izveidot direktoriju",module,Magento_Theme
 "Delete Folder","Dzēst direktoriju",module,Magento_Theme
 "Delete File","Dzēst failu",module,Magento_Theme
 "Insert File","Ievietot failu",module,Magento_Theme
 "New Folder Name:","Jauns direktorijas nosaukums:",module,Magento_Theme
 "Storage Root","Glabāšanas pamatdirektorija",module,Magento_Theme
+Global,Globāls,module,Magento_Theme
 "-- Please Select --","-- Lūdzu, izvēlieties --",module,Magento_Theme
 Message,Ziņa,module,Magento_Theme
 Remove,Dzēst,module,Magento_Theme
@@ -2232,18 +2350,42 @@ Custom,Pielāgots,module,Magento_UrlRewrite
 No,Nē,module,Magento_UrlRewrite
 Back,Atpakaļ,module,Magento_User
 Reset,Notīrīt,module,Magento_User
+"Delete Role","Izdzēst lomu",module,Magento_User
 "Are you sure you want to do this?","Vai tiešām vēlaties to darīt?",module,Magento_User
+"Save Role","Saglabātu lomu",module,Magento_User
+Roles,Lomas,module,Magento_User
+"Add New Role","Pievienot jaunu lomu",module,Magento_User
+"Role Information","Lomas informācija",module,Magento_User
+"Role Users","Lietotāju lomas",module,Magento_User
+"User ID","Lietotāja ID",module,Magento_User
 "User Name",Lietotājvārds,module,Magento_User
 "First Name",Vārds,module,Magento_User
 "Last Name",Uzvārds,module,Magento_User
 Email,E-pasts,module,Magento_User
 Status,Statuss,module,Magento_User
+Active,Aktīvs,module,Magento_User
+Inactive,Neaktīvs,module,Magento_User
+"Role Name","Lomas nosaukums",module,Magento_User
+"Your Password","Jūsu parole",module,Magento_User
+"Add New User","Pievienot jaunu lietotāju",module,Magento_User
+Users,Lietotāji,module,Magento_User
+"Save User","Saglabāt lietotāju",module,Magento_User
+"Delete User","Dzēst lietotāju",module,Magento_User
+"New User","Jauns lietotājs",module,Magento_User
 "Account Information","Konta informācija",module,Magento_User
 "User Email","Lietotāja e-pasts",module,Magento_User
 "New Password","Jauna parole",module,Magento_User
 "Password Confirmation","Paroles apstiprinājums",module,Magento_User
 "Interface Locale","Interfeisa lokalizācija",module,Magento_User
+Role,Loma,module,Magento_User
+"User Information","Lietotāja informācija",module,Magento_User
+"User Info","Lietotāja informācija",module,Magento_User
+"User Role","Lietotāja loma",module,Magento_User
 System,Sistēma,module,Magento_User
+Permissions,"Piekļuves tiesības",module,Magento_User
+"You cannot delete your own account.","Jūs nevarat izdzēst savu kontu.",module,Magento_User
+"Edit User","Labot lietotāju",module,Magento_User
+"New Role","Jauna loma",module,Magento_User
 "Email address","E-pasta adrese",module,Magento_User
 Custom,Pielāgots,module,Magento_User
 All,Visi,module,Magento_User
@@ -2514,6 +2656,7 @@ Next,Nākošais,module,Magento_Checkout
 "Phone Number: %telephone","Tālruņa numurs: %telephone",module,Magento_Contact
 "Comment: %comment","Komentārs: %comment",module,Magento_Contact
 Email:,E-pasts:,module,Magento_Customer
+"Hello,","Sveicināti,",module,Magento_Customer
 "Email Address","E-pasta adrese",module,Magento_Customer
 "Currency Update Warnings","Valūtas atjaunināšanas brīdinājumi",module,Magento_Directory
 To:,Kam:,module,Magento_GiftMessage
@@ -2525,7 +2668,12 @@ Delete,Dzēst,module,Magento_GiftMessage
 "Place Order","Veikt pasūtījumu",module,Magento_Payment
 "Apply Discount Code","Pielietot atlaides kodu",module,Magento_SalesRule
 "Message from %sender_name:","Ziņa no %sender_name:",module,Magento_SendFriend
+Assign,Piešķirt,module,Magento_Ui
 Options,Opcijas,module,Magento_Ui
+"records found","atrasti ieraksti",module,Magento_Ui
+selected,atlasīti,module,Magento_Ui
+of,no,module,Magento_Ui
+Filters,Filtri,module,Magento_Ui
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name vēlas koplietot ar Jums savu Vēlmju sarakstu no %store_name :",module,Magento_Wishlist
 "Message from %customer_name:","Ziņa no %customer_name:",module,Magento_Wishlist
 "View all Wish List items","Skatīt visus Vēlmju saraksta produktus",module,Magento_Wishlist
@@ -2577,6 +2725,8 @@ OK,Labi,module,Magento_Catalog
 "Please select items.","Izvēlieties produktus.",module,Magento_Catalog
 "Choose existing category.","Izvēlēties esošu kategoriju.",module,Magento_Catalog
 "Image Detail","Attēla detaļas",module,Magento_Catalog
+Adding...,Pievienot...,module,Magento_Catalog
+Added,Pievienots,module,Magento_Catalog
 "unselect all","noņemt atlasi visam",module,Magento_Catalog
 "Provided Zip/Postal Code seems to be invalid.","Norādītais pasta indeks nav pareizs.",module,Magento_Checkout
 "Review & Payments","Pārskats un maksājumi",module,Magento_Checkout
@@ -2585,6 +2735,10 @@ Shipping,Piegāde,module,Magento_Checkout
 "Incl. Tax","Ar PVN",module,Magento_ConfigurableProduct
 "We don't recognize or support this file extension type.","Neatbalsta vai neatpazīst šo faila paplašinājumu.",module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","Vai tiešām vēlaties to darīt?",module,Magento_Customer
+Weak,Vāja,module,Magento_Customer
+Medium,Vidēja,module,Magento_Customer
+Strong,Stipra,module,Magento_Customer
+"Very Strong","Ļoti stipra",module,Magento_Customer
 Done,Gatavs,module,Magento_Integration
 "Please choose a payment method.","Izvēlieties maksāšanas veidu.",module,Magento_Multishipping
 Save,Saglabāt,module,Magento_ProductVideo
@@ -2592,10 +2746,23 @@ Cancel,Atcelt,module,Magento_ProductVideo
 Delete,Dzēst,module,Magento_ProductVideo
 "Add Products","Pievienot produktus",module,Magento_Sales
 Ok,Labi,module,Magento_Sales
+Add,Pievienot,module,Magento_Ui
+Yes,Jā,module,Magento_Ui
+No,Nē,module,Magento_Ui
+Done,Gatavs,module,Magento_Ui
+options,opcijas,module,Magento_Ui
+Select...,Izvēlēties...,module,Magento_Ui
+Selected,Izvēlētie,module,Magento_Ui
+"New View","Jauns skats",module,Magento_Ui
+Keyword,Atslēgvārds,module,Magento_Ui
+"Invalid format.","Nederīgs formāts.",module,Magento_Ui
+"Empty Value.","Tukša vērtība.",module,Magento_Ui
 "This is a required field.","Obligāts lauks.",module,Magento_Ui
 OK,Labi,module,Magento_Ui
 Close,Aizvērt,module,Magento_Ui
 Ok,Labi,module,Magento_Ui
+"Show Toolbar","Rādīt rīkjoslu",module,Magento_AdminNotification
+"Show List","Rādīt sarakstu",module,Magento_AdminNotification
 "Use HTTPS to Get Feed","Lietojiet HTTPS lai lietotu plūsmu",module,Magento_AdminNotification
 "Update Frequency","Atjaunošanas biežums",module,Magento_AdminNotification
 "Last Update","Pēdējo reizi atjaunots",module,Magento_AdminNotification
@@ -2808,8 +2975,11 @@ Forms,Formas,module,Magento_Captcha
 "Case Sensitive",Reģistrjūtīgs,module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Ieslēgt CAPTCHA veikala priekšpusē",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Ja atzīmēts, tad CAPTCHA ir vienmēr ieslēgta priekš ""Izveidot jaunu lietotāju"" un ""Aizmirsta parole"" formām.",module,Magento_Captcha
+Rule,Noteikums,module,Magento_CatalogRule
 Start,Sākt,module,Magento_CatalogRule
 Status,Statuss,module,Magento_CatalogRule
+Active,Aktīvs,module,Magento_CatalogRule
+Inactive,Neaktīvs,module,Magento_CatalogRule
 "Web Site","Mājas lapa",module,Magento_CatalogRule
 Back,Atpakaļ,module,Magento_CatalogRule
 Actions,Darbības,module,Magento_CatalogRule
@@ -2836,6 +3006,7 @@ Template,Šablons,module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","Kešatmiņas dzīves ilgums (sekundes)",module,Magento_CatalogWidget
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 pēc noklusējuma, ja nav iestatīts savādāk. Lai atjaunotu, iztīriet HTML bloku kešu.",module,Magento_CatalogWidget
 Conditions,Nosacījumi,module,Magento_CatalogWidget
+"Catalog Section","Kataloga sadaļa",module,Magento_Catalog
 "Product Fields Auto-Generation","Produktu lauku automātiska ģenerācija",module,Magento_Catalog
 "Mask for SKU","Artikula maska",module,Magento_Catalog
 "Use {{name}} as Product Name placeholder","Lietot {{name}} kā Produkta nosaukuma vietturi",module,Magento_Catalog
@@ -2940,11 +3111,17 @@ Anchor,Enkurs,module,Magento_Catalog
 "Products in Category","Produkti kategorijā",module,Magento_Catalog
 Design,Dizains,module,Magento_Catalog
 "Use Parent Category Settings","Lietot augstākas kategorijas iestatījumus",module,Magento_Catalog
+Theme,Tēma,module,Magento_Catalog
 Layout,Izkārtojums,module,Magento_Catalog
 "Layout Update XML","Atjaunot izkārtojuma XML",module,Magento_Catalog
 "Apply Design to Products","Pielietot dizainu produktiem",module,Magento_Catalog
 "Schedule Design Update","Iekļaut dizaina atjaunošanu grafikā",module,Magento_Catalog
 "Product Image Watermarks","Produkta attēlu ūdenszīmes",module,Magento_Catalog
+Image,Attēls,module,Magento_Catalog
+Small,Mazs,module,Magento_Catalog
+"Attribute Properties","Atribūta Īpašības",module,Magento_Catalog
+Values,Vērtības,module,Magento_Catalog
+System,Sistēma,module,Magento_Catalog
 "All Store Views","Visi veikala skati",module,Magento_Catalog
 "Delete items","Dzēst produktus",module,Magento_Catalog
 "Delete selected items?","Izdzēst atlasītos produktus?",module,Magento_Catalog
@@ -3023,6 +3200,8 @@ Contacts,Kontakti,module,Magento_Contact
 "History Cleanup Every","Attīrīt vēsturi katru",module,Magento_Cron
 "Success History Lifetime","Izpildīto uzdevumu uzturēšanas ilgums",module,Magento_Cron
 "Failure History Lifetime","Kļūdu vēstures uzturēšanas ilgums",module,Magento_Cron
+"All Customers","Visi klienti",module,Magento_Customer
+"Default Group","Noklusētā grupa",module,Magento_Customer
 "Email Sender","E-pasta sūtītājs",module,Magento_Customer
 "First Name",Vārds,module,Magento_Customer
 "Last Name",Uzvārds,module,Magento_Customer
@@ -3235,6 +3414,8 @@ Website,"Mājas lapa",module,Magento_Sales
 Refunds,Atmaksas,module,Magento_Sales
 Hits,Klikšķi,module,Magento_Search
 "Are you sure?","Vai esat pārliecināts?",module,Magento_Search
+yes,jā,module,Magento_Search
+no,nē,module,Magento_Search
 Action,Darbība,module,Magento_Search
 Edit,Labot,module,Magento_Search
 "Store View","Veikala skats",module,Magento_Search
@@ -3271,8 +3452,11 @@ Enabled,Ieslēgts,module,Magento_Sitemap
 "Error Email Sender","E-pasta sūtītāja kļūda",module,Magento_Sitemap
 "Error Email Template","E-pasta šablona kļūda",module,Magento_Sitemap
 "Start Time","Sākuma laiks",module,Magento_Sitemap
+"Maximum File Size","Maksimālais faila lielums",module,Magento_Sitemap
+"File size in bytes.","Faila izmērs baitos.",module,Magento_Sitemap
 "Link for Google","Saite priekš Google",module,Magento_Sitemap
 Action,Darbība,module,Magento_Sitemap
+Configuration,Konfigurācija,module,Magento_Store
 "Default Title","Noklusētais nosaukums",module,Magento_Theme
 "Translation Strategy","Tulkošanas stratēģija",module,Magento_Translation
 Translations,Tulkojumi,module,Magento_Translation
