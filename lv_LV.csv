@@ -1634,6 +1634,7 @@ Orders,Pasūtījumi,module,Magento_Sales
 "Create New Order","Izveidot jaunu pasūtījumu",module,Magento_Sales
 "Submit Order","Noformēt pasūtījumu",module,Magento_Sales
 Cancel,Atcelt,module,Magento_Sales
+"Billing Address","Norēķinu Adrese",module,Magento_Sales
 "Payment Method","Apmaksas veids",module,Magento_Sales
 Coupons,Kuponi,module,Magento_Sales
 "Account Information","Konta informācija",module,Magento_Sales
@@ -1729,6 +1730,9 @@ Name,Vārds,module,Magento_SendFriend
 Back,Atpakaļ,module,Magento_SendFriend
 "Custom Value","Pielāgota vērtība",module,Magento_Shipping
 Add,Pievienot,module,Magento_Shipping
+Print,Drukāt,module,Magento_Shipping
+"Cannot add tracking number.","Nevar pievienot sekošanas numuru.",module,Magento_Shipping
+"New Shipment","Jauns sūtījums",module,Magento_Shipping
 "Tracking Information","Izsekošanas informācija",module,Magento_Shipping
 "The shipping module is not available.","Piegādes modulis nav pieejams.",module,Magento_Shipping
 "Divide to equal weight (one request)","Sadalīt svaru vienādās daļās (viens pieprasījums)",module,Magento_Shipping
@@ -1736,20 +1740,26 @@ Add,Pievienot,module,Magento_Shipping
 Packages,Pakas,module,Magento_Shipping
 Package,Paka,module,Magento_Shipping
 Type,Veids,module,Magento_Shipping
+Length,Garums,module,Magento_Shipping
 Width,Platums,module,Magento_Shipping
 Contents,Saturs,module,Magento_Shipping
 Height,Augstums,module,Magento_Shipping
+Size,Izmērs,module,Magento_Shipping
 Product,Produkts,module,Magento_Shipping
 Qty,Skaits,module,Magento_Shipping
 "Per Order","Katrā pasūtījumā",module,Magento_Shipping
 "Per Package","Katrā iepakojumā",module,Magento_Shipping
 Fixed,Fiksēta,module,Magento_Shipping
 Percent,Procenti,module,Magento_Shipping
+"Payment Information","Maksājuma informācija",module,Magento_Shipping
+"Shipping Information","Piegādes informācija",module,Magento_Shipping
 "Incl. Tax","Ar PVN",module,Magento_Shipping
+Ship,Piegādāt,module,Magento_Shipping
 "Select All","Izvēlēties visu",module,Magento_Shipping
 "Product Name","Produkta nosaukums",module,Magento_Shipping
 Delete,Dzēst,module,Magento_Shipping
 Cancel,Atcelt,module,Magento_Shipping
+Carrier,Pārvadātājs,module,Magento_Shipping
 Title,Nosaukums,module,Magento_Shipping
 Action,Darbība,module,Magento_Shipping
 "Are you sure?","Vai esat pārliecināts?",module,Magento_Shipping
@@ -1804,6 +1814,7 @@ All,Visi,module,Magento_Sitemap
 Admin,Administrators,module,Magento_Store
 Language,Valoda,module,Magento_Store
 "Tax Rate Information","Nodokļa Likmes Informācija",module,Magento_Tax
+"Tax Identifier","PVN identifikators",module,Magento_Tax
 Country,Valsts,module,Magento_Tax
 Back,Atpakaļ,module,Magento_Tax
 Reset,Notīrīt,module,Magento_Tax
@@ -1841,7 +1852,9 @@ Theme,Tēma,module,Magento_Theme
 "Insert File","Ievietot failu",module,Magento_Theme
 "New Folder Name:","Jauns direktorijas nosaukums:",module,Magento_Theme
 "Storage Root","Glabāšanas pamatdirektorija",module,Magento_Theme
+label,birka,module,Magento_Theme
 "-- Please Select --","-- Lūdzu, izvēlieties --",module,Magento_Theme
+Copy,Kopēt,module,Magento_Theme
 Remove,Dzēst,module,Magento_Theme
 Page,Lapa,module,Magento_Theme
 Previous,Iepriekšējais,module,Magento_Theme
@@ -1892,9 +1905,11 @@ Users,Lietotāji,module,Magento_User
 "New User","Jauns lietotājs",module,Magento_User
 "Account Information","Konta informācija",module,Magento_User
 "User Email","Lietotāja e-pasts",module,Magento_User
+Password,Parole,module,Magento_User
 "New Password","Jauna parole",module,Magento_User
 "Password Confirmation","Paroles apstiprinājums",module,Magento_User
 "Interface Locale","Interfeisa lokalizācija",module,Magento_User
+"Account Status","Konta statuss",module,Magento_User
 "Your Password","Jūsu parole",module,Magento_User
 Role,Loma,module,Magento_User
 "User Information","Lietotāja informācija",module,Magento_User
@@ -1905,8 +1920,13 @@ Permissions,"Piekļuves tiesības",module,Magento_User
 "You cannot delete your own account.","Jūs nevarat izdzēst savu kontu.",module,Magento_User
 "Edit User","Labot lietotāju",module,Magento_User
 "New Role","Jauna loma",module,Magento_User
+"First Name is a required field.","Vārds ir obligāts lauks.",module,Magento_User
+"Last Name is a required field.","Uzvārds ir obligāts lauks.",module,Magento_User
+"Please enter a valid email.","Lūdzu, ievadiet derīgu e-pastu.",module,Magento_User
+"Password is required field.","Parole ir obligāts lauks.",module,Magento_User
 Custom,Pielāgots,module,Magento_User
 All,Visi,module,Magento_User
+Resources,Resursi,module,Magento_User
 Yes,Jā,module,Magento_Usps
 No,Nē,module,Magento_Usps
 None,Neviens,module,Magento_Usps
@@ -2640,6 +2660,9 @@ Mode,Režīms,module,Magento_Ups
 Debug,Atkļūdot,module,Magento_Ups
 Action,Darbība,module,Magento_UrlRewrite
 Edit,Labot,module,Magento_UrlRewrite
+Unlock,Atbloķēt,module,Magento_User
+Username,Lietotājvārds,module,Magento_User
+"Last login","Pēdējā pieteikšanās",module,Magento_User
 "Gateway URL","Vārtejas URL",module,Magento_Usps
 Title,Nosaukums,module,Magento_Usps
 Mode,Režīms,module,Magento_Usps
