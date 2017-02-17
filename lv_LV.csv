@@ -2225,20 +2225,14 @@ Error:,Kļūda:,module,Magento_Shipping
 "contact us","sazināties ar mums",module,Magento_Shipping
 Info:,Informācija:,module,Magento_Shipping
 Track:,Sekot:,module,Magento_Shipping
-Status:,Statuss:,module,Magento_Shipping
 "Delivered on:",Piegādāts:,module,Magento_Shipping
-"Signed by:",Parakstījis:,module,Magento_Shipping
-"Delivered to:",Piegādāts:,module,Magento_Shipping
-"Shipped or billed on:","Piegādāts vai piestādīts rēķins:",module,Magento_Shipping
-"Service Type:","Servisa veids:",module,Magento_Shipping
-Weight:,Svars:,module,Magento_Shipping
+"There is no tracking available for this shipment.","Šai piegādei nav pieejama izsekošana.",module,Magento_Shipping
+"There is no tracking available.","Izsekošana nav pieejama.",module,Magento_Shipping
+"Close Window","Aizvērt logu",module,Magento_Shipping
 Location,"Atrašanās vieta",module,Magento_Shipping
 Date,Datums,module,Magento_Shipping
 "Local Time","Vietējais laiks",module,Magento_Shipping
 Description,Apraksts,module,Magento_Shipping
-"There is no tracking available for this shipment.","Šai piegādei nav pieejama izsekošana.",module,Magento_Shipping
-"There is no tracking available.","Izsekošana nav pieejama.",module,Magento_Shipping
-"Close Window","Aizvērt logu",module,Magento_Shipping
 "Save & Generate","Saglabāt & Ģenerēt",module,Magento_Sitemap
 "Edit Sitemap","Labot lapas karti",module,Magento_Sitemap
 "New Sitemap","Jaunas lapas karte",module,Magento_Sitemap
@@ -2659,7 +2653,6 @@ items,produkti,module,Magento_Checkout
 "Options Details","Opciju detaļas",module,Magento_Checkout
 Remove,Dzēst,module,Magento_Checkout
 "Cart Subtotal","Groza starpsumma",module,Magento_Checkout
-"No Payment Methods","Norēķinu veidi nav pieejami",module,Magento_Checkout
 "Payment Information","Norēķinu informācija",module,Magento_Checkout
 "No Payment method available.","Norēķinu veidi nav pieejami.",module,Magento_Checkout
 "You can track your order status by creating an account.","Jūs varat izsekot sava pirkuma statusam, ja izveidosiet profilu.",module,Magento_Checkout
