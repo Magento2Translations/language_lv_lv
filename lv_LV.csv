@@ -1504,6 +1504,7 @@ Download,Lejupielādēt,module,Magento_Customer
 "Account Information","Konta informācija",module,Magento_Customer
 "Please enter your email.","Lūdzu, ievadiet savu e-pastu.",module,Magento_Customer
 "My Account","Mans konts",module,Magento_Customer
+"You updated your password.","Jūs atjauninājāt savu paroli.",module,Magento_Customer
 Customers,Klienti,module,Magento_Customer
 "Edit Group","Labot grupu",module,Magento_Customer
 "Please correct the data sent.","Izlabojiet nosūtītos datus.",module,Magento_Customer
