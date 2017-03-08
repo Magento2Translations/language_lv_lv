@@ -624,10 +624,12 @@ Always,Vienmēr,module,Magento_Captcha
 "Minimum Qty","Minimālais skaits",module,Magento_CatalogInventory
 "Add Minimum Qty","Noteikt minimālo daudzumu",module,Magento_CatalogInventory
 "We can't rebuild the index for an undefined product.","Nevar pārbūvēt indeksus nedefinētam produktam.",module,Magento_CatalogInventory
+"This product is out of stock.","Produkts(i) nav pieejams.",module,Magento_CatalogInventory
 "In Stock",Noliktavā,module,Magento_CatalogInventory
 "Out of Stock","Nav pieejams",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Mums nav ""%1"" pieprasītajā daudzumā, līdz ar to mēs veiksim atlikušā daudzuma pasūtīšanu %2.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Mums nav ""%1"" pieprasītajā daudzumā, līdz ar to mēs veiksim atlikušā daudzuma pasūtīšanu %2.",module,Magento_CatalogInventory
+"Product availability","Produkta pieejamība",module,Magento_CatalogInventory
 "Product Name","Produkta nosaukums",module,Magento_CatalogInventory
 Qty,Skaits,module,Magento_CatalogInventory
 "Save and Continue Edit","Saglabāt un turpināt labot",module,Magento_CatalogRule
@@ -674,8 +676,11 @@ No,Nē,module,Magento_CatalogSearch
 Results,Rezultāti,module,Magento_CatalogSearch
 Grid,Režģis,module,Magento_CatalogSearch
 List,Saraksts,module,Magento_CatalogSearch
+"Search Weight","Meklēšanas svars",module,Magento_CatalogSearch
 Relevance,Atbilstība,module,Magento_CatalogSearch
+"Search results for: '%1'","Meklēšanas rezultāti: '%1'",module,Magento_CatalogSearch
 "Please specify at least one search term.","Norādiet vismaz vienu meklējamo vārdu.",module,Magento_CatalogSearch
+Category,Kategorija,module,Magento_CatalogSearch
 "Bucket do not exists","Bucket nepastāv",module,Magento_CatalogSearch
 Product,Produkts,module,Magento_CatalogSearch
 "Search Settings","Meklēšanas iestatījumi",module,Magento_CatalogSearch
@@ -683,6 +688,7 @@ Search,Meklēt,module,Magento_CatalogSearch
 "Advanced Search","Paplašināta meklēšana",module,Magento_CatalogSearch
 "We can't find any items matching these search criteria.","Mēs nevaram atrast jebkuru šo meklēšanas kritērijiem atbilstošo vienumu.",module,Magento_CatalogSearch
 "Modify your search","Labot meklēšanu",module,Magento_CatalogSearch
+name,nosaukums,module,Magento_CatalogSearch
 "Don't see what you're looking for?","Nevarat atrast meklēto?",module,Magento_CatalogSearch
 "Create Permanent Redirect for old URL","Izveidot pastāvīgu pārvirzīšanu vecam URL",module,Magento_CatalogUrlRewrite
 "Conditions Combination","Noteikumu kombinācija",module,Magento_CatalogWidget
@@ -804,6 +810,7 @@ Websites,"Mājas lapas",module,Magento_Catalog
 "Products Information","Produktu informācija",module,Magento_Catalog
 "Category Name","Kategorijas nosaukums",module,Magento_Catalog
 "Parent Category","Augstāka kategorija",module,Magento_Catalog
+"If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products > Categories</a>.","Ja nav speciālu vecāko kategoriju, lietojiet noklusēto galveno kategoriju. Jūs varat pārlikt kategoriju jebkurā laikā <a href=""%1"" target=""_blank"">Produkti > Kategorijas</a>.",module,Magento_Catalog
 "We saved the price alert subscription.","Mēs saglabājām cenas brīdinjuma abonentu.",module,Magento_Catalog
 "We saved the stock notification.","Mēs saglabājām noliktavas paziņojumu.",module,Magento_Catalog
 "There are no customers for this alert.","Nav klientu šo paziņojumu saņēmējiem.",module,Magento_Catalog
@@ -897,6 +904,7 @@ Catalog,Katalogs,module,Magento_Catalog
 "Edit Product Attribute","Labot produkta atribūtu",module,Magento_Catalog
 "An attribute set named '%1' already exists.","Atribūtu kopa ar nosaukumu '%1' jau eksistē.",module,Magento_Catalog
 "Something went wrong while saving the attribute.","Kļūda saglabājot atribūtu.",module,Magento_Catalog
+"Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Nepareizs atribūta kods ""%1"". Izmantojiet tikai burtus (a-z), ciparus (0-9) vai zemsvītru (_) šajā laukā, pirmajam simbolam jābūt burtam.",module,Magento_Catalog
 "We can't update the attribute.","Nevar atjaunināt atribūtu.",module,Magento_Catalog
 "You saved the product attribute.","Produkta atribūts ir saglabāts.",module,Magento_Catalog
 "An attribute with this code already exists.","Atribūts ar šādu kodu jau eksistē.",module,Magento_Catalog
@@ -1412,18 +1420,35 @@ Specified,Norādītais,module,Magento_Config
 "Add after","Pievienot pēc",module,Magento_Config
 Delete,Dzēst,module,Magento_Config
 Stores,Veikali,module,Magento_Config
+Configurations,Konfigurācijas,module,Magento_ConfigurableProduct
+"Attribute Values","Atribūtu vērtības",module,Magento_ConfigurableProduct
+"Create New Attribute","Izveidot jaunu atribūtu",module,Magento_ConfigurableProduct
 Summary,Kopsavilkums,module,Magento_ConfigurableProduct
 "Choose an Option...","Izvēlieties opciju...",module,Magento_ConfigurableProduct
+"This attribute is used in configurable products.","Šo atribūtu izmanto konfigurējamiem produktiem.",module,Magento_ConfigurableProduct
 "Requested option doesn't exist","Pieprasītā opcija neeksistē",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Jums jāizvēlās opcijas produktam.",module,Magento_ConfigurableProduct
 Options,Opcijas,module,Magento_ConfigurableProduct
 "Select All","Izvēlēties visu",module,Magento_ConfigurableProduct
 Images,Attēli,module,Magento_ConfigurableProduct
+"Browse Files...","Pārlūkot failus...",module,Magento_ConfigurableProduct
+"Remove image","Noņemt attēlu",module,Magento_ConfigurableProduct
+Hidden,Slēpts,module,Magento_ConfigurableProduct
+Role,Loma,module,Magento_ConfigurableProduct
+Select,Izvēlēties,module,Magento_ConfigurableProduct
 Price,Cena,module,Magento_ConfigurableProduct
 Quantity,Skaits,module,Magento_ConfigurableProduct
+"Add Products Manually","Manuāli pievienot produktu",module,Magento_ConfigurableProduct
+Image,Attēls,module,Magento_ConfigurableProduct
 Name,Vārds,module,Magento_ConfigurableProduct
 SKU,Artikuls,module,Magento_ConfigurableProduct
+Weight,Svars,module,Magento_ConfigurableProduct
 Actions,Darbības,module,Magento_ConfigurableProduct
+"Upload Image","Augšuplādēt attēlu",module,Magento_ConfigurableProduct
+"Upload image","Augšuplādēt attēlu",module,Magento_ConfigurableProduct
+"No Image","Nav attēla",module,Magento_ConfigurableProduct
+"Remove Product","Nodzēst produktu",module,Magento_ConfigurableProduct
+Confirm,Apstiprināt,module,Magento_ConfigurableProduct
 Cancel,Atcelt,module,Magento_ConfigurableProduct
 "Page not found.","Lapa nav atrasta.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Paldies ka sazinājāties ar mums. Mēs atbildēsim Jums visdrīzākajā laikā.",module,Magento_Contact
@@ -2351,6 +2376,9 @@ Never,Nekad,module,Magento_Sitemap
 None,Neviens,module,Magento_Sitemap
 All,Visi,module,Magento_Sitemap
 "Current store is not active.","Pašreizējais veikals nav aktīvs.",module,Magento_Store
+"Website with the same code","Mājas lapa ar vienu un to pašu kodu",module,Magento_Store
+"Name is required","Nosaukums ir obligāts",module,Magento_Store
+"All Store Views","Visi veikala skati",module,Magento_Store
 "-- Please Select --","-- Lūdzu, izvēlieties --",module,Magento_Store
 Admin,Administrators,module,Magento_Store
 Language,Valoda,module,Magento_Store
@@ -2376,16 +2404,24 @@ Rate,Likme,module,Magento_TaxImportExport
 "Export Tax Rates","Eksportēt nodokļu likmes",module,Magento_TaxImportExport
 "Tax Rate Information","Nodokļa Likmes Informācija",module,Magento_Tax
 "Tax Identifier","PVN identifikators",module,Magento_Tax
+"Zip/Post is Range","Pasta indeksa apgabals",module,Magento_Tax
+"Zip/Post Code","Pasta indekss",module,Magento_Tax
+"Range From","Diapazons no",module,Magento_Tax
+"Range To","Diapazons līdz",module,Magento_Tax
+State,Štats,module,Magento_Tax
 Country,Valsts,module,Magento_Tax
+"Rate Percent","Procentu likme",module,Magento_Tax
 Back,Atpakaļ,module,Magento_Tax
 Reset,Notīrīt,module,Magento_Tax
 "Are you sure you want to do this?","Vai tiešām vēlaties to darīt?",module,Magento_Tax
+"Save Rate","Saglabātu kursu",module,Magento_Tax
 "Save and Continue Edit","Saglabāt un turpināt labot",module,Magento_Tax
 Name,Vārds,module,Magento_Tax
 Priority,Prioritāte,module,Magento_Tax
 "Sort Order","Kārtošanas secība",module,Magento_Tax
 Sales,Pārdošana,module,Magento_Tax
 Tax,Nodokļi,module,Magento_Tax
+"Tax Zones and Rates","Nodokļu zonas un likmes",module,Magento_Tax
 "Shipping Address","Piegādes adrese",module,Magento_Tax
 Code,Kods,module,Magento_Tax
 Subtotal,Starpsumma,module,Magento_Tax
@@ -2779,6 +2815,7 @@ OK,Labi,module,Magento_Catalog
 "unselect all","noņemt atlasi visam",module,Magento_Catalog
 "Incl. Tax","Ar PVN",module,Magento_ConfigurableProduct
 Done,Gatavs,module,Magento_ConfigurableProduct
+"We could not detect a size.","Nevar noteikt lielumu.",module,Magento_ConfigurableProduct
 "We don't recognize or support this file extension type.","Neatbalsta vai neatpazīst šo faila paplašinājumu.",module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","Vai tiešām vēlaties to darīt?",module,Magento_Customer
 Done,Gatavs,module,Magento_Integration
@@ -3021,7 +3058,13 @@ Forms,Formas,module,Magento_Captcha
 "Case Sensitive",Reģistrjūtīgs,module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Ieslēgt CAPTCHA veikala priekšpusē",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Ja atzīmēts, tad CAPTCHA ir vienmēr ieslēgta priekš ""Izveidot jaunu lietotāju"" un ""Aizmirsta parole"" formām.",module,Magento_Captcha
+Inventory,Inventārs,module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.","Parādīt produktu pieejamību noliktavā lapas priekšpusē (Storefront).",module,Magento_CatalogInventory
+"Manage Stock","Pārvaldīt noliktavu",module,Magento_CatalogInventory
+Backorders,Iepriekšpasūtījums,module,Magento_CatalogInventory
+"Maximum Qty Allowed in Shopping Cart","Maksimālais atļautais daudzums grozā",module,Magento_CatalogInventory
+"Out-of-Stock Threshold","Nav noliktavā slieksnis",module,Magento_CatalogInventory
+"Minimum Qty Allowed in Shopping Cart","Minimālais atļautais daudzums grozā",module,Magento_CatalogInventory
 Quantity,Skaits,module,Magento_CatalogInventory
 Rule,Noteikums,module,Magento_CatalogRule
 Start,Sākt,module,Magento_CatalogRule
@@ -3452,6 +3495,7 @@ Enabled,Ieslēgts,module,Magento_Sitemap
 "Link for Google","Saite priekš Google",module,Magento_Sitemap
 Action,Darbība,module,Magento_Sitemap
 Configuration,Konfigurācija,module,Magento_Store
+Layouts,Izkārtojumi,module,Magento_Store
 "Default Title","Noklusētais nosaukums",module,Magento_Theme
 "Translation Strategy","Tulkošanas stratēģija",module,Magento_Translation
 Translations,Tulkojumi,module,Magento_Translation
