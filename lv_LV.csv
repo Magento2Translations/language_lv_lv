@@ -2688,6 +2688,7 @@ Cancel,Atcelt,module,Magento_Checkout
 Login,Lietotājvārds,module,Magento_Checkout
 item,produkts,module,Magento_Checkout
 items,produkti,module,Magento_Checkout
+"Go to Checkout","Noformēt pirkumu",module,Magento_Checkout
 "See Details","Apskatīt papildinformāciju",module,Magento_Checkout
 "Options Details","Opciju detaļas",module,Magento_Checkout
 Remove,Dzēst,module,Magento_Checkout
