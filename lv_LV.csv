@@ -2713,6 +2713,7 @@ Next,Nākošais,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Atvainojiet, šobrīd nav pieejams neviens piedāvājums šim pirkumam",module,Magento_Checkout
 "Order Summary","Pasūtījumu pārskats",module,Magento_Checkout
 "Item in Cart","Prece grozā",module,Magento_Checkout
+"Items in Cart","Preces grozā",module,Magento_Checkout
 "View Details","Skatīt detaļas",module,Magento_Checkout
 "Name: %name","Vārds: %name",module,Magento_Contact
 "Email: %email","E-pasts: %email",module,Magento_Contact
