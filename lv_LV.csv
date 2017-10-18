@@ -1524,6 +1524,7 @@ Download,Lejupielādēt,module,Magento_Customer
 "Customer Groups","Klientu grupas",module,Magento_Customer
 "Add New Customer Group","Pievienot jaunu klientu grupu",module,Magento_Customer
 "Save Customer Group","Saglabāt klientu grupu",module,Magento_Customer
+"Customer Login",Ieiet,module,Magento_Customer
 "Bad request.","Nepareizs pieprasījums.",module,Magento_Customer
 "Wrong email.","Nepareizs e-pasts.",module,Magento_Customer
 "Account Information","Konta informācija",module,Magento_Customer
@@ -1894,6 +1895,7 @@ Back,Atpakaļ,module,Magento_Paypal
 "Are you sure you want to do this?","Vai tiešām vēlaties to darīt?",module,Magento_Paypal
 Cancel,Atcelt,module,Magento_Paypal
 "General Information","Vispārīga informācija",module,Magento_Paypal
+Help,Palīdzība,module,Magento_Paypal
 Configure,Konfigurēt,module,Magento_Paypal
 Close,Aizvērt,module,Magento_Paypal
 "Incl. Tax","Ar PVN",module,Magento_Paypal
@@ -2752,6 +2754,7 @@ Total:,Kopā:,module,Magento_Checkout
 "Phone Number: %telephone","Tālruņa numurs: %telephone",module,Magento_Contact
 "Comment: %comment","Komentārs: %comment",module,Magento_Contact
 Email:,E-pasts:,module,Magento_Customer
+Password:,Parole:,module,Magento_Customer
 "Currency Update Warnings","Valūtas atjaunināšanas brīdinājumi",module,Magento_Directory
 "Message from %sender_name:","Ziņa no %sender_name:",module,Magento_SendFriend
 "Thank you,","Paldies,",module,Magento_User
@@ -3269,6 +3272,7 @@ Type,Veids,module,Magento_Customer
 "Leave empty for access from any location.","Atstājiet tukšu lai piekļūtu no jebkuras vietas.",module,Magento_Developer
 "Gateway URL","Vārtejas URL",module,Magento_Dhl
 Title,Nosaukums,module,Magento_Dhl
+Password,Parole,module,Magento_Dhl
 "Account Number","Konta numurs",module,Magento_Dhl
 "Calculate Handling Fee","Kalkulēt pakalpojuma maksu",module,Magento_Dhl
 "Handling Fee","Pakalpojuma maksa",module,Magento_Dhl
@@ -3305,6 +3309,7 @@ Subject,Tēma,module,Magento_Email
 "Template Type","Šablona veids",module,Magento_Email
 Action,Darbība,module,Magento_Email
 Title,Nosaukums,module,Magento_Fedex
+Password,Parole,module,Magento_Fedex
 "Calculate Handling Fee","Kalkulēt pakalpojuma maksu",module,Magento_Fedex
 "Handling Fee","Pakalpojuma maksa",module,Magento_Fedex
 "Free Method","Bezmaksas metode",module,Magento_Fedex
@@ -3403,6 +3408,7 @@ Title,Nosaukums,module,Magento_Paypal
 "Sort Order","Kārtošanas secība",module,Magento_Paypal
 "Payment Action","Maksājuma darbība",module,Magento_Paypal
 Enabled,Ieslēgts,module,Magento_Paypal
+Password,Parole,module,Magento_Paypal
 User,Lietotājs,module,Magento_Paypal
 "Test Mode","Testa režīms",module,Magento_Paypal
 "General Options","Vispārīgās Opcijas",module,Magento_Persistent
@@ -3504,6 +3510,7 @@ Action,Darbība,module,Magento_Ui
 "Gateway URL","Vārtejas URL",module,Magento_Ups
 "Calculate Handling Fee","Kalkulēt pakalpojuma maksu",module,Magento_Ups
 "Handling Fee","Pakalpojuma maksa",module,Magento_Ups
+Password,Parole,module,Magento_Ups
 "Sort Order","Kārtošanas secība",module,Magento_Ups
 Title,Nosaukums,module,Magento_Ups
 "Ship to Applicable Countries","Piegāde uz piejamajām valstīm",module,Magento_Ups
@@ -3519,6 +3526,7 @@ Username,Lietotājvārds,module,Magento_User
 "Last login","Pēdējā pieteikšanās",module,Magento_User
 "Gateway URL","Vārtejas URL",module,Magento_Usps
 Title,Nosaukums,module,Magento_Usps
+Password,Parole,module,Magento_Usps
 Mode,Režīms,module,Magento_Usps
 Width,Platums,module,Magento_Usps
 Height,Augstums,module,Magento_Usps
