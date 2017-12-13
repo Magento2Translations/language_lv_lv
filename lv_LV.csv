@@ -431,6 +431,7 @@ Authorize,Autorizēt,module,Magento_Braintree
 "Credit Card Number","Kredītkartes numurs",module,Magento_Braintree
 "Expiration Date","Derīguma termiņš",module,Magento_Braintree
 "Card Verification Number","Kredītkartes pārbaudes kods",module,Magento_Braintree
+"PayPal Account","Paypal konts",module,Magento_Braintree
 Actions,Darbības,module,Magento_Braintree
 Delete,Dzēst,module,Magento_Braintree
 "Percent Discount","Procentu atlaide",module,Magento_Bundle
@@ -1391,6 +1392,7 @@ System,Sistēma,module,Magento_CurrencySymbol
 "You have not set a default billing address.","Noklusētā norēķinu adrese nav iestatīta.",module,Magento_Customer
 "Address Book","Adresu grāmata",module,Magento_Customer
 "Edit Address","Labot adreses",module,Magento_Customer
+"Add New Address","Pievienot jaunu adresi",module,Magento_Customer
 region,reģions,module,Magento_Customer
 "Create Order","Izveidot pasūtījumu",module,Magento_Customer
 "Save Customer","Saglabāt klientu",module,Magento_Customer
@@ -1420,6 +1422,7 @@ Paused,Apturēts,module,Magento_Customer
 View,Skatīt,module,Magento_Customer
 Unknown,Nezināms,module,Magento_Customer
 Purchased,Nopirkts,module,Magento_Customer
+"Order Total","Pirkuma summa",module,Magento_Customer
 Qty,Skaits,module,Magento_Customer
 Confirmed,Apstiprināts,module,Magento_Customer
 "Confirmation Required","Nepieciešams apstiprinājums",module,Magento_Customer
@@ -1445,6 +1448,7 @@ Download,Lejupielādēt,module,Magento_Customer
 "Wrong email.","Nepareizs e-pasts.",module,Magento_Customer
 "Account Information","Konta informācija",module,Magento_Customer
 "Please enter your email.","Lūdzu, ievadiet savu e-pastu.",module,Magento_Customer
+"If there is an account associated with %1 you will receive an email with a link to reset your password.","Ja vien ir kāds profils saistīts ar %1 epasta adresi, jūs saņemsiet elektronisku vēstuli ar saiti uz paroles maiņas formu.",module,Magento_Customer
 "My Account","Mans konts",module,Magento_Customer
 "You updated your password.","Jūs atjauninājāt savu paroli.",module,Magento_Customer
 Customers,Klienti,module,Magento_Customer
@@ -1487,8 +1491,12 @@ Change,Mainīt,module,Magento_Customer
 "Change Password","Mainīt paroli",module,Magento_Customer
 Newsletters,Jaunumi,module,Magento_Customer
 or,vai,module,Magento_Customer
+"Default Addresses","Noklusējuma adrese",module,Magento_Customer
+"Change Shipping Address","Mainīt piegādes adresi",module,Magento_Customer
+"Additional Address Entries","Citas adreses",module,Magento_Customer
 "Delete Address","Dzēst adresi",module,Magento_Customer
 "* Required Fields","* obligātie lauki",module,Magento_Customer
+Company,Kompānija,module,Magento_Customer
 "Phone Number","Tālruņa numurs",module,Magento_Customer
 Fax,Fakss,module,Magento_Customer
 Address,Adrese,module,Magento_Customer
@@ -1606,6 +1614,7 @@ Preview,Priekšskatītījums,module,Magento_Email
 "Email Templates","E-pasta šabloni",module,Magento_Email
 Country,Valsts,module,Magento_Email
 Region/State,Reģions/štats,module,Magento_Email
+"Zip/Postal Code","Pasta indekss",module,Magento_Email
 City,Pilsēta,module,Magento_Email
 Title,Nosaukums,module,Magento_Email
 Template,Šablons,module,Magento_Email
@@ -1705,16 +1714,19 @@ Total,Kopā,module,Magento_Multishipping
 "Edit Billing Address","Labot norēķinu adresi",module,Magento_Multishipping
 "Edit Shipping Address","Labot piegādes adresi",module,Magento_Multishipping
 "Place Order","Veikt pasūtījumu",module,Magento_Multishipping
+"Add New Address","Pievienot jaunu adresi",module,Magento_Multishipping
 Product,Produkts,module,Magento_Multishipping
 Qty,Skaits,module,Magento_Multishipping
 Actions,Darbības,module,Magento_Multishipping
 "Remove Item","Noņemt produktu",module,Magento_Multishipping
 "Remove item","Noņemt produktu",module,Magento_Multishipping
+"Enter a New Address","Ievadiet jaunu adresi",module,Magento_Multishipping
 "Product Name","Produkta nosaukums",module,Magento_Multishipping
 "Shipping To","Piegādājam uz",module,Magento_Multishipping
 "Shipping Method","Piegādes veids",module,Magento_Multishipping
 "Incl. Tax","Ar PVN",module,Magento_Multishipping
 "Excl. Tax","Bez PVN",module,Magento_Multishipping
+"Order Review","Pasūtījumu pārskats",module,Magento_Multishipping
 Item,Produkts,module,Magento_Multishipping
 Edit,Labot,module,Magento_Multishipping
 Price,Cena,module,Magento_Multishipping
@@ -1793,6 +1805,7 @@ Paused,Apturēts,module,Magento_Newsletter
 Subscribe,Pierakstīties,module,Magento_Newsletter
 Country,Valsts,module,Magento_OfflineShipping
 Region/State,Reģions/štats,module,Magento_OfflineShipping
+"Zip/Postal Code","Pasta indekss",module,Magento_OfflineShipping
 "Shipping Price","Piegādes cena",module,Magento_OfflineShipping
 "Store Pickup","Piegāde veikalā",module,Magento_OfflineShipping
 "Weight vs. Destination","Svars attiecībā pret piegādes vietu",module,Magento_OfflineShipping
@@ -1826,6 +1839,7 @@ Back,Atpakaļ,module,Magento_Paypal
 "Are you sure you want to do this?","Vai tiešām vēlaties to darīt?",module,Magento_Paypal
 Cancel,Atcelt,module,Magento_Paypal
 "General Information","Vispārīga informācija",module,Magento_Paypal
+"Order Total","Pirkuma summa",module,Magento_Paypal
 Help,Palīdzība,module,Magento_Paypal
 Configure,Konfigurēt,module,Magento_Paypal
 Close,Aizvērt,module,Magento_Paypal
@@ -1844,6 +1858,8 @@ Daily,"Katru dienu",module,Magento_Paypal
 Customer,Klients,module,Magento_Paypal
 "Created At",Izveidots,module,Magento_Paypal
 "Updated At",Atjaunots,module,Magento_Paypal
+"Credit Card Number","Kredītkartes numurs",module,Magento_Paypal
+"Card Verification Number","Kredītkartes pārbaudes kods",module,Magento_Paypal
 Status:,Statuss:,module,Magento_Paypal
 Date,Datums,module,Magento_Paypal
 "Order Status","Pasūtījuma statuss",module,Magento_Paypal
@@ -2014,7 +2030,7 @@ Back,Atpakaļ,module,Magento_Review
 "My Recent Reviews","Mani nesenie vērtējumi",module,Magento_Review
 "Average Customer Rating:","Vidējais klientu vērtējums:",module,Magento_Review
 "Back to My Reviews","Atpakaļ pie manām atsauksmēm",module,Magento_Review
-"Be the first to review this product","Uzrakstie pirmais atsauksmi par šo produktu",module,Magento_Review
+"Be the first to review this product","Uzraksti pirmais atsauksmi par šo produktu",module,Magento_Review
 "Write Your Own Review","Uzrakstīt atsauksmi",module,Magento_Review
 "* Required Fields","* obligātie lauki",module,Magento_Review
 "You're reviewing:","Jūsu atsauksmes:",module,Magento_Review
@@ -2140,12 +2156,15 @@ Tax,Nodokļi,module,Magento_Sales
 "Excl. Tax","Bez PVN",module,Magento_Sales
 "Incl. Tax","Ar PVN",module,Magento_Sales
 City,Pilsēta,module,Magento_Sales
+Company,Kompānija,module,Magento_Sales
 Country,Valsts,module,Magento_Sales
 Email,E-pasts,module,Magento_Sales
 "First Name",Vārds,module,Magento_Sales
 "Last Name",Uzvārds,module,Magento_Sales
 State/Province,Štats/Province,module,Magento_Sales
 "Street Address",Adrese,module,Magento_Sales
+"Phone Number","Tālruņa numurs",module,Magento_Sales
+"Zip/Postal Code","Pasta indekss",module,Magento_Sales
 "New Orders","Jauni pasūtījumi",module,Magento_Sales
 Processing,Darbojas,module,Magento_Sales
 Closed,Slēgts,module,Magento_Sales
@@ -2155,6 +2174,8 @@ Customer,Klients,module,Magento_Sales
 Apply,Apstiprināt,module,Magento_Sales
 "Remove Coupon Code","Nodzēst kupona kodu",module,Magento_Sales
 Remove,Dzēst,module,Magento_Sales
+"Order Total","Pirkuma summa",module,Magento_Sales
+"Add New Address","Pievienot jaunu adresi",module,Magento_Sales
 "Row Subtotal","Rindu starpsumma",module,Magento_Sales
 Action,Darbība,module,Magento_Sales
 "No ordered items","Nav pasūtītu produktu",module,Magento_Sales
@@ -3492,6 +3513,7 @@ Position,Pozīcija,module,Magento_Paypal
 Title,Nosaukums,module,Magento_Paypal
 "Sort Order","Kārtošanas secība",module,Magento_Paypal
 "Payment Action","Maksājuma darbība",module,Magento_Paypal
+"If this option is enabled, customer can change shipping address and shipping method on PayPal website. In live mode works via HTTPS protocol only.","Jā opcija ir iespējota, klients var mainīt piegādes adresi un piegādes metodi Paypal tīkla lapā. Produkcijas režīmā darbojas tikai caur Https protokolu.",module,Magento_Paypal
 Enabled,Ieslēgts,module,Magento_Paypal
 Password,Parole,module,Magento_Paypal
 User,Lietotājs,module,Magento_Paypal
@@ -3503,6 +3525,7 @@ Frequency,Biežums,module,Magento_ProductAlert
 "Error Email Sender","E-pasta sūtītāja kļūda",module,Magento_ProductAlert
 "Error Email Template","E-pasta šablona kļūda",module,Magento_ProductAlert
 "Search Terms","Meklētie atslēgvārdi",module,Magento_Reports
+"Order Total","Pirkuma summa",module,Magento_Reports
 "Recently Viewed/Compared Products","Nesen apskatītie/salīdzinātie produkti",module,Magento_Reports
 "Show for Current","Rādīt patreizējam",module,Magento_Reports
 "Default Recently Viewed Products Count","Noklusētais nesen apskatīto produktu skaits",module,Magento_Reports
@@ -3599,6 +3622,7 @@ Enabled,Ieslēgts,module,Magento_Sitemap
 Action,Darbība,module,Magento_Sitemap
 Configuration,Konfigurācija,module,Magento_Store
 Layouts,Izkārtojumi,module,Magento_Store
+"Order Total","Pirkuma summa",module,Magento_Tax
 "Default Title","Noklusētais nosaukums",module,Magento_Theme
 "Translation Strategy","Tulkošanas stratēģija",module,Magento_Translation
 Translations,Tulkojumi,module,Magento_Translation
