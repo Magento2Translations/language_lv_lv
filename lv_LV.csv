@@ -1386,6 +1386,7 @@ System,Sistēma,module,Magento_CurrencySymbol
 "Old rate:","Iepriekšējais kurss:",module,Magento_CurrencySymbol
 "Please specify a website.","Lūdzu, norādiet tīmekļa vietni.",module,Magento_CustomerImportExport
 "Please specify an email.","Lūdzu, Norādiet E-pastu.",module,Magento_CustomerImportExport
+"Please enter a valid email.","Lūdzu, ievadiet derīgu e-pasta adresi.",module,Magento_CustomerImportExport
 "Sign Out",Izrakstīties,module,Magento_Customer
 "Sign In",Pieteikties,module,Magento_Customer
 "You have not set a default shipping address.","Noklusētā piegādes adrese nav iestatīta.",module,Magento_Customer
@@ -1467,6 +1468,7 @@ Global,Globāls,module,Magento_Customer
 Admin,Administrators,module,Magento_Customer
 "ALL GROUPS","VISAS GRUPAS",module,Magento_Customer
 label,birka,module,Magento_Customer
+"Please enter a customer email.","Lūdzu ievadiet lietotāja e-pasta adresi.",module,Magento_Customer
 "Customer Group","Klientu grupa",module,Magento_Customer
 "VAT Number is valid.","PVN reģistrācijas numurs ir derīgs.",module,Magento_Customer
 "You will be charged tax.","Jums būs jāmaksā nodoklis.",module,Magento_Customer
@@ -1507,6 +1509,8 @@ State/Province,Štats/Province,module,Magento_Customer
 "Please select a region, state or province.","Izvēlieties reģionu, štatu vai novadu.",module,Magento_Customer
 "Zip/Postal Code","Pasta indekss",module,Magento_Customer
 Country,Valsts,module,Magento_Customer
+"It's a default billing address.","Tā ir noklusētā rēķinu adrese.",module,Magento_Customer
+"It's a default shipping address.","Tā ir noklusētā piegādes adrese.",module,Magento_Customer
 "Save Address","Saglabāt adresi",module,Magento_Customer
 Email,E-pasts,module,Magento_Customer
 "Current Password","Pašreizējā parole",module,Magento_Customer
@@ -1524,9 +1528,10 @@ Password,Parole,module,Magento_Customer
 "Confirm Password","Apstiprināt paroli",module,Magento_Customer
 "Create an Account",Reģistrēties,module,Magento_Customer
 "Set a New Password","Izviedot jaunu paroli",module,Magento_Customer
+"You have signed out and will go to our homepage in 5 seconds.","Tu esi izrakstījies un tiksi pārvirzīts uz sākumlapu aptuveni pēc 5 sekundēm.",module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Reģistrētiem klientiem ir vairākas priekšrocības: atvieglota, ātrāka pasūtījumu noformēšana, vairāku adrešu saglabāšana, pirkumu vēsture un citas priekšrocības.",module,Magento_Customer
 Name,Vārds,module,Magento_Customer
-"Tax/VAT number","PVN / Uzņēmuma reģistrācijas numurs",module,Magento_Customer
+"Tax/VAT number","PVN numurs",module,Magento_Customer
 "Cannot switch into given mode ""%1""","Nevar pārslēgties nepiciešamajā režīmā ""%1""",module,Magento_Deploy
 "Format for IDE '%1' is not supported","IDE formāts '%1'netiek atbalstīts",module,Magento_Developer
 "Client side less compilation","Klienta daļas less kompilācija",module,Magento_Developer
@@ -1560,6 +1565,7 @@ Continue,Turpināt,module,Magento_Directory
 Error,Kļūda,module,Magento_DownloadableImportExport
 "Downloadable Information","Lejupielādējama Informācija",module,Magento_Downloadable
 "Add New Link","Pievienot Jaunu Saiti",module,Magento_Downloadable
+"My Downloadable Products","Manas lejupielādējamās Preces",module,Magento_Downloadable
 Yes,Jā,module,Magento_Downloadable
 No,Nē,module,Magento_Downloadable
 "Use config","Lietot konfigurāciju",module,Magento_Downloadable
@@ -1575,8 +1581,11 @@ SKU,Artikuls,module,Magento_Downloadable
 Availability,Pieejamība,module,Magento_Downloadable
 "In stock",Noliktavā,module,Magento_Downloadable
 "Out of stock","Nav pieejams",module,Magento_Downloadable
+"Order #","Pasūtījums #",module,Magento_Downloadable
 Date,Datums,module,Magento_Downloadable
 Status,Statuss,module,Magento_Downloadable
+"View Order","Apskatīt pasūtījumu",module,Magento_Downloadable
+"You have not purchased any downloadable products yet.","Jūs vēl neesat iegādājies nevienu lejupielādējamo preci.",module,Magento_Downloadable
 Back,Atpakaļ,module,Magento_Downloadable
 "Gift Message","Dāvanas ziņa",module,Magento_Downloadable
 From:,No:,module,Magento_Downloadable
@@ -1708,6 +1717,7 @@ Price,Cena,module,Magento_Msrp
 "Add to Cart","Pievienot grozam",module,Magento_Msrp
 "Change Billing Address","Mainīt Rēķina Adresi",module,Magento_Multishipping
 "Ship to Multiple Addresses","Piegādāt uz Vairākām Adresēm",module,Magento_Multishipping
+"Review Order - %1","Pārskatīt pasūtījumu - %1",module,Magento_Multishipping
 Total,Kopā,module,Magento_Multishipping
 "Shipping Methods","Piegādes veidi",module,Magento_Multishipping
 "Edit Address","Labot adreses",module,Magento_Multishipping
@@ -1861,8 +1871,10 @@ Customer,Klients,module,Magento_Paypal
 "Credit Card Number","Kredītkartes numurs",module,Magento_Paypal
 "Card Verification Number","Kredītkartes pārbaudes kods",module,Magento_Paypal
 Status:,Statuss:,module,Magento_Paypal
+"Order #","Pasūtījums #",module,Magento_Paypal
 Date,Datums,module,Magento_Paypal
 "Order Status","Pasūtījuma statuss",module,Magento_Paypal
+"View Order","Apskatīt pasūtījumu",module,Magento_Paypal
 View,Skatīt,module,Magento_Paypal
 "-- Please Select --","-- Lūdzu, izvēlieties --",module,Magento_Paypal
 "Shipping Method","Piegādes veids",module,Magento_Paypal
@@ -2104,6 +2116,7 @@ Coupons,Kuponi,module,Magento_Sales
 From,No,module,Magento_Sales
 To,Kam,module,Magento_Sales
 Message,Ziņa,module,Magento_Sales
+"Items Ordered","Pasūtītās preces",module,Magento_Sales
 Configure,Konfigurēt,module,Magento_Sales
 "Newsletter Subscription","Jaunumu pierakstīšanās",module,Magento_Sales
 Product,Produkts,module,Magento_Sales
@@ -2116,13 +2129,17 @@ Quantity,Skaits,module,Magento_Sales
 "Shopping Cart",Grozs,module,Magento_Sales
 "Recently Compared Products","Nesen salīdzinātie produkti",module,Magento_Sales
 "Recently Viewed Products","Nesen apskatītie produkti",module,Magento_Sales
+"Last Ordered Items","Pēdējie pasūtītie produkti",module,Magento_Sales
 "Recently Viewed","Nesen apskatītie",module,Magento_Sales
 "Wish List","Vēlmju saraksts",module,Magento_Sales
 "Send Email","Sūtīt e-pastu",module,Magento_Sales
 "Order Status","Pasūtījuma statuss",module,Magento_Sales
 "New Order Status","Jauna pasūtījuma statuss",module,Magento_Sales
+"Order Status Information","Pasūtījuma status",module,Magento_Sales
 Edit,Labot,module,Magento_Sales
+Reorder,"Pasūtīt atkārtoti",module,Magento_Sales
 "Save Gift Message","Saglabāt dāvanas ziņu",module,Magento_Sales
+"Order Information","Pasūtījuma detaļas",module,Magento_Sales
 Any,Jebkurš,module,Magento_Sales
 Specified,Norādītais,module,Magento_Sales
 Yes,Jā,module,Magento_Sales
@@ -2133,8 +2150,10 @@ Discount,Atlaide,module,Magento_Sales
 "Grand Total",Kopsumma,module,Magento_Sales
 Back,Atpakaļ,module,Magento_Sales
 Value,Vērtība,module,Magento_Sales
+"Order # %1","Pasūtījums # %1",module,Magento_Sales
 "Back to My Orders","Atpakaļ pie maniem pasūtījumiem",module,Magento_Sales
 "My Orders","Mani pasūtījumi",module,Magento_Sales
+"Print Order # %1","Drukāt pasūtījumu # %1",module,Magento_Sales
 "We can't add this item to your shopping cart right now.","Pašlaik nevar pievienot grozma šo produktu.",module,Magento_Sales
 Sales,Pārdošana,module,Magento_Sales
 """%1"" coupon code was not applied. Do not apply discount is selected for item(s)","atlaižu kods ""%1"" netika piemērots. Nevar piemērot atlaides izvēlētajai precei (ēm)",module,Magento_Sales
@@ -2199,8 +2218,11 @@ Comment,Komentārs,module,Magento_Sales
 "Created At",Izveidots,module,Magento_Sales
 Continue,Turpināt,module,Magento_Sales
 "Product Name","Produkta nosaukums",module,Magento_Sales
+"Order #","Pasūtījums #",module,Magento_Sales
 Date,Datums,module,Magento_Sales
 Actions,Darbības,module,Magento_Sales
+"View Order","Apskatīt pasūtījumu",module,Magento_Sales
+"Print Order","Pasūtījuma izdruka",module,Magento_Sales
 Close,Aizvērt,module,Magento_Sales
 "Add to Cart","Pievienot grozam",module,Magento_Sales
 Search,Meklēt,module,Magento_Sales
@@ -2396,6 +2418,8 @@ Reset,Notīrīt,module,Magento_Tax
 Name,Vārds,module,Magento_Tax
 Priority,Prioritāte,module,Magento_Tax
 "Sort Order","Kārtošanas secība",module,Magento_Tax
+"Grand Total (Excl.Tax)","Kopsumma (Bez PVN)",module,Magento_Tax
+"Grand Total (Incl.Tax)","Kopsumma (Ar PVN)",module,Magento_Tax
 Sales,Pārdošana,module,Magento_Tax
 Tax,Nodokļi,module,Magento_Tax
 "Tax Zones and Rates","Nodokļu zonas un likmes",module,Magento_Tax
@@ -2435,6 +2459,7 @@ label,birka,module,Magento_Theme
 Copy,Kopēt,module,Magento_Theme
 Message,Ziņa,module,Magento_Theme
 Remove,Dzēst,module,Magento_Theme
+"%1 Item(s)","%1 Produkts(i)",module,Magento_Theme
 Page,Lapa,module,Magento_Theme
 Previous,Iepriekšējais,module,Magento_Theme
 Next,Turpināt,module,Magento_Theme
@@ -2502,6 +2527,7 @@ Role,Loma,module,Magento_User
 "User Information","Lietotāja informācija",module,Magento_User
 "User Info","Lietotāja informācija",module,Magento_User
 "User Role","Lietotāja loma",module,Magento_User
+"Please enter an email address.","Ievadiet e-pasta adresi.",module,Magento_User
 System,Sistēma,module,Magento_User
 Permissions,"Piekļuves tiesības",module,Magento_User
 "You cannot delete your own account.","Jūs nevarat izdzēst savu kontu.",module,Magento_User
@@ -2788,7 +2814,11 @@ Next,Nākošais,module,Magento_Checkout
 "Comment: %comment","Komentārs: %comment",module,Magento_Contact
 Email:,E-pasts:,module,Magento_Customer
 Password:,Parole:,module,Magento_Customer
+"Password you set when creating account","Parole, ko ievadījāt izveidojot kontu",module,Magento_Customer
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Aizmirsāt paroli? <a href=""%reset_url"">Atjaunot paroli</a>.",module,Magento_Customer
+"Proceed through checkout faster","Ātrāk noformēt pasūtījumu",module,Magento_Customer
+"View past orders","Apskatīt iepriekšējos pasūtījumus",module,Magento_Customer
+"Store alternative addresses (for shipping to multiple family members and friends)","Saglabāt vairākas piegādes adreses (lai piegādātu vairākiem ģimenes locekļiem un draugiem)",module,Magento_Customer
 "Hello,","Sveicināti,",module,Magento_Customer
 "Creating an account has many benefits:","Reģistrētiem klientiem ir vairākas priekšrocības:",module,Magento_Customer
 "Email Address","E-pasta adrese",module,Magento_Customer
@@ -2801,9 +2831,12 @@ Delete,Dzēst,module,Magento_GiftMessage
 "Place Order","Veikt pasūtījumu",module,Magento_OfflinePayments
 "Place Order","Veikt pasūtījumu",module,Magento_Payment
 "Apply Discount Code","Pielietot atlaides kodu",module,Magento_SalesRule
+"Enter discount code","Ievadiet atlaides kodu",module,Magento_SalesRule
 "Message from %sender_name:","Ziņa no %sender_name:",module,Magento_SendFriend
 Password:,Parole:,module,Magento_Theme
+"Password you set when creating account","Parole, ko ievadījāt izveidojot kontu",module,Magento_Theme
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Aizmirsāt paroli? <a href=""%reset_url"">Atjaunot paroli</a>.",module,Magento_Theme
+"Store alternative addresses (for shipping to multiple family members and friends)","Saglabāt vairākas piegādes adreses (lai piegādātu vairākiem ģimenes locekļiem un draugiem)",module,Magento_Theme
 Assign,Piešķirt,module,Magento_Ui
 Options,Opcijas,module,Magento_Ui
 "records found","atrasti ieraksti",module,Magento_Ui
@@ -2829,7 +2862,7 @@ Password:,Parole:,theme,frontend/Magento/luma
 "Order Status","Pasūtījuma statuss",theme,frontend/Magento/luma
 "Check the status of orders","Pārbaudīt pasūtījumu statusu",theme,frontend/Magento/luma
 "Manage Addresses","Pārvaldīt adreses",theme,frontend/Magento/luma
-"Store alternative addresses","Saglabāt papildus adreses",theme,frontend/Magento/luma
+"Store alternative addresses","Saglabāt vairākas piegādes/maksātāja adreses",theme,frontend/Magento/luma
 "For shipping to multiple family members and friends","Piegādei vairākiem saņēmējiem",theme,frontend/Magento/luma
 "Order History","Pasūtījumu vēsture",theme,frontend/Magento/luma
 "View past orders","Apskatīt iepriekšējos pasūtījumus",theme,frontend/Magento/luma
@@ -2900,6 +2933,7 @@ Selected,Izvēlētie,module,Magento_Ui
 "New View","Jauns skats",module,Magento_Ui
 "Default View","Noklusējuma skats",module,Magento_Ui
 Keyword,Atslēgvārds,module,Magento_Ui
+"Please enter more or equal than {0} symbols.","Lūdzu ievadiet vismaz {0} simbolus.",module,Magento_Ui
 "Please specify a valid phone number","Lūdzu, norādiet derīgu tālruņa numuru",module,Magento_Ui
 "Please specify a valid mobile number","Lūdzu, norādiet derīgu mobilā tālruņa numuru",module,Magento_Ui
 "Please enter a valid credit card number.","Lūdzu, ievadiet derīgu kredītkartes numuru.",module,Magento_Ui
@@ -3366,6 +3400,7 @@ Contacts,Kontakti,module,Magento_Contact
 Type,Veids,module,Magento_Customer
 "Account Dashboard","Konta vadības panelis",module,Magento_Customer
 "My Dashboard","Konta pārskats",module,Magento_Customer
+"You are signed out","Tu esi izrakstījies",module,Magento_Customer
 "Frontend Development Workflow","Priekšlapas izstrādes darbplūsma",module,Magento_Developer
 "Workflow type","Darbplūsmas veids",module,Magento_Developer
 "Not available in production mode","Nav pieejams veikala darbības režīmā",module,Magento_Developer
@@ -3446,6 +3481,7 @@ Status,Statuss,module,Magento_Integration
 Options,Opcijas,module,Magento_Multishipping
 "Allow Shipping to Multiple Addresses","Atļaut piegādi uz vairākām adresēm",module,Magento_Multishipping
 "Maximum Qty Allowed for Shipping to Multiple Addresses","Maksimālais skaits piegādei uz vairākām adresēm",module,Magento_Multishipping
+"Review Order","Pārskatīt pasūtījumu",module,Magento_Multishipping
 "Select Shipping Method","Izvēlieties piegādes veidu",module,Magento_Multishipping
 General,Vispārīgi,module,Magento_NewRelicReporting
 "Newsletter Section","Jaunumu sadaļa",module,Magento_Newsletter
@@ -3565,6 +3601,7 @@ From,No,module,Magento_SalesRule
 To,Kam,module,Magento_SalesRule
 Apply,Apstiprināt,module,Magento_SalesRule
 General,Vispārīgi,module,Magento_Sales
+"Allow Reorder","Atļaut pasūtīt atkārtoti",module,Magento_Sales
 "Minimum Order Amount","Minimālā pasūtījuma summa",module,Magento_Sales
 Enable,Ieslēgt,module,Magento_Sales
 Dashboard,Infopanelis,module,Magento_Sales
